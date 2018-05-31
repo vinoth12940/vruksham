@@ -21,8 +21,6 @@
 	<jsp:include page="navbar.jsp" />
 	<br>
 	<br>
-	<br>
-	<br>
 	<div class="jumbotron text-center" style="background-color: white;">
 				<br> <br>
 				<h4 style="color: black; text-align:  justify;padding-left: 140px;padding-right: 140px;">Vruksham is an initiative which was started in 2017 by a group of individuals to produce organic rice, pulses and vegetables for the people of Chennai. We follow the age old practices of organic farming and cultivate our produce in all natural way. We simply go by the saying that what you eat makes you and producing organic and healthy food is not a choice here but a way of life.</h4>
@@ -79,9 +77,7 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-	
 	<br>
-	
 	<div id="offerings" class="container-fluid text-center bg-grey">
 		<a href="${pageContext.request.contextPath}/welcome/aboutUs" class="btn btn-info" role="button">Learn More</a>
 	</div>
@@ -139,7 +135,7 @@
 				<br> <br>
 			</div>
 			<br>
-			<div class="row text-center slideanim">
+			<div class="row text-center slideanim" style="padding-left: 140px;padding-right: 140px;">
 			<div class="col-sm-6">
 				<div class="thumbnail">
 					<img
@@ -156,7 +152,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row text-center slideanim">
+		<div class="row text-center slideanim" style="padding-left: 140px;padding-right: 140px;">
 			<div class="col-sm-6">
 				<div class="thumbnail">
 					<img
@@ -173,7 +169,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row text-center slideanim">
+		<div class="row text-center slideanim" style="padding-left: 140px;padding-right: 140px;">
 			<div class="col-sm-6">
 				<div class="thumbnail">
 					<img

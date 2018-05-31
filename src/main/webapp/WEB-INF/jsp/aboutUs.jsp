@@ -48,7 +48,7 @@
 			</div>
 			<div class="col-sm-4">
 				<br>
-				<h4 style="color: black; text-align:  justify;">Organic Farming, Nursery & Landscaping</h4>
+				<h4 style="color: black; text-align:  center;">Organic Farming, Nursery & Landscaping</h4>
 				<br>
 				<p style="color: black; text-align:  justify;">A friendly initiative which was started in 2017 we have been
 					doing everything in our power to bring the freshest organic produce
