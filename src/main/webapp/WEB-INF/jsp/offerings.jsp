@@ -42,7 +42,7 @@
 				<br>
 				<h2 style="color: black; text-align:  left;">Organic Farming</h2>
 				<br>
-				<p style="color: black; text-align:  justify;">All in a day workshops for school and college students. We provide basics of farming, showcase the process of organic farming and also indulge the students to give it a go in planting the crop in the fields. We also provide food for lunch with the produce which we have reaped for the students and teachers. A nominal fee is collected from the students for these activities.</p>
+				<h4 style="color: black; text-align:  justify;">All in a day workshops for school and college students. We provide basics of farming, showcase the process of organic farming and also indulge the students to give it a go in planting the crop in the fields. We also provide food for lunch with the produce which we have reaped for the students and teachers. A nominal fee is collected from the students for these activities.</h4>
 			</div>
 		</div>
 		<div class="row text-center slideanim">
@@ -57,7 +57,7 @@
 				<br>
 				<h2 style="color: black; text-align:  left;">Nursery</h2>
 				<br>
-				<p style="color: black; text-align:  left;">At Vruksham we provide any plants which you need for your home. We grow more than 2,000 different varieties of herbs, flowers, tree saplings organically. We cater to many businesses by providing the necessary saplings for their specific need and also help them in the growing process. For more details please drop a message in the contact us section of this website or come and see for yourself.</p>
+				<h4 style="color: black; text-align:  left;">At Vruksham we provide any plants which you need for your home. We grow more than 2,000 different varieties of herbs, flowers, tree saplings organically. We cater to many businesses by providing the necessary saplings for their specific need and also help them in the growing process. For more details please drop a message in the contact us section of this website or come and see for yourself.</h4>
 			</div>
 		</div>
 		<div class="row text-center slideanim">
@@ -72,8 +72,8 @@
 				<br>
 				<h2 style="color: black; text-align:  left;">Landscaping</h2>
 				<br>
-				<p style="color: black; text-align:  justify;">
-								Landscaping has become one of the hot topics these days from terrace gardening to indoor plantations. We have been doing consulting for many clients across a diverse background from IT companies to government departments for more than 15 years. To know more about the process of landscaping please call us or leave a message in the contact us section. We will call you as soon as we see your message.</p>
+				<h4 style="color: black; text-align:  justify;">
+								Landscaping has become one of the hot topics these days from terrace gardening to indoor plantations. We have been doing consulting for many clients across a diverse background from IT companies to government departments for more than 15 years. To know more about the process of landscaping please call us or leave a message in the contact us section. We will call you as soon as we see your message.</h4>
 			</div>
 		</div>
 	</div>
