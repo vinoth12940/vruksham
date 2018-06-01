@@ -48,8 +48,9 @@
 						alt="Nursery" width="400" height="300">
 				</div>
 			</div>
+			
 			<div class="col-sm-4">
-				<br>
+				
 				<h4 style="color: black; text-align: center;">Organic Farming,
 					Nursery & Landscaping</h4>
 				<br>

@@ -1,14 +1,14 @@
 .navbar {
 	position: absolute;
-	left: 140px;
-	right: 140px;
+	left: 0px;
+	right: 0px;
 }
 
 .navbar-default {
 	background-color: white;
 	border-color: #e7e7e7;
-	left: 140px;
-	right: 140px;
+	left: 0px;
+	right: 0px;
 }
 
 .jumbotron-content {
@@ -63,6 +63,7 @@
 }
 
 .well {
+	
 	border-top-width: 6px;
 	padding-top: 19px;
 	margin-top: 6px;

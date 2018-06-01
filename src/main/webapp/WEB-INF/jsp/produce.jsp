@@ -29,6 +29,7 @@
 			<h2 style="color: black;">OUR PRODUCE</h2>
 			<br>
 			<P>Straight from the Farm</P>
+			<hr width="50%">
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">

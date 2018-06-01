@@ -91,12 +91,15 @@
 			</div>
 		</div>
 	 --%>
+	 <br>
 	<!--Contact Us-->
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 features section-description wow fadeIn"
 				id="Contact">
 				<h2 style="text-align: center;">Contact Us</h2>
+				<hr width="50%">
+				<br>
 				<div class="divider-1 wow fadeInUp" style="text-align: center;">
 					<span></span>
 				</div>
@@ -162,7 +165,17 @@
 		</div>
 	</div>
 
-
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
 
