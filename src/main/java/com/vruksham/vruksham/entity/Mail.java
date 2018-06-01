@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @author rvinoth
- *
+ *Domain model for Mail service
  */
 public class Mail {
 

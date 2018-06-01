@@ -12,7 +12,7 @@ import com.vruksham.vruksham.entity.Mail;
 
 /**
  * @author rvinoth
- *
+ *This service class for sending an email
  */
 @Service
 public class MailService {
@@ -27,11 +27,9 @@ public class MailService {
 	public void sendNotification(Mail mail) {
 		SimpleMailMessage simpleMail = new SimpleMailMessage();
 		simpleMail.setTo("info@vruksham.co.in");
-		simpleMail.setText(mail.getFirstName());
 		simpleMail.setFrom("info@vruksham.co.in");
 		simpleMail.setSubject(mail.getMailSubject());
-		simpleMail.setText(mail.getMailContent());
-		
+		simpleMail.setText("Hi Vruksham, This mail is from "+mail.getFirstName()+ "Content: "+mail.getMailContent());
 		javaMailSender.send(simpleMail);
 	}
 }
