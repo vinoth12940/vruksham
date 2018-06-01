@@ -121,12 +121,22 @@
 										id="firstName" placeholder="Enter name" required="required" />
 								</div>
 								<div class="form-group">
+									<label for="mailFrom"> Email</label>
+									<form:input type="text" class="form-control" path="mailFrom"
+										id="mailFrom" placeholder="Enter your Email address" required="required" />
+								</div>
+								<div class="form-group">
+											<label for="mobileNo">
+												Mobile #:</label>
+											<form:input type="text" path="mobileNo" id="mobileNo" class="form-control" placeholder="Mobile #"/>
+								</div>
+								<div class="form-group">
 									<label for="subject"> Subject</label>
 									<form:select id="mailSubject" path="mailSubject"
 										class="form-control" required="required">
-										<form:option value="na"><-- Select Subject --></form:option>
+										<form:option value="na">Select Subject</form:option>
 										<form:option value="Enquire about product">Enquire about product</form:option>
-										<form:option value="Enquire about offerings">Enquire about product</form:option>
+										<form:option value="Enquire about offerings">Enquire about offerings</form:option>
 									</form:select>
 								</div>
 							</div>
@@ -140,7 +150,7 @@
 							</div>
 							<div class="col-md-12">
 								<button type="submit" class="btn btn-primary pull-right"
-									id="btnContactUs">Send Message</button>
+									id="btnContactUs" onclick="show_alert();">Send Message</button>
 							</div>
 						</div>
 					</form:form>
@@ -180,6 +190,10 @@
 	<jsp:include page="footer.jsp" />
 
 	<script>
+	
+		function show_alert() {
+		   alert("Your mail has been received, We will contact you shortly. Have a Good Day !!");
+		}
 		$(document).ready(
 				function() {
 					// Add smooth scrolling to all links in navbar + footer link

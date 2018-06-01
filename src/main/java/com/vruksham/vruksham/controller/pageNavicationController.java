@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.vruksham.vruksham.entity.Mail;
-import com.vruksham.vruksham.service.MailService;
+import com.vruksham.vruksham.service.MailRepository;
 
 /**
  * @author rvinoth
@@ -28,7 +28,7 @@ import com.vruksham.vruksham.service.MailService;
 public class pageNavicationController {
 	
 	@Autowired
-	private MailService mailService;
+	MailRepository mailRepository;
 	
 	/**
 	 * Application landing page method, with GetMapping
@@ -96,18 +96,22 @@ public class pageNavicationController {
 	 */
 	@PostMapping("/mailSuccess")
 	public ModelAndView mailSuccess(@ModelAttribute("mail") Mail mail, BindingResult result) {
+		
 		 
-	        mail.setMailFrom(mail.getMailFrom());
+	        mail.setMailFrom("info@vruksham.co.in");
+	        mail.setMailTo("info@vruksham.co.in");
 	        mail.setMailSubject(mail.getMailSubject());
 	 
 	        Map < String, Object > model = new HashMap < String, Object > ();
 	        model.put("firstName", mail.getFirstName());
-	        
+	        model.put("mailFrom", mail.getMailFrom());
+	        model.put("mobileNo", mail.getMobileNo());
 	        model.put("mailContent", mail.getMailContent());
-	        
+	        model.put("location", "Chennai");
+	        model.put("signature", "www.vrukasham.com");
 	        mail.setModel(model);
 	        
-	        mailService.sendNotification(mail);
+	        mailRepository.sendEmail(mail);
 	        
 	    ModelAndView mav = new ModelAndView("home");
 	    mav.addObject("home", new Mail());
