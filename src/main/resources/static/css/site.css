@@ -1,18 +1,17 @@
 .navbar {
-	position:absolute;
+	position: absolute;
 	left: 140px;
 	right: 140px;
 }
 
 .navbar-default {
-    background-color: white;
-    border-color: #e7e7e7;
-    left: 140px;
+	background-color: white;
+	border-color: #e7e7e7;
+	left: 140px;
 	right: 140px;
 }
 
 .jumbotron-content {
-	
 	padding-top: 48px;
 	padding-bottom: 48px;
 	background-color: white;
@@ -50,16 +49,17 @@
 		line-height: 27px;
 	}
 }
+
 .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: 300px;
+	display: block;
+	max-width: 100%;
+	height: 300px;
 }
 
-.carousel-inner>.item>img{
+.carousel-inner>.item>img {
 	display: block;
-    width: 1253px;
-    height: 460px;
+	width: 1253px;
+	height: 460px;
 }
 
 .well {
@@ -69,22 +69,23 @@
 }
 
 .btn {
-    background-color: #0f000f;
-    border: none;
-    width: 150px;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+	background-color: #0f000f;
+	border: none;
+	width: 150px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
 }
 
-.btn {border-radius: 12px;}
-
+.btn {
+	border-radius: 12px;
+}
 
 .container-fluid {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }

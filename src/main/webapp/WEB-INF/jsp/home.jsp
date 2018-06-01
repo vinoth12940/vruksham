@@ -162,7 +162,7 @@
 				<br>
 				<h2 style="color: black; text-align: center;">Vegetables</h2>
 				<br>
-				<div class="text-centre" >
+				<div class="text-centre">
 					<a style="text-align: center;"
 						href="${pageContext.request.contextPath}/welcome/produce"
 						class="btn btn-info" role="button">Learn More</a>

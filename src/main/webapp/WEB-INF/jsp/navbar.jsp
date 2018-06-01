@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default">
-	<div class="container-fluid" style="padding-left: 140px;
-    padding-right: 140px;">
+	<div class="container-fluid"
+		style="padding-left: 140px; padding-right: 140px;">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#navbar" aria-expanded="false"
@@ -16,8 +16,7 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/home">Home</a></li>
+				<li><a href="${pageContext.request.contextPath}/welcome/home">Home</a></li>
 				<li><a
 					href="${pageContext.request.contextPath}/welcome/aboutUs">About
 						Us</a></li>
