@@ -8,6 +8,9 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="${pageContext.request.contextPath}/resources/css/site.css"
 	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resources/css/aboutus.css"
+	rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>		
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script
@@ -25,13 +28,13 @@
 	<br>
 	<br>
 	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey"
+	<br>
+	<br>
+	<div id="aboutus" class="container-fluid text-center bg-grey"
 		style="padding-left: 100px; padding-right: 100px">
-		<div class="jumbotron text-center" style="background-color: black;">
-			<br> <br>
-			<h2 style="color: white;">ABOUT US</h2>
-			<br> <br>
-		</div>
+		
+			<h2 style="text-align:center; color: black;">ABOUT US</h2>
+			<hr width="50%">	
 		<br>
 		<div class="row text-center slideanim">
 			<div class="col-sm-4">
@@ -41,20 +44,11 @@
 						alt="Organic Farming" width="400" height="300">
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img4.jpg"
-						alt="Nursery" width="400" height="300">
-				</div>
-			</div>
-			
-			<div class="col-sm-4">
-				
-				<h4 style="color: black; text-align: center;">Organic Farming,
-					Nursery & Landscaping</h4>
+			<div class="col-sm-8">
+				<h3 style="color: black; text-align: center;">Organic Farming,
+					Nursery & Landscaping</h3>
 				<br>
-				<p style="color: black; text-align: justify;">A friendly
+				<p style="color: black; text-align: justify; font-family: Sunflower;">A friendly
 					initiative which was started in 2017 we have been doing everything
 					in our power to bring the freshest organic produce to the people of
 					Chennai. At Vruksham we offer an authentic Organic Vegetable Farm
@@ -69,9 +63,66 @@
 			</div>
 		</div>
 	</div>
-
 	<br>
+	<div id="aboutus" class="container-fluid text-center bg-grey"
+		style="padding-left: 100px; padding-right: 100px">
+			<h2 style="color: black;">Founder Profile</h2>
+			<hr width="50%">	
+		<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      
+        <h2>Srini</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Come by and enjoy
+					our amazing products as well as great events and activities all
+					year long. Read on to learn more about our service offering and our
+					fresh produce.</p>
+        <p>example@example.com</p>
+        <button class="button">Contact</button>
+      
+    </div>
+  </div>
 
+  <div class="column">
+    <div class="card">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      
+        <h2>Kishore</h2>
+        <p class="title">Co Founder</p>
+        <p>Come by and enjoy
+					our amazing products as well as great events and activities all
+					year long. Read on to learn more about our service offering and our
+					fresh produce.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Come by and enjoy
+					our amazing products as well as great events and activities all
+					year long. Read on to learn more about our service offering and our
+					fresh produce.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      
+    </div>
+  </div>
+</div>
+			
+	</div>	
+	<br>
+	
+	
+		
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
 </body>

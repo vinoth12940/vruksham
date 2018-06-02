@@ -6,7 +6,7 @@
 
 .navbar-default {
 	background-color: white;
-	border-color: #e7e7e7;
+	border-color: white;
 	left: 0px;
 	right: 0px;
 }
@@ -23,6 +23,11 @@
 	text-align: justify;
 }
 
+.d-block w-100{
+	height: 1350px;
+	width: 650px;
+}
+
 .navbar-brand {
 	padding: 0 15px;
 	height: 80px;
@@ -36,16 +41,16 @@
 }
 
 .navbar-toggle {
-	/* (80px - button height 34px) / 2 = 23px */
+	(80px - button height 34px) / 2 = 23px
 	margin-top: 23px;
 	padding: 9px 10px !important;
 }
 
 @media ( min-width : 768px) {
 	.navbar-nav>li>a {
-		/* (80px - line-height of 27px) / 2 = 26.5px */
-		padding-top: 26.5px;
-		padding-bottom: 26.5px;
+		(80px - line-height of 27px) / 2 = 26.5px
+		padding-top: 50.5px;
+		padding-bottom: 50.5px;
 		line-height: 27px;
 	}
 }
@@ -57,9 +62,21 @@
 }
 
 .carousel-inner>.item>img {
-	display: block;
-	width: 1340px;
-	height: 460px;
+	display: compact;
+	width: 1940px;
+	height: 750px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    margin-bottom: 265px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #f1f1f1; /* Grey text */
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 6px;
+    padding-right: 33px;
 }
 
 .well {
@@ -70,7 +87,7 @@
 }
 
 .btn {
-	background-color: #0f000f;
+	background-color: black;
 	border: none;
 	width: 150px;
 	color: white;
@@ -84,9 +101,25 @@
 
 .btn {
 	border-radius: 12px;
+	
 }
 
-.container-fluid {
-	margin-left: auto;
-	margin-right: auto;
+p{
+	font-family: Rokkitt;
+	font-size: 20px;	
+}
+
+h2{
+	font-family: Patua One;
+	font-size: 35px;
+}
+
+h3{
+	font-family: Patua One;
+	font-size: 30px;
+}
+
+h4{
+	font-family: Rokkitt;
+	font-size: 20px;
 }
