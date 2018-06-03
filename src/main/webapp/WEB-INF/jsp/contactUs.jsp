@@ -91,8 +91,11 @@ h4{
 									<form:select id="mailSubject" path="mailSubject"
 										class="form-control" required="required">
 										<form:option value="na">Select Subject</form:option>
-										<form:option value="Enquire about product">Enquire about product</form:option>
-										<form:option value="Enquire about offerings">Enquire about offerings</form:option>
+										<form:option value="Enquire about product">General enquiry</form:option>
+										<form:option value="Enquire about offerings">Irrigation material</form:option>
+										<form:option value="Enquire about offerings">Landscaping</form:option>
+										<form:option value="Enquire about offerings">Nursery</form:option>
+										<form:option value="Enquire about offerings">Service offering</form:option>
 									</form:select>
 								</div>
 							</div>
@@ -100,7 +103,7 @@ h4{
 								<div class="form-group">
 									<label for="mailContent"> Message</label>
 									<form:textarea path="mailContent" name="mailContent"
-										id="mailContent" class="form-control" rows="9" cols="25"
+										id="mailContent" class="form-control" rows="12" cols="25"
 										required="required" placeholder="Message"></form:textarea>
 								</div>
 							</div>
@@ -120,8 +123,8 @@ h4{
 					<address>
 						<strong><span class="glyphicon glyphicon-map-marker"></span> Farm:</strong> Arunkundram-Manamathy, TamilNadu, India<br><br>
 						<strong><span class="glyphicon glyphicon-map-marker"></span> Office:</strong> 3A, Princeeton Apt. 140, Rajamannar Salai, West KK Nagar, Chennai - 600078<br>
-						 info@vruksham.co.in<br> 
-						<abbrtitle="Phone">P:</abbr> +91-9884707547
+						 <br> 
+						<abbrtitle="Phone">P:</abbr> +91-9840733122<br>
 						<abbrtitle="Phone">P:</abbr> +91-9884707547
 					</address>
 

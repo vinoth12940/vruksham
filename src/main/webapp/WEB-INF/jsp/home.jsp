@@ -29,18 +29,47 @@ h3{
 h4{
 	font-family: Rokkitt;
 	font-size: 20px;
+	
 }
 p{
 	font-family: Rokkitt;
 	font-size: 20px;	
 }
-
+body {
+  padding-top: 1px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(199, 193, 193, 0.65);
+    width:100%;
+    height:100%;
+    padding:0%;
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:#fff !important;
+    z-index:2;
+}
+.label label-default{
+	background-color: black;
+	color: white;
+	padding-bottom: 12px;
+}
 </style>
 </head>
 <body>
 	<!-- nav bar -->
 	<jsp:include page="navbar.jsp" />
-	<br>
 	<div id="myCarousel" class="carousel slide text-center"
 		data-ride="carousel" style="margin-top: 170px;">
 		<!-- Indicators -->
@@ -56,7 +85,7 @@ p{
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/img1.jpg"
+					src="${pageContext.request.contextPath}/resources/img/_MG_0101_med.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
 					<p style="text-align: justify;">Vruksham is an initiative which
@@ -70,7 +99,7 @@ p{
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/img2.jpg"
+					src="${pageContext.request.contextPath}/resources/img/_MG_0075_med.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
 					<p style="text-align: justify;">Vruksham is an initiative which
@@ -84,7 +113,7 @@ p{
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/img3.jpg"
+					src="${pageContext.request.contextPath}/resources/img/_MG_0078_med.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
 					<p style="text-align: justify;">Vruksham is an initiative which
@@ -98,7 +127,7 @@ p{
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/img4.jpg"
+					src="${pageContext.request.contextPath}/resources/img/_MG_0083_med.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
 					<p style="text-align: justify;">Vruksham is an initiative which
@@ -112,7 +141,7 @@ p{
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/img5.jpg"
+					src="${pageContext.request.contextPath}/resources/img/_MG_0088_med.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
 					<p style="text-align: justify;">Vruksham is an initiative which
@@ -137,148 +166,137 @@ p{
 		</a>
 	</div>
 	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-		<a href="${pageContext.request.contextPath}/welcome/aboutUs"
-			class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-	</div>
-	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-		<div class="row text-center slideanim">
-			<div class="col-md-12">
-				<div class="col-md-6">
-						<h2 style="text-align:center; color: black;">SERVICE OFFERING</h2>
-						<hr width="50%">
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/img1.jpg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Organic Farming
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/offerings"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
+	<div class="container">
+		<div class="row" style="    margin-right: 100px;margin-bottom: 61px;">
+			<h2 style="text-align:center; color: black; font-family: Patua One;font-size: 25px;">What we offer ?</h2>
+			<hr width="50%">
+			<!-- TH1 -->
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Organic Farming</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
 					</div>
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/img4.jpg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Nursery
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/offerings"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
-					</div>
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/img8.jpg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Landscaping
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/offerings"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-						<h2 style="text-align:center; color: black;">PRODUCE</h2>
-						<hr width="50%">
-					<br>
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/rice1.jpeg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Rice & Pulses
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/produce"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
-					</div>
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Vegetables
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/produce"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
-					</div>
-					<div class="row text-center slideanim">
-						<div class="col-sm-8">
-							<div class="thumbnail">
-								<img
-									src="${pageContext.request.contextPath}/resources/img/herps1.jpg"
-									alt="Organic Farming" width="100%">
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="col-sm-4">
-							<h3>
-								Fresh Herbs
-							</h3>
-							<br> <a
-								href="${pageContext.request.contextPath}/welcome/produce"
-								class="btn btn-info" role="button" style="font-family: Rokkitt;font-size: 20px ">Learn More</a>
-						</div>
-					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/_MG_0083_small.jpeg" alt="..."
+						class="">
 				</div>
 			</div>
+
+			<!-- TH2 -->
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Nursery</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
+					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..."
+						class="">
+				</div>
+			</div>
+
+			<!-- TH3 -->
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Landscaping</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
+					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/_MG_0101_small.jpg" alt="..."
+						class="">
+				</div>
+			</div>
+
+			<!-- TH4 -->
+			<h2 style="text-align:center; color: black; font-family: Patua One;font-size: 25px; padding-top: 155px;">What we produce ?</h2>
+			<hr width="50%">
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Rice & Pulses</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
+					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..."
+						class="">
+				</div>
+			</div>
+
+			<!-- TH5 -->
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Vegetables</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
+					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/_MG_0095_small.jpg" alt="..."
+						class="">
+				</div>
+			</div>
+
+
+			<!-- TH6 -->
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Fresh Herbs</h4>
+
+						<p class="">
+
+							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+
+						</p>
+					</div>
+					<img src="${pageContext.request.contextPath}/resources/img/_MG_0078_small.jpg" alt="..."
+						class="">
+				</div>
+			</div>
+
+			<!-- TH6 -->
+
+
 		</div>
+		<!--/row -->
+
 	</div>
-	<br>
+	<!-- end container -->
+
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
+	<script>
+				$("[rel='tooltip']").tooltip();    
+				 
+			    $('.thumbnail').hover(
+			        function(){
+			            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+			        },
+			        function(){
+			            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+			        }
+			    ); 
+		</script>
 </body>
 </html>

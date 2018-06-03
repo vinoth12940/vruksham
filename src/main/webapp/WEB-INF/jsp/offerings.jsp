@@ -28,8 +28,7 @@
 	<br>
 	<br>
 	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey"
-		style="padding-left: 100px; padding-right: 100px">
+	<div id="offerings" class="container-fluid text-center bg-grey">
 			
 			<h2 style="color: black; text-align: center; font-family: Patua One; font-size: 35px">OUR SERVICE OFFERING</h2>
 			<hr width="50%">
@@ -45,7 +44,7 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: left; font-family: Patua One; font-size: 30px">Organic Farming</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Organic Farming</h3>
 				<br>
 				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">All in a day
 					workshops for school and college students. We provide basics of
@@ -66,9 +65,9 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: left; font-family: Patua One; font-size: 30px">Nursery</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Nursery</h3>
 				<br>
-				<p style="color: black; text-align: left; font-family: Rokkitt; font-size: 20px">At Vruksham we
+				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">At Vruksham we
 					provide any plants which you need for your home. We grow more than
 					2,000 different varieties of herbs, flowers, tree saplings
 					organically. We cater to many businesses by providing the necessary
@@ -87,7 +86,7 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: left; font-family: Patua One; font-size: 30px">Landscaping</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Landscaping</h3>
 				<br>
 				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">Landscaping has
 					become one of the hot topics these days from terrace gardening to

@@ -31,10 +31,10 @@
 	<br>
 	<br>
 	<div id="aboutus" class="container-fluid text-center bg-grey"
-		style="padding-left: 100px; padding-right: 100px">
+		style="padding-left: 0px; padding-right: 0px">
 		
-			<h2 style="text-align:center; color: black;">ABOUT US</h2>
-			<hr width="50%">	
+			<h2 style="text-align:center; color: black;">What do we do ?</h2>
+			<hr width="50%">
 		<br>
 		<div class="row text-center slideanim">
 			<div class="col-sm-4">
@@ -45,10 +45,10 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
-				<h3 style="color: black; text-align: center;">Organic Farming,
+				<h3 style="color: black; text-align: center;margin-top: 0px;">Organic Farming,
 					Nursery & Landscaping</h3>
 				<br>
-				<p style="color: black; text-align: justify; font-family: Sunflower;">A friendly
+				<p style="color: black; text-align: justify; font-family: Roboto Condensed;">A friendly
 					initiative which was started in 2017 we have been doing everything
 					in our power to bring the freshest organic produce to the people of
 					Chennai. At Vruksham we offer an authentic Organic Vegetable Farm
@@ -64,16 +64,15 @@
 		</div>
 	</div>
 	<br>
-	<div id="aboutus" class="container-fluid text-center bg-grey"
-		style="padding-left: 100px; padding-right: 100px">
+	<div id="aboutus" class="container-fluid text-center bg-grey">
 			<h2 style="color: black;">Founder Profile</h2>
 			<hr width="50%">	
 		<div class="row">
   <div class="column">
     <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:37%">
       
-        <h2>Srini</h2>
+        <h2 style="font-family: Patua One;font-size: 22px;">Srinivasan Rajagopalan</h2>
         <p class="title">CEO &amp; Founder</p>
         <p>Come by and enjoy
 					our amazing products as well as great events and activities all
@@ -87,9 +86,9 @@
 
   <div class="column">
     <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
       
-        <h2>Kishore</h2>
+        <h2 style="font-family: Patua One;font-size: 22px;">Kishore Sivakumar</h2>
         <p class="title">Co Founder</p>
         <p>Come by and enjoy
 					our amazing products as well as great events and activities all
@@ -103,9 +102,9 @@
 
   <div class="column">
     <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:100%">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
       
-        <h2>John Doe</h2>
+        <h2 style="font-family: Patua One;font-size: 22px;">John Doe</h2>
         <p class="title">Designer</p>
         <p>Come by and enjoy
 					our amazing products as well as great events and activities all

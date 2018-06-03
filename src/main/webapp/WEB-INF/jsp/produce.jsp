@@ -28,21 +28,19 @@
 	<br>
 	<br>
 	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey"
-		style="padding-left: 100px; padding-right: 100px">
+	<div id="offerings" class="container-fluid text-center bg-grey">
 			<h2 style="color: black;font-family: Patua One; font-size: 35px">OUR PRODUCE</h2>	
 			<hr width="50%">
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail"style="margin-top: 9px;">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
 						alt="Organic Farming" width="600" height="300">
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px">Vegetables</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Vegetables</h3>
 				<br>
 				<p style="text-align: justify; font-family: Rokkitt; font-size: 20px">Buy our organic vegetables to
 					truly enjoy what nature has to offer! We have started on a small
@@ -56,7 +54,7 @@
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail" style="margin-top: 20px;">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/rice1.jpeg"
 						alt="Organic Farming" width="600" height="300">
@@ -64,7 +62,7 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px">Rice & Pulses</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Rice & Pulses</h3>
 				<br>
 				<p style="text-align: justify; font-family: Rokkitt; font-size: 20px">We started our farming journey
 					with rice and pulses and we never looked back since then. The rices
@@ -77,7 +75,7 @@
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail" style="margin-top: 20px;">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/herps1.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -85,7 +83,7 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px">Fresh Herbs</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Fresh Herbs</h3>
 				<br>
 				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">We are proud to
 					offer our customers wholesome and seasonal Fresh Herbs. Take home a

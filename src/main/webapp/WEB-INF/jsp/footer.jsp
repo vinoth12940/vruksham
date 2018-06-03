@@ -11,10 +11,10 @@
 				<li class="fa fa-twitter" style="font-size: 20px"><a href=""></a></li>
 				<li class="fa fa-youtube" style="font-size: 20px"><a href=""></a></li>
 			</ul> -->
-			<p>
-				<span><a
+			<p style="padding-right: 162px">
+				<span>E-mail:<a
 					href="${pageContext.request.contextPath}/welcome/contactUs"">
-						info@vruksham.co.in</a></span>
+						 info@vruksham.co.in</a></span>
 			</p>
 		</div>
 		<!--End of container-->
