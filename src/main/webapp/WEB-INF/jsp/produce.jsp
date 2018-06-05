@@ -16,6 +16,11 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+body {
+  padding-top: 1px;
+  padding-left: 150px;
+  padding-right: 150px;
+ } 
 </style>
 </head>
 <body>
@@ -112,5 +117,17 @@
 
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
+	<script type="text/javascript">
+	$(window).scroll(function() {
+		  $(".slideanim").each(function(){
+		    var pos = $(this).offset().top;
+
+		    var winTop = $(window).scrollTop();
+		    if (pos < winTop + 600) {
+		      $(this).addClass("slide");
+		    }
+		  });
+		});
+	</script>
 </body>
 </html>

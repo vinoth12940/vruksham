@@ -155,5 +155,17 @@
 	<br>
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
+	<script type="text/javascript">
+	$(window).scroll(function() {
+		  $(".slideanim").each(function(){
+		    var pos = $(this).offset().top;
+
+		    var winTop = $(window).scrollTop();
+		    if (pos < winTop + 600) {
+		      $(this).addClass("slide");
+		    }
+		  });
+		});
+	</script>
 </body>
 </html>
