@@ -16,6 +16,31 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+.carousel-inner>.item>img {
+	
+	object-fit: cover;
+	width: 1263px;
+	height: 650px;
+}
+
+
+.carousel-caption {
+    background: #ccccccdb;
+    font-size: 16px;
+    color: #080808;
+    padding-bottom: -1px;
+    text-align: left;
+    text-align: justify;
+    text-shadow: none;
+    margin-left: 397px;
+    right: 0px;
+    padding-right: 53px;
+    padding-left: 46px;
+    top: 0px;
+    bottom: 0px;
+    left: 453.594;
+    padding-top: 0px;
+}
 </style>
 </head>
 <body>
@@ -27,33 +52,27 @@
 	<br>
 	<br>
 	<br>
-	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-			
-			<h2 style="color: black; text-align: left; font-family: Patua One; font-size: 35px">Landscaping</h2>
-			<hr>
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">All in a day
-					workshops for school and college students. We provide basics of
-					farming, showcase the process of organic farming and also indulge
-					the students to give it a go in planting the crop in the fields. We
-					also provide food for lunch with the produce which we have reaped
-					for the students and teachers. A nominal fee is collected from the
-					students for these activities.</p>
-			</div>
-		</div>
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="" class="img-responsive">
+           <div class="carousel-caption">
+           		<div class="bs-example">
+					<h2>Landscaping</h2>
+					<br>
+				    <p style="font-size:17px">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
+				    <br>
+				    <p style="font-size:17px">Create the perfect front yard and backyard landscapes with our gardening tips. We'll tell you about beautiful annual, perennial, bulb, and rose flowers, as well as trees, shrubs, and ground covers that put on a year-round gardening show.</p>
+				    <br>
+				    <p style="font-size:17px">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
+				    <br>
+				    <p style="font-size:17px">Please get in touch with us for a quote.</p>
+					</div>
+           		</div>
+        	</div>
+    </div>
 	</div>
 	<br>
-
-
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
 </body>
