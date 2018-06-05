@@ -36,6 +36,7 @@
 			<h2 style="text-align:center; color: black;">What do we do ?</h2>
 			<hr width="50%">
 		<br>
+		<br>
 		<div class="row text-center slideanim">
 			<div class="col-sm-4">
 				<div class="thumbnail">

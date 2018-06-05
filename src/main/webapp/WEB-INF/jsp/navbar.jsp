@@ -12,11 +12,10 @@
 			<a class="navbar-brand"
 				href="${pageContext.request.contextPath}/welcome/home"><img
 				src="${pageContext.request.contextPath}/resources/img/logo-1.jpg"
-				style="position: absolute; height: 140px; width: 120px"
 				alt="Dispute Bills"></a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse"
-			style="position: left; height: 142px; margin-top: 50px; font-size: 15px">
+			><!-- style="position: left; height: 142px; margin-top: 50px; font-size: 15px" -->
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="${pageContext.request.contextPath}/welcome/home">Home</a></li>
 				<li><a
@@ -26,14 +25,14 @@
 					href="${pageContext.request.contextPath}/welcome/offerings">Offerings</a></li>
 				<li><a
 					href="${pageContext.request.contextPath}/welcome/produce">Produce</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle"
+				<!-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown" style="padding-bottom: 0px">Service <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Service Offering</a></li>
 						<li><a href="#">Organic Farming</a></li>
 						<li><a href="#">Nursery</a></li>
 						<li><a href="#">Produce</a></li>
-					</ul></li>	
+					</ul></li>	 -->
 				<li><a
 					href="${pageContext.request.contextPath}/welcome/contactUs">Contact
 						Us</a></li>

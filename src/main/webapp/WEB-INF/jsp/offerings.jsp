@@ -32,11 +32,9 @@
 			
 			<h2 style="color: black; text-align: center; font-family: Patua One; font-size: 35px">OUR SERVICE OFFERING</h2>
 			<hr width="50%">
-			<br>
-		
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -53,11 +51,16 @@
 					also provide food for lunch with the produce which we have reaped
 					for the students and teachers. A nominal fee is collected from the
 					students for these activities.</p>
+					<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/organicFarming"
+						class="btn btn-info" role="button">Learn More</a>
+					</div>
+					<br>
 			</div>
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/img4.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -74,11 +77,16 @@
 					saplings for their specific need and also help them in the growing
 					process. For more details please drop a message in the contact us
 					section of this website or come and see for yourself.</p>
+					<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/nursery"
+						class="btn btn-info" role="button">Learn More</a>
+					</div>
+					<br>
 			</div>
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/img8.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -95,10 +103,15 @@
 					departments for more than 15 years. To know more about the process
 					of landscaping please call us or leave a message in the contact us
 					section. We will call you as soon as we see your message.</p>
+					<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/landscaping"
+						class="btn btn-info" role="button">Learn More</a>
+					</div>
+					<br>
 			</div>
 		</div>
 	</div>
-
+	<br>
 
 
 	<!-- Footer section -->

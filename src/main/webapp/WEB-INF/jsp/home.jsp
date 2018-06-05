@@ -10,68 +10,35 @@
 	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>		
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-h2{
-	font-family: Patua One;
-	font-size: 35px;
-}
 
-h3{
-	font-family: Patua One;
-	font-size: 30px;
-}
-
-h4{
-	font-family: Rokkitt;
-	font-size: 20px;
-	
-}
-p{
-	font-family: Rokkitt;
-	font-size: 20px;	
-}
-body {
-  padding-top: 1px;
-  padding-left: 150px;
-  padding-right: 150px;
-}
- 
-.thumbnail {
-    position:relative;
-    overflow:hidden;
-}
- 
-.caption {
-    position:absolute;
-    top:0;
-    right:0;
-    background:rgba(199, 193, 193, 0.65);
-    width:100%;
-    height:100%;
-    padding:0%;
-    display: none;
-    justify-content: flex-end;
-    align-items: flex-end;
-    color:#fff !important;
-    z-index:2;
-}
-.label label-default{
-	background-color: black;
-	color: white;
-	padding-bottom: 12px;
-}
 </style>
 </head>
 <body>
 	<!-- nav bar -->
 	<jsp:include page="navbar.jsp" />
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="jumbotron text-center" style="background-color: white; padding-top: 0px;padding-bottom: 0px;margin-bottom: 0px;">
+		<br> <br>
+		<h4
+			style="color: black; text-align: justify; padding-left: 140px; padding-right: 140px;">Vruksham
+			is an initiative which was started in 2017 by a group of individuals
+			to produce organic rice, pulses and vegetables for the people of
+			Chennai. We follow the age old practices of organic farming and
+			cultivate our produce in all natural way. We simply go by the saying
+			that what you eat makes you and producing organic and healthy food is
+			not a choice here but a way of life.</h4>
+		<br> <br>
+	</div>
 	<div id="myCarousel" class="carousel slide text-center"
-		data-ride="carousel" style="margin-top: 170px;">
+		data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -85,73 +52,48 @@ body {
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/_MG_0101_med.jpg"
+					src="${pageContext.request.contextPath}/resources/img/img1.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
-					<p style="text-align: justify;">Vruksham is an initiative which
-						was started in 2017 by a group of individuals to produce organic
-						rice, pulses and vegetables for the people of Chennai. We follow
-						the age old practices of organic farming and cultivate our produce
-						in all natural way. We simply go by the saying that what you eat
-						makes you and producing organic and healthy food is not a choice
-						here but a way of life.</p>
-				</div>
+        			<h3>Los Angeles</h3>
+        			<p>LA is always so much fun!</p>
+      			</div>
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/_MG_0075_med.jpg"
+					src="${pageContext.request.contextPath}/resources/img/img2.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
-					<p style="text-align: justify;">Vruksham is an initiative which
-						was started in 2017 by a group of individuals to produce organic
-						rice, pulses and vegetables for the people of Chennai. We follow
-						the age old practices of organic farming and cultivate our produce
-						in all natural way. We simply go by the saying that what you eat
-						makes you and producing organic and healthy food is not a choice
-						here but a way of life.</p>
-				</div>
+        			<h3>Los Angeles</h3>
+        			<p>LA is always so much fun!</p>
+      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/_MG_0078_med.jpg"
+					src="${pageContext.request.contextPath}/resources/img/img3.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
-					<p style="text-align: justify;">Vruksham is an initiative which
-						was started in 2017 by a group of individuals to produce organic
-						rice, pulses and vegetables for the people of Chennai. We follow
-						the age old practices of organic farming and cultivate our produce
-						in all natural way. We simply go by the saying that what you eat
-						makes you and producing organic and healthy food is not a choice
-						here but a way of life.</p>
-				</div>
+        			<h3>Los Angeles</h3>
+        			<p>LA is always so much fun!</p>
+      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/_MG_0083_med.jpg"
+					src="${pageContext.request.contextPath}/resources/img/img4.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
-					<p style="text-align: justify;">Vruksham is an initiative which
-						was started in 2017 by a group of individuals to produce organic
-						rice, pulses and vegetables for the people of Chennai. We follow
-						the age old practices of organic farming and cultivate our produce
-						in all natural way. We simply go by the saying that what you eat
-						makes you and producing organic and healthy food is not a choice
-						here but a way of life.</p>
-				</div>
+        			<h3>Los Angeles</h3>
+        			<p>LA is always so much fun!</p>
+      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/_MG_0088_med.jpg"
+					src="${pageContext.request.contextPath}/resources/img/img5.jpg"
 					alt="First slide">
 				<div class="carousel-caption">
-					<p style="text-align: justify;">Vruksham is an initiative which
-						was started in 2017 by a group of individuals to produce organic
-						rice, pulses and vegetables for the people of Chennai. We follow
-						the age old practices of organic farming and cultivate our produce
-						in all natural way. We simply go by the saying that what you eat
-						makes you and producing organic and healthy food is not a choice
-						here but a way of life.</p>
-				</div>
+        			<h3>Los Angeles</h3>
+        			<p>LA is always so much fun!</p>
+      			</div>	
 			</div>
 		</div>
 
@@ -166,9 +108,14 @@ body {
 		</a>
 	</div>
 	<br>
-	<div class="container">
-		<div class="row" style="    margin-right: 100px;margin-bottom: 61px;">
-			<h2 style="text-align:center; color: black; font-family: Patua One;font-size: 25px;">What we offer ?</h2>
+	<div class="container-fluid">
+		<div class="row" style="margin-right: 0px;margin-bottom: 61px;">
+			<!-- <div class="jumbotron text-center" style="background-color: black;">
+				<br> <br>
+				<h2 style="color: white;">What we offer ?</h2>
+				<br> <br>
+			</div> -->
+			<h2 style="text-align:center; color: black; font-family: Patua One;font-size: 25px;ba">What we offer ?</h2>
 			<hr width="50%">
 			<!-- TH1 -->
 			<div class="col-sm-4">
@@ -222,6 +169,11 @@ body {
 			</div>
 
 			<!-- TH4 -->
+			<!-- <div class="jumbotron text-center" style="background-color: black;">
+				<br> <br>
+				<h2 style="color: white;">What we produce ?</h2>
+				<br> <br>
+			</div> -->
 			<h2 style="text-align:center; color: black; font-family: Patua One;font-size: 25px; padding-top: 155px;">What we produce ?</h2>
 			<hr width="50%">
 			<div class="col-sm-4">
@@ -282,10 +234,11 @@ body {
 		<!--/row -->
 
 	</div>
-	<!-- end container -->
+	<br>
 
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
+	
 	<script>
 				$("[rel='tooltip']").tooltip();    
 				 

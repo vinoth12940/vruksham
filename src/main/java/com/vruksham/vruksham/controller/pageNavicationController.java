@@ -70,6 +70,21 @@ public class pageNavicationController {
 		return "produce";
 	}
 	
+	@GetMapping("/ricePulses")
+	public String showRicePulses() {
+		return "ricePulses";
+	}
+	
+	@GetMapping("/vegetables")
+	public String showVegetables() {
+		return "vegetables";
+	}
+	
+	@GetMapping("/freshHerbs")
+	public String showFreshHerbs() {
+		return "freshHerbs";
+	}
+	
 	/**
 	 * 
 	 *This method will redirect to offerings page with getMapping.
@@ -77,6 +92,21 @@ public class pageNavicationController {
 	@GetMapping("/offerings")
 	public String showOfferings() {
 		return "offerings";
+	}
+	
+	@GetMapping("/organicFarming")
+	public String showOrganicFarmings() {
+		return "organicFarming";
+	}
+	
+	@GetMapping("/nursery")
+	public String showNursery() {
+		return "nursery";
+	}
+	
+	@GetMapping("/landscaping")
+	public String showLandscaping() {
+		return "landscaping";
 	}
 		
 	/**

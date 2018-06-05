@@ -33,7 +33,7 @@
 			<hr width="50%">
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail"style="margin-top: 9px;">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -50,11 +50,15 @@
 					to our efforts, we are able to assure you that all of our produce
 					contains the healthy nutrients that normally get lost when foods
 					are grown using pesticides.</p>
+				<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/vegetables"
+						class="btn btn-info" role="button">Learn More</a>
+				</div>	
 			</div>
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail" style="margin-top: 20px;">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/rice1.jpeg"
 						alt="Organic Farming" width="600" height="300">
@@ -71,11 +75,15 @@
 					which gives us more yield per hectare. We cultivate lot of
 					varieties of local rice and all types of pulses. Contact us for
 					more information.</p>
+					<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/ricePulses"
+						class="btn btn-info" role="button">Learn More</a>
+					</div>
 			</div>
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail" style="margin-top: 20px;">
+				<div class="thumbnail" style="margin-top: 50px">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/herps1.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -91,11 +99,15 @@
 					from, and our offerings change depending on the time of year so you
 					will always be surprised when you visit us. You should know that
 					everything we sell at our farm is grown responsibly and picked in
-					season, so you can fully enjoy nature��s gifts.</p>
+					season, so you can fully enjoy nature's gifts.</p>
+					<div class="col-sm-4 col-sm-push-8">
+					<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
+						class="btn btn-info" role="button">Learn More</a>
+					</div>
 			</div>
 		</div>
 	</div>
-
+	<br>
 
 
 	<!-- Footer section -->
