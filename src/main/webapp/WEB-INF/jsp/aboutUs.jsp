@@ -40,11 +40,9 @@
 		<div class="row text-center slideanim">
 			<div class="col-sm-4">
 				<div class="thumbnail">
-					<div class="aboutusimg">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
 						alt="Organic Farming" width="700" height="600">
-					</div>	
 				</div>
 			</div>
 			<div class="col-sm-8">
