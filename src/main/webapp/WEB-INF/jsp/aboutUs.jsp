@@ -40,9 +40,11 @@
 		<div class="row text-center slideanim">
 			<div class="col-sm-4">
 				<div class="thumbnail">
+					<div class="aboutusimg">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
-						alt="Organic Farming" width="400" height="300">
+						alt="Organic Farming" width="700" height="600">
+					</div>	
 				</div>
 			</div>
 			<div class="col-sm-8">
@@ -73,14 +75,32 @@
     <div class="card">
       <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:37%">
       
-        <h2 style="font-family: Patua One;font-size: 22px;">Srinivasan Rajagopalan</h2>
+        <h2 style="font-family: Patua One;font-size: 22px;">Rajamani V</h2>
         <p class="title">CEO &amp; Founder</p>
         <p>Come by and enjoy
 					our amazing products as well as great events and activities all
 					year long. Read on to learn more about our service offering and our
 					fresh produce.</p>
         <p>example@example.com</p>
-        <button class="button">Contact</button>
+        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
+						class="btn btn-info" role="button">Contact</a></p>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
+      
+        <h2 style="font-family: Patua One;font-size: 22px;">Srinivasan Rajagopalan</h2>
+        <p class="title">Co Founder</p>
+        <p>Come by and enjoy
+					our amazing products as well as great events and activities all
+					year long. Read on to learn more about our service offering and our
+					fresh produce.</p>
+        <p>example@example.com</p>
+        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
+						class="btn btn-info" role="button">Contact</a></p>
       
     </div>
   </div>
@@ -90,29 +110,14 @@
       <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
       
         <h2 style="font-family: Patua One;font-size: 22px;">Kishore Sivakumar</h2>
-        <p class="title">Co Founder</p>
-        <p>Come by and enjoy
-					our amazing products as well as great events and activities all
-					year long. Read on to learn more about our service offering and our
-					fresh produce.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
-      
-        <h2 style="font-family: Patua One;font-size: 22px;">John Doe</h2>
         <p class="title">Designer</p>
         <p>Come by and enjoy
 					our amazing products as well as great events and activities all
 					year long. Read on to learn more about our service offering and our
 					fresh produce.</p>
         <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
+						class="btn btn-info" role="button">Contact</a></p>
       
     </div>
   </div>
