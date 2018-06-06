@@ -19,7 +19,7 @@
 .carousel-inner>.item>img {
 	
 	object-fit: cover;
-	width: 1263px;
+	width: 1350px;
 	height: 650px;
 }
 

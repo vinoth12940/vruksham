@@ -54,7 +54,7 @@
 .thumbnail>img {
 	object-fit: cover;
 max-width: 100%;
-height: 253px;
+height: 275px;
 	
 	/* display: block;
   max-width:100%;
@@ -66,25 +66,23 @@ height: 253px;
 	height: 253px; */
 }
 
-<<<<<<< HEAD
 
 .carousel-inner>.item>img {
 	
 	object-fit: cover;
-width: 1250px;
-height: 500px;
+	width: 1360px;
+	height: 500px;
 	/* display: block;
-  max-width:1250px;
-  max-height:500px;
-  width: auto;
-  height: auto; */
+	  max-width:1250px;
+	  max-height:500px;
+	  width: auto;
+	  height: auto; */
 	
 	/* display: compact;
 	width: 1250px;
 	height: 500px; */
 }
-=======
->>>>>>> refs/remotes/origin/master
+
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity

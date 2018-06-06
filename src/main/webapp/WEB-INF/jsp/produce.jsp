@@ -34,8 +34,10 @@ body {
 	<br>
 	<br>
 	<div id="offerings" class="container-fluid text-center bg-grey">
+		<div class="row text-center slideanim">
 			<h2 style="color: black;font-family: Patua One; font-size: 35px">What do we produce?</h2>	
 			<hr width="50%">
+		</div>	
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
 				<div class="thumbnail">

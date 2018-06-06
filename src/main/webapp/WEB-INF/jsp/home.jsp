@@ -15,22 +15,6 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-.carousel-inner>.item>img {
-	
-	object-fit: cover;
-	width: 1263px;
-	height: 460px;
-	/* display: block;
-  max-width:1250px;
-  max-height:500px;
-  width: auto;
-  height: auto; */
-	
-	/* display: compact;
-	width: 1250px;
-	height: 500px; */
-}
-
 </style>
 </head>
 <body>
@@ -42,14 +26,15 @@
 	<br>
 	<div class="jumbotron text-center" style="background-color: white; padding-top: 0px;padding-bottom: 0px;margin-bottom: 0px;">
 		<br> <br>
-		<h4
-			style="color: black; text-align: justify; padding-left: 140px; padding-right: 140px;">Vruksham
+		<P
+			style="color: black; text-align: justify; padding-left: 250px; padding-right: 250px; font-family: Rokkitt;
+    font-size: 17px;">Vruksham
 			is an initiative which was started in 2017 by a group of individuals
 			to produce organic rice, pulses and vegetables for the people of
 			Chennai. We follow the age old practices of organic farming and
 			cultivate our produce in all natural way. We simply go by the saying
 			that what you eat makes you and producing organic and healthy food is
-			not a choice here but a way of life.</h4>
+			not a choice here but a way of life.</P>
 		<br> <br>
 	</div>
 	<div id="myCarousel" class="carousel slide text-center"
@@ -117,14 +102,14 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Organic Farming</h4>
-
+						<br>
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
 
 						</p>
 					</div>
-					<img src="${pageContext.request.contextPath}/resources/img/_MG_0083_small.jpeg" alt="..."
+					<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..."
 						class="">
 				</div>
 			</div>
@@ -134,7 +119,7 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Nursery</h4>
-
+						<br>
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
@@ -151,7 +136,7 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Landscaping</h4>
-
+						<br>
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/offerings" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
@@ -175,7 +160,7 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Rice & Pulses</h4>
-
+						<br>	
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
@@ -192,7 +177,7 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Vegetables</h4>
-
+						<br>
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
@@ -210,7 +195,7 @@
 				<div class="thumbnail">
 					<div class="caption">
 						<h4 class="" style="font-family: Patua One;font-size: 35px; padding-top: 155px;">Fresh Herbs</h4>
-
+						<br>
 						<p class="">
 
 							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>

@@ -34,11 +34,11 @@
 	<br>
 	<div id="aboutus" class="container-fluid text-center bg-grey"
 		style="padding-left: 0px; padding-right: 0px">
-
-		<h2 style="text-align: center; color: black;">What do we do ?</h2>
-		<hr width="50%">
+		<div class="row text-center slideanim">
+			<h2 style="text-align: center; color: black;">What do we do ?</h2>
+			<hr width="50%">
 		<br> <br>
-
+		</div>
 		<div class="row text-center slideanim">
 			<div class="col-md-4">
 				<div class="thumbnail">
@@ -88,67 +88,12 @@
 	</div>
 	<br>
 	<div id="aboutus" class="container-fluid text-center bg-grey">
+	<div class="row text-center slideanim">	
 		<h2 style="color: black;">Team Members</h2>
 		<hr width="50%">
+	</div>
+	<div class="row text-center slideanim">	
 		<div class="row">
-<<<<<<< HEAD
-  <div class="column">
-    <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:37%">
-      
-        <h2 style="font-family: Patua One;font-size: 22px;">Rajamani V</h2>
-        <p class="title">CEO &amp; Founder</p>
-        <p>Come by and enjoy
-					our amazing products as well as great events and activities all
-					year long. Read on to learn more about our service offering and our
-					fresh produce.</p>
-        <p>example@example.com</p>
-        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
-						class="btn btn-info" role="button">Contact</a></p>
-      
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
-      
-        <h2 style="font-family: Patua One;font-size: 22px;">Srinivasan Rajagopalan</h2>
-        <p class="title">Co Founder</p>
-        <p>Come by and enjoy
-					our amazing products as well as great events and activities all
-					year long. Read on to learn more about our service offering and our
-					fresh produce.</p>
-        <p>example@example.com</p>
-        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
-						class="btn btn-info" role="button">Contact</a></p>
-      
-    </div>
-  </div>
-=======
->>>>>>> refs/remotes/origin/master
-
-<<<<<<< HEAD
-  <div class="column">
-    <div class="card">
-      <img src="${pageContext.request.contextPath}/resources/img/no_user.png" alt="Jane" style="width:35%">
-      
-        <h2 style="font-family: Patua One;font-size: 22px;">Kishore Sivakumar</h2>
-        <p class="title">Designer</p>
-        <p>Come by and enjoy
-					our amazing products as well as great events and activities all
-					year long. Read on to learn more about our service offering and our
-					fresh produce.</p>
-        <p>example@example.com</p>
-        <p><a href="${pageContext.request.contextPath}/welcome/contactUs"
-						class="btn btn-info" role="button">Contact</a></p>
-      
-    </div>
-  </div>
-</div>
-			
-	</div>	
-=======
 			<div class="column">
 				<div class="card">
 					<img
@@ -207,9 +152,9 @@
 			</div>
 
 		</div>
-
+		</div>
 	</div>
->>>>>>> refs/remotes/origin/master
+
 	<br>
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />

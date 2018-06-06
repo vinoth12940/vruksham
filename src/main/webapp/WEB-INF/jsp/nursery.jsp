@@ -16,6 +16,31 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+.carousel-inner>.item>img {
+	
+	object-fit: cover;
+	width: 1350px;
+	height: 650px;
+}
+
+
+.carousel-caption {
+    background: #ccccccdb;
+    font-size: 16px;
+    color: #080808;
+    padding-bottom: -1px;
+    text-align: left;
+    text-align: justify;
+    text-shadow: none;
+    margin-left: 397px;
+    right: 0px;
+    padding-right: 53px;
+    padding-left: 46px;
+    top: 0px;
+    bottom: 0px;
+    left: 453.594;
+    padding-top: 0px;
+}
 </style>
 </head>
 <body>
@@ -27,33 +52,25 @@
 	<br>
 	<br>
 	<br>
-	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-			
-			<h2 style="color: black; text-align: left; font-family: Patua One; font-size: 35px">Nursery</h2>
-			<hr>
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">All in a day
-					workshops for school and college students. We provide basics of
-					farming, showcase the process of organic farming and also indulge
-					the students to give it a go in planting the crop in the fields. We
-					also provide food for lunch with the produce which we have reaped
-					for the students and teachers. A nominal fee is collected from the
-					students for these activities.</p>
-			</div>
-		</div>
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="" class="img-responsive">
+           <div class="carousel-caption">
+           		<div class="bs-example">
+					<h2>Nursery</h2>
+					<br>
+				    <p style="font-size:17px">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
+				    <br>
+				    <p style="font-size:17px">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
+				    <br>
+				    <p style="font-size:17px">Please contact us for further enquiries for any plant requirements which you need.</p>
+					</div>
+           		</div>
+        	</div>
+    </div>
 	</div>
 	<br>
-
-
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
 </body>

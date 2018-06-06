@@ -34,9 +34,10 @@ body {
 	<br>
 	<br>
 	<div id="offerings" class="container-fluid text-center bg-grey">
-			
+		<div class="row text-center slideanim">			
 			<h2 style="color: black; text-align: center; font-family: Patua One; font-size: 35px">What do we offer?</h2>
 			<hr width="50%">
+		</div>	
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
 				<div class="thumbnail">
@@ -47,7 +48,9 @@ body {
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Organic Farming</h3>
+				<div class="row text-center slideanim">
+					<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Organic Farming</h3>
+				</div>
 				<br>
 				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 17px">All in a day
 					workshops for school and college students. We provide basics of
@@ -60,6 +63,7 @@ body {
 					<a href="${pageContext.request.contextPath}/welcome/organicFarming"
 						class="btn btn-info" role="button">Learn More</a>
 					</div>
+					
 					<br>
 			</div>
 		</div>
