@@ -15,6 +15,21 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+.carousel-inner>.item>img {
+	
+	object-fit: cover;
+	width: 1263px;
+	height: 460px;
+	/* display: block;
+  max-width:1250px;
+  max-height:500px;
+  width: auto;
+  height: auto; */
+	
+	/* display: compact;
+	width: 1250px;
+	height: 500px; */
+}
 
 </style>
 </head>
@@ -54,46 +69,26 @@
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/img1.jpg"
 					alt="First slide">
-				<div class="carousel-caption">
-        			<h3>Los Angeles</h3>
-        			<p>LA is always so much fun!</p>
-      			</div>
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/img2.jpg"
 					alt="First slide">
-				<div class="carousel-caption">
-        			<h3>Los Angeles</h3>
-        			<p>LA is always so much fun!</p>
-      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/img3.jpg"
 					alt="First slide">
-				<div class="carousel-caption">
-        			<h3>Los Angeles</h3>
-        			<p>LA is always so much fun!</p>
-      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/img4.jpg"
 					alt="First slide">
-				<div class="carousel-caption">
-        			<h3>Los Angeles</h3>
-        			<p>LA is always so much fun!</p>
-      			</div>	
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/img5.jpg"
 					alt="First slide">
-				<div class="carousel-caption">
-        			<h3>Los Angeles</h3>
-        			<p>LA is always so much fun!</p>
-      			</div>	
 			</div>
 		</div>
 
@@ -187,7 +182,7 @@
 
 						</p>
 					</div>
-					<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..."
+					<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..."
 						class="">
 				</div>
 			</div>
@@ -204,7 +199,7 @@
 
 						</p>
 					</div>
-					<img src="${pageContext.request.contextPath}/resources/img/_MG_0095_small.jpg" alt="..."
+					<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..."
 						class="">
 				</div>
 			</div>
@@ -249,7 +244,19 @@
 			        function(){
 			            $(this).find('.caption').slideUp(250); //.fadeOut(205)
 			        }
-			    ); 
+			    );
+			    
+			    $(window).scroll(function() {
+			    	  $(".slideanim").each(function(){
+			    	    var pos = $(this).offset().top;
+
+			    	    var winTop = $(window).scrollTop();
+			    	    if (pos < winTop + 600) {
+			    	      $(this).addClass("slide");
+			    	    }
+			    	  });
+			    	});
+			    
 		</script>
 </body>
 </html>

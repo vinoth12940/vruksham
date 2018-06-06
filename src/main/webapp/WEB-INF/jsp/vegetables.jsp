@@ -16,6 +16,31 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+.carousel-inner>.item>img {
+	
+	object-fit: cover;
+	width: 1263px;
+	height: 650px;
+}
+
+
+.carousel-caption {
+    background: rgb(227, 206, 54);
+    font-size: 16px;
+    color: #080808;
+    padding-bottom: -1px;
+    text-align: left;
+    text-align: justify;
+    text-shadow: none;
+    margin-left: 545px;
+    right: 0px;
+    padding-right: 53px;
+    padding-left: 46px;
+    top: 0px;
+    bottom: 0px;
+    left: 453.594;
+    padding-top: 0px;
+}
 </style>
 </head>
 <body>
@@ -27,29 +52,38 @@
 	<br>
 	<br>
 	<br>
-	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-			
-			<h2 style="color: black; text-align: left; font-family: Patua One; font-size: 35px">Vegetables</h2>
-			<hr>
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img1.jpg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">All in a day
-					workshops for school and college students. We provide basics of
-					farming, showcase the process of organic farming and also indulge
-					the students to give it a go in planting the crop in the fields. We
-					also provide food for lunch with the produce which we have reaped
-					for the students and teachers. A nominal fee is collected from the
-					students for these activities.</p>
-			</div>
-		</div>
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="" class="img-responsive">
+           <div class="carousel-caption">
+           		<div class="bs-example">
+					<h2>Fresh Vegetables</h2>
+				    <p style="font-size:17px">From our farm to your kitchen !</p>
+				    <br>
+				    <p>At Vruksham we produce the freshest of vegetables on a daily basis right from your day to day veggies to seasonal vegetables. We take pride in what we grow as we do it the natural way. Some of the vegetables we produce are as follows:</p>
+				    <ul class="list-unstyled">
+				            <ul>
+				                <li style="font-family: Rokkitt;font-size: 17px">Tomato</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Onion</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Eggplant</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Spinach (All types)</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Pumpkin</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Broad Beans (Avarakai)</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Cowpea (Karamani)</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Green Beans</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Spring Onion</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Garlic</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Green / Red Chillies</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Bitter Gourd</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Cabbage</li>
+				                <li style="font-family: Rokkitt;font-size: 17px">Cauliflower and much more..</li>
+				            </ul>
+				   		 </ul>
+					</div>
+           		</div>
+        	</div>
+    </div>
 	</div>
 	<br>
 

@@ -16,6 +16,11 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+body {
+  padding-top: 1px;
+  padding-left: 150px;
+  padding-right: 150px;
+ } 
 </style>
 </head>
 <body>
@@ -29,20 +34,20 @@
 	<br>
 	<br>
 	<div id="offerings" class="container-fluid text-center bg-grey">
-			<h2 style="color: black;font-family: Patua One; font-size: 35px">OUR PRODUCE</h2>	
+			<h2 style="color: black;font-family: Patua One; font-size: 35px">What do we produce?</h2>	
 			<hr width="50%">
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail" style="margin-top: 50px">
+				<div class="thumbnail">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
 						alt="Organic Farming" width="600" height="300">
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Vegetables</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Vegetables</h3>
 				<br>
-				<p style="text-align: justify; font-family: Rokkitt; font-size: 20px">Buy our organic vegetables to
+				<p style="text-align: justify; font-family: Rokkitt; font-size: 17px">Buy our organic vegetables to
 					truly enjoy what nature has to offer! We have started on a small
 					scale to cater the need of few and slowly growing to make it big
 					and reach a wider base. We make huge efforts so that we can
@@ -58,7 +63,7 @@
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail" style="margin-top: 50px">
+				<div class="thumbnail">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/rice1.jpeg"
 						alt="Organic Farming" width="600" height="300">
@@ -66,9 +71,9 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Rice & Pulses</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Rice & Pulses</h3>
 				<br>
-				<p style="text-align: justify; font-family: Rokkitt; font-size: 20px">We started our farming journey
+				<p style="text-align: justify; font-family: Rokkitt; font-size: 17px">We started our farming journey
 					with rice and pulses and we never looked back since then. The rices
 					and pulses are organically grown with at most care and we provide
 					the nourishment from the age old practices on a periodic basis
@@ -83,7 +88,7 @@
 		</div>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
-				<div class="thumbnail" style="margin-top: 50px">
+				<div class="thumbnail">
 					<img
 						src="${pageContext.request.contextPath}/resources/img/herps1.jpg"
 						alt="Organic Farming" width="600" height="300">
@@ -91,9 +96,9 @@
 			</div>
 			<div class="col-sm-6">
 				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 30px;margin-top: 0px;margin-bottom: 0px;">Fresh Herbs</h3>
+				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Fresh Herbs</h3>
 				<br>
-				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 20px">We are proud to
+				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 17px">We are proud to
 					offer our customers wholesome and seasonal Fresh Herbs. Take home a
 					readymade basket or customize your own. There are lots to choose
 					from, and our offerings change depending on the time of year so you
@@ -112,5 +117,17 @@
 
 	<!-- Footer section -->
 	<jsp:include page="footer.jsp" />
+	<script type="text/javascript">
+	$(window).scroll(function() {
+		  $(".slideanim").each(function(){
+		    var pos = $(this).offset().top;
+
+		    var winTop = $(window).scrollTop();
+		    if (pos < winTop + 600) {
+		      $(this).addClass("slide");
+		    }
+		  });
+		});
+	</script>
 </body>
 </html>
