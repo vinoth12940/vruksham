@@ -36,7 +36,10 @@ body {
 	<div id="offerings" class="container-fluid text-center bg-grey">
 		<div class="row text-center slideanim">
 			<h2 style="color: black;font-family: Patua One; font-size: 35px">What do we produce?</h2>	
-			<hr width="50%">
+			<br>
+			<p style="text-align: center; font-family: Rokkitt; font-size: 22px">Straight from the Farm</p>
+			<br>
+			<br>	
 		</div>	
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
@@ -118,7 +121,7 @@ body {
 
 
 	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="footer1.jsp" />
 	<script type="text/javascript">
 	$(window).scroll(function() {
 		  $(".slideanim").each(function(){

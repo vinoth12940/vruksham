@@ -21,10 +21,22 @@
 				<li><a
 					href="${pageContext.request.contextPath}/welcome/aboutUs">About
 						Us</a></li>
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/produce">Produce</a></li>		
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/offerings">Offerings</a></li>
+						
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown" style="padding-bottom: 0px">Produce <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="${pageContext.request.contextPath}/welcome/vegetables">Vegetables</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/ricePulses">Rice & Pulses</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/freshHerbs">Fresh Herbs</a></li>
+					</ul></li>
+					
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown" style="padding-bottom: 0px">Offerings <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="${pageContext.request.contextPath}/welcome/organicFarming">Organic Farming</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/nursery">Nursery</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/landscaping">Landscaping</a></li>
+					</ul></li>	
 				<li><a
 					href="${pageContext.request.contextPath}/welcome/contactUs">Contact
 						Us</a></li>

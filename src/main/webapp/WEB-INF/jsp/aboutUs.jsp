@@ -66,23 +66,13 @@
 			</div>
 			<div class="col-md-4">
 				<h3
-					style="color: black; text-align: center; margin-top: 0px; font-size: 25px">Organic
+					style="color: black; text-align: left; margin-top: 0px; font-size: 25px">Organic
 					Farming, Nursery & Landscaping</h3>
 				<br>
 				<p
-					style="color: black; text-align: justify; font-family: Roboto Condensed;">A
-					friendly initiative which was started in 2017 we have been doing
-					everything in our power to bring the freshest organic produce to
-					the people of Chennai. At Vruksham we offer an authentic Organic
-					Vegetable Farm experience that will suit the entire family. With
-					everything from homemade foods to learn about farming, it is a
-					great place to visit at all seasons, since things are constantly
-					changing here.</p>
+					style="color: black; text-align: justify; font-family: Roboto Condensed;">An initiative which was started in 2017 we have been doing everything in our power to bring the freshest organic produce to the people of Chennai. At Vruksham we offer an authentic organic vegetables, paddy, pulses and a nursery.</p>
 				<br>
-				<p style="color: black; text-align: justify;">Come by and enjoy
-					our amazing products as well as great events and activities all
-					year long. Read on to learn more about our service offering and our
-					fresh produce.</p>
+				<p style="color: black; text-align: justify;">The people who are involved in Vruksham have diverse backgrounds from Agriculture, IT & Sales. We came together in early 2017 when this opportunity came to us and we never looked back since then.</p>
 			</div>
 		</div>
 	</div>
@@ -157,7 +147,7 @@
 
 	<br>
 	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="footer1.jsp" />
 	<script type="text/javascript">
 	$(window).scroll(function() {
 		  $(".slideanim").each(function(){

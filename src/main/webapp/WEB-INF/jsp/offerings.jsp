@@ -35,9 +35,18 @@ body {
 	<br>
 	<div id="offerings" class="container-fluid text-center bg-grey">
 		<div class="row text-center slideanim">			
-			<h2 style="color: black; text-align: center; font-family: Patua One; font-size: 35px">What do we offer?</h2>
-			<hr width="50%">
-		</div>	
+			<h2 style="color: black; text-align: left; font-family: Patua One; font-size: 35px">What do we offer?</h2>
+			<br>
+			<p style="color: black; text-align: justify; text-align: left;;font-family: Rokkitt; font-size: 17px">All in a day
+					workshops for school and college students. We provide basics of
+					farming, showcase the process of organic farming and also indulge
+					the students to give it a go in planting the crop in the fields. We
+					also provide food for lunch with the produce which we have reaped
+					for the students and teachers. A nominal fee is collected from the
+					students for these activities.</p>
+			
+		</div>
+		<br	>
 		<div class="row text-center slideanim">
 			<div class="col-sm-6">
 				<div class="thumbnail">
@@ -124,7 +133,7 @@ body {
 
 
 	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="footer1.jsp" />
 	
 	<script type="text/javascript">
 	$(window).scroll(function() {

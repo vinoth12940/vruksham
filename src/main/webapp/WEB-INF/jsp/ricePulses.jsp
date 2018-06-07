@@ -45,7 +45,7 @@
 </head>
 <body>
 	<!-- nav bar -->
-	<jsp:include page="navbar.jsp" />
+	<jsp:include page="navbar2.jsp" />
 	<br>
 	<br>
 	<br>
