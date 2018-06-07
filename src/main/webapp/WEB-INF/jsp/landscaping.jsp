@@ -66,7 +66,7 @@
 				    <br>
 				    <p style="font-size:17px">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
 				    <br>
-				    <p style="font-size:17px">Please get in touch with us for a quote.</p>
+				    <p style="font-size:17px">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
 					</div>
            		</div>
         	</div>

@@ -64,7 +64,7 @@
 				    <br>
 				    <p style="font-size:17px">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
 				    <br>
-				    <p style="font-size:17px">Please contact us for further enquiries for any plant requirements which you need.</p>
+				    <p style="font-size:17px">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
 					</div>
            		</div>
         	</div>

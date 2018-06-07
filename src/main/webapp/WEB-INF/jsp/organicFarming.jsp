@@ -64,7 +64,7 @@
 				    <br>
 				    <p style="font-size:17px">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
 				    <br>
-				    <p style="font-size:17px">Please connect with us for any enquiries here.</p>
+				    <p style="font-size:17px">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
 					</div>
            		</div>
         	</div>

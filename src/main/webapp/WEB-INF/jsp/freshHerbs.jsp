@@ -76,7 +76,7 @@
 				                <li style="font-family: Rokkitt;font-size: 17px">Thyme and much more...</li>
 				            </ul>
 				   		 </ul>
-				   	<p>For enquiry please drop a message in our contact us section or call us for details.</p>	 
+				   	<p>For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	 
 					</div>
            		</div>
         	</div>

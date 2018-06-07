@@ -135,7 +135,24 @@ h4{
 			</div>
 		</div>
 	</div>
-
+	
+	<h2 style="text-align: center;">Locate Us</h2>
+	<hr width="50%">
+	<br>
+	<div id="offerings" class="container">
+		<div id="googleMap" style="width:100%;height:400px;"></div>
+	</div>
+	<script>
+	
+	function myMap() {
+		var mapProp= {
+		    center:new google.maps.LatLng(51.5, -0.2),
+		    zoom:10,
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=**&callback=myMap"></script>
 	<br>
 	<br>
 	<br>
@@ -152,46 +169,14 @@ h4{
 
 	<script>
 	
-		function show_alert() {
-		   alert("Your mail has been received, We will contact you shortly. Have a Good Day !!");
+	function myMap() {
+		var mapProp= {
+		    center:new google.maps.LatLng(51.508742,-0.120850),
+		    zoom:5,
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 		}
-		$(document).ready(
-				function() {
-					// Add smooth scrolling to all links in navbar + footer link
-					$(".navbar a, footer a[href='#myPage']").on('click',
-							function(event) {
-								// Make sure this.hash has a value before overriding default behavior
-								if (this.hash !== "") {
-									// Prevent default anchor click behavior
-									event.preventDefault();
-
-									// Store hash
-									var hash = this.hash;
-
-									// Using jQuery's animate() method to add smooth page scroll
-									// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-									$('html, body').animate({
-										scrollTop : $(hash).offset().top
-									}, 900, function() {
-
-										// Add hash (#) to URL when done scrolling (default click behavior)
-										window.location.hash = hash;
-									});
-								} // End if
-							});
-
-					$(window).scroll(function() {
-						$(".slideanim").each(function() {
-							var pos = $(this).offset().top;
-
-							var winTop = $(window).scrollTop();
-							if (pos < winTop + 600) {
-								$(this).addClass("slide");
-							}
-						});
-					});
-				})
 	</script>
-
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
 </body>
 </html>
