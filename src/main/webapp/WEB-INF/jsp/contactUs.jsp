@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Vruksham Form house</title>
+<title>Vruksham Farm House</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -122,7 +122,7 @@ h4{
 					</legend>
 					<address>
 						<strong><span class="glyphicon glyphicon-map-marker"></span> Farm:</strong> Arunkundram-Manamathy, TamilNadu, India<br><br>
-						<strong><span class="glyphicon glyphicon-map-marker"></span> Office:</strong> 3A, Princeeton Apt. 140, Rajamannar Salai, West KK Nagar, Chennai - 600078<br>
+						<strong><span class="glyphicon glyphicon-map-marker"></span> Office:</strong> 3A, Princeton Apt. 140, Rajamannar Salai, West KK Nagar, Chennai - 600078<br>
 						 <br> 
 						<abbrtitle="Phone">P:</abbr> +91-9840733122<br>
 						<abbrtitle="Phone">P:</abbr> +91-9884707547
