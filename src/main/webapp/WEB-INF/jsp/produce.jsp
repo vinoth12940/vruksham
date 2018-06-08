@@ -62,7 +62,7 @@ body {
 					are grown using pesticides.</p>
 				<div class="col-sm-4 col-sm-push-8">
 					<a href="${pageContext.request.contextPath}/welcome/vegetables"
-						class="btn btn-info" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
+						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
 				</div>	
 			</div>
 		</div>
@@ -87,7 +87,7 @@ body {
 					more information.</p>
 					<div class="col-sm-4 col-sm-push-8">
 					<a href="${pageContext.request.contextPath}/welcome/ricePulses"
-						class="btn btn-info" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
+						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
 					</div>
 			</div>
 		</div>
@@ -112,7 +112,7 @@ body {
 					season, so you can fully enjoy nature's gifts.</p>
 					<div class="col-sm-4 col-sm-push-8">
 					<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
-						class="btn btn-info" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
+						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
 					</div>
 			</div>
 		</div>

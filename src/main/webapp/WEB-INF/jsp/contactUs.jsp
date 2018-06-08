@@ -108,7 +108,7 @@ h4{
 								</div>
 							</div>
 							<div class="col-md-12">
-								<button type="submit" class="btn btn-primary pull-right"
+								<button type="submit" class="btn btn-success pull-right"
 									id="btnContactUs" onclick="show_alert();">Send</button>
 							</div>
 						</div>

@@ -97,7 +97,7 @@ body {
 					section of this website or come and see for yourself.</p>
 					<div class="col-sm-4 col-sm-push-8">
 					<a href="${pageContext.request.contextPath}/welcome/nursery"
-						class="btn btn-info" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
+						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
 					</div>
 					<br>
 			</div>
@@ -123,7 +123,7 @@ body {
 					section. We will call you as soon as we see your message.</p>
 					<div class="col-sm-4 col-sm-push-8">
 					<a href="${pageContext.request.contextPath}/welcome/landscaping"
-						class="btn btn-info" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
+						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
 					</div>
 					<br>
 			</div>
