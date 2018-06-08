@@ -35,7 +35,7 @@
 			cultivate our produce in all natural way. We simply go by the saying
 			that what you eat makes you and producing organic and healthy food is
 			not a choice here but a way of life.</P>
-		<br> <br>
+		<br>
 	</div>
 	<div id="myCarousel" class="carousel slide text-center"
 		data-ride="carousel">
@@ -163,7 +163,7 @@
 						<br>	
 						<p class="">
 
-							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: white; color: black;">Learn More</a>
+							<a href="${pageContext.request.contextPath}/welcome/produce" class="label label-default" style="font-family: Patua One;font-size: 20px; background-color: black; color: white;">Learn More</a>
 
 						</p>
 					</div>
