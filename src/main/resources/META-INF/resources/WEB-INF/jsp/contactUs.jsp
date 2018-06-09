@@ -118,7 +118,7 @@ h4{
 			<div class="col-md-4" style="text-align: center;">
 				<form>
 					<legend>
-						<span class="glyphicon glyphicon-globe"></span> Vruksham
+						<span class="glyphicon glyphicon-globe"></span> Vruksham Horticulture & Organic Farms
 					</legend>
 					<address>
 						<strong><span class="glyphicon glyphicon-map-marker"></span> Farm:</strong> Arunkundram-Manamathy, TamilNadu, India<br><br>
