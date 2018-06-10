@@ -146,9 +146,9 @@
 		};
 		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 		}
-	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=**&callback=myMap"></script>
-	
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=**&callback=myMap"></script>
+		<br>
 		<!--Footer-->
         <jsp:include page="footer.jsp" />
         
