@@ -7,7 +7,11 @@
                     <li><a href="https://www.facebook.com/autismbilling/">Facebook</a></li>
                     <li><a href="">Youtube</a></li>
                 </ul>
-                   <p>&copy; Copyright @ 2017</p>
+                   <p>
+                   		<span>E-mail:<a
+					href="${pageContext.request.contextPath}/welcome/contactUs"">
+						 info@vruksham.co.in</a></span>
+                   </p>
                 </div><!--End of container-->
             </div>    
         </footer>

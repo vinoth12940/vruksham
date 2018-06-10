@@ -114,11 +114,11 @@
 			<div class="col-md-4" style="text-align: center;">
 				<form>
 					<legend>
-						<span class="glyphicon glyphicon-globe"></span> Vruksham Horticulture & Organic Farms
+						<span class=""></span> Vruksham Horticulture & Organic Farms
 					</legend>
 					<address>
-						<strong><span class="glyphicon glyphicon-map-marker"></span> Farm:</strong> Arunkundram-Manamathy, TamilNadu, India<br><br>
-						<strong><span class="glyphicon glyphicon-map-marker"></span> Office:</strong> 3A, Princeton Apt. 140, Rajamannar Salai, West KK Nagar, Chennai - 600078<br>
+						<strong><span class=""></span> Farm:</strong> Arunkundram-Manamathy, TamilNadu, India<br><br>
+						<strong><span class=""></span> Office:</strong> 3A, Princeton Apt. 140, Rajamannar Salai, West KK Nagar, Chennai - 600078<br>
 						 <br> 
 						<abbrtitle="Phone">P:</abbr> +91-9840733122<br>
 						<abbrtitle="Phone">P:</abbr> +91-9884707547
@@ -126,6 +126,9 @@
 
 					<address>
 						<strong>Email</strong><br> <a href="mailto:#">info@vruksham.co.in</a>
+					</address>
+					<address>
+						<strong>Web</strong><br> <a href="mailto:#">www.vruksham.co.in</a>
 					</address>
 				</form>
 			</div>
