@@ -54,7 +54,7 @@ img { max-width: 100%; }
 
 ul.navbar-nav { font-size: 16px; color: #fff; }
 
-.navbar-inverse ul.navbar-nav li a { color: #fff; color: rgba(6, 6, 6, 0.9); }
+.navbar-inverse ul.navbar-nav li a { color: #fff; color: rgba(6, 6, 6, 0.9);padding-bottom: 15px;padding-left: 15px;padding-right: 15px;padding-top: 43px; }
 .navbar-inverse ul.navbar-nav li a:hover { color: black; }
 .navbar-inverse ul.navbar-nav li a:focus { color: black; outline: 0; }
 
@@ -194,7 +194,7 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-    	background-image: url(img/logo-1.jpg) !important; background-repeat: no-repeat !important; background-size: 95px 34px !important;
+    	background-repeat: no-repeat !important; background-size: 95px 34px !important;
     }
 	
 }
