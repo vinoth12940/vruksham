@@ -47,8 +47,8 @@ public class pageNavicationController {
 	 */
 	@GetMapping("/home1")
 	public ModelAndView homePageModel(@ModelAttribute("mail") Mail mail, BindingResult result, Model model1) {
-	    ModelAndView mav = new ModelAndView("test");
-	    mav.addObject("test", new Mail());
+	    ModelAndView mav = new ModelAndView("test4");
+	    mav.addObject("test4", new Mail());
 	    return mav;
 	}
 	

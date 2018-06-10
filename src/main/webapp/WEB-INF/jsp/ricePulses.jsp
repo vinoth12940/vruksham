@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Vruksham Form house</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="${pageContext.request.contextPath}/resources/css/site.css"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>	
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-.carousel-inner>.item>img {
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vruksham Farm House</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+        <style>
+        	.carousel-inner>.item>img {
 	
 	object-fit: cover;
 	width: 1350px;
@@ -41,17 +56,23 @@
     left: 453.594;
     padding-top: 0px;
 }
-</style>
-</head>
-<body>
-	<!-- nav bar -->
-	<jsp:include page="navbar2.jsp" />
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+        </style>
+    <body>
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar.jsp" />    	
+    	
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+ 
 	<div id="mycarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item active">
@@ -79,11 +100,23 @@
            		</div>
         	</div>
     </div>
+	
 	</div>
-	<br>
+        <!--Footer-->
+        <jsp:include page="footer.jsp" />
+        
+        <!-- Javascript -->
+        <script src="${pageContext.request.contextPath}/resources/js/jquery-1.11.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/jquery.backstretch.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/wow.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
 
+    </body>
 
-	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
-</body>
 </html>

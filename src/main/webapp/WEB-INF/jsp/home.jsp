@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Vruksham Farm House</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="${pageContext.request.contextPath}/resources/css/site.css"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-</style>
-</head>
-<body>
-	<!-- nav bar -->
-	<jsp:include page="navbar.jsp" />
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="jumbotron text-center"
-		style="background-color: white; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
-		<br> <br>
-		<P
-			style="color: black; text-align: justify; padding-left: 250px; padding-right: 250px; font-family: Rokkitt; font-size: 17px;">Vruksham
-			is an initiative which was started in 2017 by a group of individuals
-			to produce organic rice, pulses and vegetables for the people of
-			Chennai. We follow the age old practices of organic farming and
-			cultivate our produce in all natural way. We simply go by the saying
-			that what you eat makes you and producing organic and healthy food is
-			not a choice here but a way of life.</P>
-		<br>
-	</div>
-	<div id="myCarousel" class="carousel slide text-center"
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vruksham Farm House</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+        <style>
+        </style>
+    <body>
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar.jsp" />
+		
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        	<p class="medium-paragraph">
+                         	Vruksham is an initiative which was started in 2017 by a group of individuals to produce organic rice, pulses and vegetables for the people of Chennai. We follow the age old practices of organic farming and cultivate our produce in all natural way. We simply go by the saying that what you eat makes you and producing organic and healthy food is not a choice here but a way of life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div id="myCarousel" class="carousel slide text-center"
 		data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -87,190 +103,119 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-	<br>
-	<div class="container-fluid">
-		<div class="row" style="margin-right: 0px; margin-bottom: 61px;">
-			<!-- <div class="jumbotron text-center" style="background-color: black;">
-				<br> <br>
-				<h2 style="color: white;">What we offer ?</h2>
-				<br> <br>
-			</div> -->
-			<h2
-				style="text-align: center; color: black; font-family: Patua One; font-size: 25px;">What
-				we offer ?</h2>
-			<hr width="50%">
-			<!-- TH1 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Organic
-							Farming</h4>
-						<br>
-						<p class="">
+        
+        
+        <!-- Features -->
+        <div class="features-container section-container">
+	        <div class="container">
+	        	
+	            <div class="row">
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <h2>What we offer?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	       				
+	       				<!-- Organic Farming -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Organic Farming</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/organicFarming"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- organic farming end -->
+	                    
+	                    <!-- Nursery -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Nursery</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/nursery"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Nursery -->
+	                    
+	                    <!-- Landscaping -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Landscaping</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/landscaping"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Landscaping -->
+	                </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <h2>What we Produce?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	       				
+	       				<!-- Rice & Pulses -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Rice & Pulses</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/ricePulses"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Rice & Pulses -->
+	                    
+	                    <!-- Vegetables -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Vegetables</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/vegetables"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Vegetables -->
+	                    
+	                    <!-- Fresh Herbs -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                		<h3>Fresh Herbs</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Fresh Herbs -->
+	                </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!--Footer-->
+        <jsp:include page="footer.jsp" />
+        
+        <!-- Javascript -->
+        <script src="${pageContext.request.contextPath}/resources/js/jquery-1.11.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/jquery.backstretch.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/wow.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
 
-							<a href="${pageContext.request.contextPath}/welcome/offerings"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
+    </body>
 
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img9.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-
-			<!-- TH2 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Nursery</h4>
-						<br>
-						<p class="">
-
-							<a href="${pageContext.request.contextPath}/welcome/offerings"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
-
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img4.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-
-			<!-- TH3 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Landscaping</h4>
-						<br>
-						<p class="">
-
-							<a href="${pageContext.request.contextPath}/welcome/offerings"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
-
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/_MG_0101_small.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-
-			<!-- TH4 -->
-			<!-- <div class="jumbotron text-center" style="background-color: black;">
-				<br> <br>
-				<h2 style="color: white;">What we produce ?</h2>
-				<br> <br>
-			</div> -->
-			<h2
-				style="text-align: center; color: black; font-family: Patua One; font-size: 25px; padding-top: 155px;">What
-				we produce ?</h2>
-			<hr width="50%">
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Rice
-							& Pulses</h4>
-						<br>
-						<p class="">
-
-							<a href="${pageContext.request.contextPath}/welcome/produce"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
-
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/img6.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-
-			<!-- TH5 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Vegetables</h4>
-						<br>
-						<p class="">
-
-							<a href="${pageContext.request.contextPath}/welcome/produce"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
-
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-
-
-			<!-- TH6 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h4 class=""
-							style="font-family: Patua One; font-size: 35px; padding-top: 155px;">Fresh
-							Herbs</h4>
-						<br>
-						<p class="">
-
-							<a href="${pageContext.request.contextPath}/welcome/produce"
-								class="label label-default"
-								style="font-family: Patua One; font-size: 16px; background-color: black; color: white; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">Learn
-								More</a>
-
-						</p>
-					</div>
-					<img
-						src="${pageContext.request.contextPath}/resources/img/_MG_0078_small.jpg"
-						alt="..." class="">
-				</div>
-			</div>
-			<!-- TH6 -->
-		</div>
-		<!--/row -->
-	</div>
-	<br>
-
-	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
-
-	<script>
-		$("[rel='tooltip']").tooltip();
-
-		$('.thumbnail').hover(function() {
-			$(this).find('.caption').slideDown(250); //.fadeIn(250)
-		}, function() {
-			$(this).find('.caption').slideUp(250); //.fadeOut(205)
-		});
-
-		$(window).scroll(function() {
-			$(".slideanim").each(function() {
-				var pos = $(this).offset().top;
-
-				var winTop = $(window).scrollTop();
-				if (pos < winTop + 600) {
-					$(this).addClass("slide");
-				}
-			});
-		});
-	</script>
-</body>
 </html>

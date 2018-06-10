@@ -1,138 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Vruksham Farm House</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="${pageContext.request.contextPath}/resources/css/site.css"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>	
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-body {
-  padding-top: 1px;
-  padding-left: 150px;
-  padding-right: 150px;
- } 
-</style>
-</head>
-<body>
-	<!-- nav bar -->
-	<jsp:include page="navbar.jsp" />
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div id="offerings" class="container-fluid text-center bg-grey">
-		<div class="row text-center slideanim">
-			<h2 style="color: black;font-family: Patua One; font-size: 35px">What do we produce?</h2>	
-			<br>
-			<p style="text-align: center; font-family: Rokkitt; font-size: 22px">Straight from the Farm</p>
-			<br>
-			<br>	
-		</div>	
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Vegetables</h3>
-				<br>
-				<p style="text-align: justify; font-family: Rokkitt; font-size: 17px">Buy our organic vegetables to
-					truly enjoy what nature has to offer! We have started on a small
-					scale to cater the need of few and slowly growing to make it big
-					and reach a wider base. We make huge efforts so that we can
-					guarantee that everything we sell at Vruksham is 100% organic. Due
-					to our efforts, we are able to assure you that all of our produce
-					contains the healthy nutrients that normally get lost when foods
-					are grown using pesticides.</p>
-				<div class="col-sm-4 col-sm-push-8">
-					<a href="${pageContext.request.contextPath}/welcome/vegetables"
-						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
-				</div>	
-			</div>
-		</div>
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/rice1.jpeg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Rice & Pulses</h3>
-				<br>
-				<p style="text-align: justify; font-family: Rokkitt; font-size: 17px">We started our farming journey
-					with rice and pulses and we never looked back since then. The rices
-					and pulses are organically grown with at most care and we provide
-					the nourishment from the age old practices on a periodic basis
-					which gives us more yield per hectare. We cultivate lot of
-					varieties of local rice and all types of pulses. Contact us for
-					more information.</p>
-					<div class="col-sm-4 col-sm-push-8">
-					<a href="${pageContext.request.contextPath}/welcome/ricePulses"
-						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
-					</div>
-			</div>
-		</div>
-		<div class="row text-center slideanim">
-			<div class="col-sm-6">
-				<div class="thumbnail">
-					<img
-						src="${pageContext.request.contextPath}/resources/img/herps1.jpg"
-						alt="Organic Farming" width="600" height="300">
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<br>
-				<h3 style="color: black; text-align: center; font-family: Patua One; font-size: 25px;margin-top: 0px;margin-bottom: 0px;">Fresh Herbs</h3>
-				<br>
-				<p style="color: black; text-align: justify; font-family: Rokkitt; font-size: 17px">We are proud to
-					offer our customers wholesome and seasonal Fresh Herbs. Take home a
-					readymade basket or customize your own. There are lots to choose
-					from, and our offerings change depending on the time of year so you
-					will always be surprised when you visit us. You should know that
-					everything we sell at our farm is grown responsibly and picked in
-					season, so you can fully enjoy nature's gifts.</p>
-					<div class="col-sm-4 col-sm-push-8">
-					<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
-						class="btn btn-success" role="button" style="margin-left: 52px;margin-right: 50px;">Learn More</a>
-					</div>
-			</div>
-		</div>
-	</div>
-	<br>
 
+    <head>
 
-	<!-- Footer section -->
-	<jsp:include page="footer1.jsp" />
-	<script type="text/javascript">
-	$(window).scroll(function() {
-		  $(".slideanim").each(function(){
-		    var pos = $(this).offset().top;
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vruksham Farm House</title>
 
-		    var winTop = $(window).scrollTop();
-		    if (pos < winTop + 600) {
-		      $(this).addClass("slide");
-		    }
-		  });
-		});
-	</script>
-</body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+        <style>
+        </style>
+    <body>
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar.jsp" />    	
+    	
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        	<h2>What do we produce?</h2>
+                        	<div class="divider-1 wow fadeInUp"><span></span></div>
+                        	<p>Straight from the Farm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- About Us -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            
+	            <div class="row">
+	                <div class="col-md-12 features section-description wow fadeIn">
+	                    <div class="col-md-6 features section-description wow fadeIn">
+	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="">
+		                </div>
+		                <div class="col-md-6 features section-description wow fadeIn">
+		                    <h2 style="text-align: center; font-size: 33px">Rice & Pulses</h2>
+		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We started our farming journey with rice and pulses and we never looked back since then. The rices and pulses are organically grown with at most care and we provide the nourishment from the age old practices on a periodic basis which gives us more yield per hectare. We cultivate lot of varieties of local rice and all types of pulses. Contact us for more information.</p>
+		       				<a href="${pageContext.request.contextPath}/welcome/ricePulses" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+	                	</div>
+	               </div>
+	            </div>
+	            
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <div class="col-sm-6 features section-description wow fadeIn">
+	                		<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..." class="">
+		                </div>
+		                <div class="col-sm-6 features section-description wow fadeIn">
+		                    <h2 style="text-align: center; font-size: 33px">Vegetables</h2>
+		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Buy our organic vegetables to truly enjoy what nature has to offer! We have started on a small scale to cater the need of few and slowly growing to make it big and reach a wider base. We make huge efforts so that we can guarantee that everything we sell at Vruksham is 100% organic. Due to our efforts, we are able to assure you that all of our produce contains the healthy nutrients that normally get lost when foods are grown using pesticides.</p>
+		       				<a href="${pageContext.request.contextPath}/welcome/vegetables" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+	                	</div>
+	               </div>
+	            </div>
+	            
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <div class="col-sm-6 features section-description wow fadeIn">
+	                		<img src="${pageContext.request.contextPath}/resources/img/herps1.jpg" alt="..." class="">
+		                </div>
+		                <div class="col-sm-6 features section-description wow fadeIn">
+		                    <h2 style="text-align: center; font-size: 33px">Fresh Herbs</h2>
+		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We are proud to offer our customers wholesome and seasonal Fresh Herbs. Take home a readymade basket or customize your own. There are lots to choose from, and our offerings change depending on the time of year so you will always be surprised when you visit us. You should know that everything we sell at our farm is grown responsibly and picked in season, so you can fully enjoy nature's gifts.</p>
+		       				<a href="${pageContext.request.contextPath}/welcome/freshHerbs" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+	                	</div>
+	               </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!--Footer-->
+        <jsp:include page="footer.jsp" />
+        
+        <!-- Javascript -->
+        <script src="${pageContext.request.contextPath}/resources/js/jquery-1.11.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/jquery.backstretch.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/wow.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
 </html>

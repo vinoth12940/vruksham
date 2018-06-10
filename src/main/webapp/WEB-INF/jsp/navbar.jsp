@@ -1,37 +1,25 @@
-<nav class="navbar navbar-default">
-	<div class="container-fluid"
-		style="padding-left: 140px; padding-right: 140px;">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed"
-				data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-				aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span> <span
-					class="icon-bar"></span> <span class="icon-bar"></span> <span
-					class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand"
-				href="${pageContext.request.contextPath}/welcome/home"><img
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="${pageContext.request.contextPath}/welcome/home"><img
 				src="${pageContext.request.contextPath}/resources/img/logo-1.jpg"
 				alt="Dispute Bills"></a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse"
-			><!-- style="position: left; height: 142px; margin-top: 50px; font-size: 15px" -->
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="${pageContext.request.contextPath}/welcome/home">Home</a></li>
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/aboutUs">About
-						Us</a></li>
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/produce">Produce</a></li>		
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/offerings">Offerings</a></li>
-				<li><a
-					href="${pageContext.request.contextPath}/welcome/contactUs">Contact
-						Us</a></li>
-				
-			</ul>
-		</div>
-		<!--/.nav-collapse -->
-	</div>
-	<!--/.container-fluid -->
-</nav>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+						<li><a href="${pageContext.request.contextPath}/welcome/home">Home</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/aboutUs">About Us</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/produce">Produce</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/offerings">Offerings</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/contactUs">Contact Us</a></li>
+					</ul>
+                </div>
+			</div>
+		</nav>

@@ -6,62 +6,58 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Vruksham Farm House</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="${pageContext.request.contextPath}/resources/css/site.css"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-h2{
-	font-family: Patua One;
-	font-size: 35px;
-}
 
-h3{
-	font-family: Patua One;
-	font-size: 30px;
-}
+    <head>
 
-h4{
-	font-family: Rokkitt;
-	font-size: 20px;
-}
-</style>
-</head>
-<body>
-	<!-- nav bar -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vruksham Farm House</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+        <style>
+        </style>
+    <body>
+		
+	<!-- Top menu -->
 	<jsp:include page="navbar.jsp" />
-	<br>
-	<br>
-	<br>
-	<br>
-	 <br>
-	 <br>
-	 <br>
-	 <br>
+ 	 
 	<!--Contact Us-->
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 features section-description wow fadeIn"
-				id="Contact">
-				<h2 style="text-align: center;">Contact Us</h2>
-				<hr width="50%">
-				<br>
-				<div class="divider-1 wow fadeInUp" style="text-align: center;">
-					<span></span>
-				</div>
-			</div>
-		</div>
-
+	<div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        	<h2>Contact Us</h2>
+	                    	<div class="divider-1 wow fadeInUp"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
 		<div class="row">
 			<div class="col-md-8">
 				<div class="well well-sm"
@@ -134,7 +130,6 @@ h4{
 				</form>
 			</div>
 		</div>
-	</div>
 	
 	<h2 style="text-align: center;">Locate Us</h2>
 	<hr width="50%">
@@ -153,30 +148,34 @@ h4{
 		}
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=**&callback=myMap"></script>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<!-- Footer section -->
-	<jsp:include page="footer.jsp" />
-
-	<script>
 	
-	function myMap() {
-		var mapProp= {
-		    center:new google.maps.LatLng(51.508742,-0.120850),
-		    zoom:5,
-		};
-		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-		}
-	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
-</body>
-</html>
+		<!--Footer-->
+        <jsp:include page="footer.jsp" />
+        
+        <!-- Javascript -->
+        <script src="${pageContext.request.contextPath}/resources/js/jquery-1.11.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/jquery.backstretch.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/wow.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/js/scripts.js"></script>
+        <script>
+	
+			function myMap() {
+				var mapProp= {
+				    center:new google.maps.LatLng(51.508742,-0.120850),
+				    zoom:5,
+				};
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				}
+			</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>	
+	
