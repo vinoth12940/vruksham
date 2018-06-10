@@ -60,7 +60,7 @@
     <body>
 		
 		<!-- Top menu -->
-		<jsp:include page="navbar.jsp" />    	
+		<jsp:include page="navbar2.jsp" />    	
     	
         <div class="top-content">
             <div class="container">
