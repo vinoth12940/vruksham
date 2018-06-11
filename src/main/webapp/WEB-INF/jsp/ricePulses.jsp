@@ -81,9 +81,7 @@
            		<div class="bs-example">
 					<h2>Rice & Pulses</h2>
 				    <p style="font-size:17px">From our fields to you plates !</p>
-				    <br>
 				    <p>We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-				    <br>
 				    <p>We have the following organic rice and pulses in stock now:</p>
 				    <ul class="list-unstyled">
 				            <ul>
