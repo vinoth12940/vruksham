@@ -61,7 +61,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px;">
+					style="padding-left: 20px; padding-right: 20px; margin-left: 110px; margin-right: 110px;">
 					<form:form
 						action="${ pageContext.request.contextPath }/welcome/mailSuccess"
 						method="POST" modelAttribute="mail" class="form-horizontal">
@@ -112,7 +112,7 @@
 				</div>
 			</div>
 			<div class="col-md-4" style="text-align: center;">
-				<form>
+				<form style="margin-left: 102px; margin-right: 102px">
 					<legend>
 						<span class=""></span> Vruksham Horticulture & Organic Farms
 					</legend>

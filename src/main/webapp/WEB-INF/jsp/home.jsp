@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
                         <div class="description">
-                        	<p class="medium-paragraph">
+                        	<p class="medium-paragraph" style="text-align: justify;">
                          	Vruksham is an initiative which was started in 2017 by a group of individuals to produce organic rice, pulses and vegetables for the people of Chennai. We follow the age old practices of organic farming and cultivate our produce in all natural way. We simply go by the saying that what you eat makes you and producing organic and healthy food is not a choice here but a way of life.
                             </p>
                         </div>
@@ -52,7 +52,7 @@
                 
             </div>
         </div>
-        
+        <br>
         <div id="myCarousel" class="carousel slide text-center"
 		data-ride="carousel">
 		<!-- Indicators -->
@@ -120,7 +120,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Organic Farming</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/organicFarming"
 								class="btn btn-success" role="button">Learn More</a>
@@ -133,7 +133,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Nursery</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/nursery"
 								class="btn btn-success" role="button">Learn More</a>
@@ -146,7 +146,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Landscaping</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/landscaping"
 								class="btn btn-success" role="button">Learn More</a>
@@ -164,7 +164,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Rice & Pulses</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/ricePulses"
 								class="btn btn-success" role="button">Learn More</a>
@@ -177,7 +177,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Vegetables</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/vegetables"
 								class="btn btn-success" role="button">Learn More</a>
@@ -190,7 +190,7 @@
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
 		                		<h3>Fresh Herbs</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
 								class="btn btn-success" role="button">Learn More</a>
