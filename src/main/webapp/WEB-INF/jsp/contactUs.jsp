@@ -59,9 +59,10 @@
         </div> 
         
 		<div class="row">
-			<div class="col-md-8">
-				<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px; margin-left: 110px; margin-right: 110px;">
+			<div class="well well-sm"
+					style="padding-left: 20px; padding-right: 20px; margin-left: 110px; margin-right: 110px; min-height: 420px;">	
+				<div class="col-md-8">
+					
 					<form:form
 						action="${ pageContext.request.contextPath }/welcome/mailSuccess"
 						method="POST" modelAttribute="mail" class="form-horizontal">
@@ -110,10 +111,10 @@
 						</div>
 					</form:form>
 				</div>
-			</div>
-			<div class="col-md-4" style="text-align: center;">
-				<form style="margin-left: 102px; margin-right: 102px">
-					<legend>
+				
+				<div class="col-md-4">
+				<form>
+					<legend style="margin-top: 20px">
 						<span class=""></span> Vruksham Horticulture & Organic Farms
 					</legend>
 					<address>
@@ -132,7 +133,9 @@
 					</address>
 				</form>
 			</div>
-		</div>
+				
+			</div>
+					</div>
 	
 	<h2 style="text-align: center;">Locate Us</h2>
 	<hr width="50%">
