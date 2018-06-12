@@ -31,36 +31,23 @@
 
     </head>
         <style>
-        	.carousel-inner>.item>img {
-	
-	object-fit: cover;
-	width: 1350px;
-	height: 650px;
-}
-
-
-.carousel-caption {
-    background: rgb(227, 206, 54);
-    font-size: 16px;
-    color: #080808;
-    padding-bottom: -1px;
-    text-align: left;
-    text-align: justify;
-    text-shadow: none;
-    margin-left: 545px;
-    right: 0px;
-    padding-right: 53px;
-    padding-left: 46px;
-    top: 0px;
-    bottom: 0px;
-    left: 453.594;
-    padding-top: 0px;
-}
+        .imgDetail{
+        	object-fit: cover;
+			width: 100%;
+			height: 680px;
+			padding-right: 0px;
+        }
+        
+        .imgcontent{
+        	background: rgb(227, 206, 54);
+        	height: 680px;
+        }
         </style>
     <body>
 		
 		<!-- Top menu -->
-		<jsp:include page="navbar2.jsp" />    	
+		<jsp:include page="navbar.jsp" />
+    	
     	
         <div class="top-content">
             <div class="container">
@@ -72,34 +59,38 @@
                 </div>
             </div>
         </div> 
- 
-	<div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="" class="img-responsive">
-           <div class="carousel-caption">
-           		<div class="bs-example">
-					<h2>Rice & Pulses</h2>
-				    <p style="font-size:17px">From our fields to you plates !</p>
-				    <p>We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-				    <p>We have the following organic rice and pulses in stock now:</p>
-				    <ul class="list-unstyled">
-				            <ul>
-				                <li style="font-family: Rokkitt;font-size: 17px">Ponni Raw Rice</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Ponni Par Boiled Rice</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Millets</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Whole Green Gram (Pasi Payuru)</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Whole Black Gram (Ulutham Paruppu)</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Split Gram (Thuvaram Paruppu)</li>
-				            </ul>
-				   		 </ul>
-				   	<p>For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	 
-					</div>
-           		</div>
-        	</div>
-    </div>
-	
-	</div>
+        
+        <!-- About Us -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            
+	            <div class="row">
+	                <div class="col-md-12 features section-description wow fadeIn">
+	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px">
+	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
+		                </div>
+		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
+		                    <h2>Rice & Pulses</h2>
+						    <p style="font-size:22px">From our fields to you plates !</p>
+						    <p>We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
+						    <p>We have the following organic rice and pulses in stock now:</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px">Ponni Raw Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px">Ponni Par Boiled Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px">Millets</li>
+						                <li style="font-family: Rokkitt;font-size: 17px">Whole Green Gram (Pasi Payuru)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px">Whole Black Gram (Ulutham Paruppu)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px">Split Gram (Thuvaram Paruppu)</li>
+						            </ul>
+						   		 </ul>
+						   	<p>For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	
+	                	</div>
+	               </div>
+	            </div>
+	        </div>
+        </div>
+        
         <!--Footer-->
         <jsp:include page="footer.jsp" />
         
