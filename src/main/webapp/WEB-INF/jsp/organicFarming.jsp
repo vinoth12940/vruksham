@@ -63,11 +63,11 @@
 		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
 		                		<h2 style="text-align: left;">Organic Farming</h2>
 		                		<br>
-				    			<p style="font-size:17px">Organic farming is not new in India and is being followed from ancient times. It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (bio-fertilizers) to release nutrients to crops for increased sustainable production in an eco friendly pollution free environment.</p>
+				    			<p style="font-size:17px;text-align: left">Organic farming is not new in India and is being followed from ancient times. It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (bio-fertilizers) to release nutrients to crops for increased sustainable production in an eco friendly pollution free environment.</p>
 							    <br>
-							    <p style="font-size:17px">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
+							    <p style="font-size:17px;text-align: left">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
 							    <br>
-							    <p style="font-size:17px">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
+							    <p style="font-size:17px;text-align: left">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
 		              	</div>
 	               </div>
 	            </div>

@@ -30,14 +30,6 @@
     		text-align: left;
 		}
         
-        
-        .imgDetail{
-        	object-fit: cover;
-			width: 100%;
-			height: 680px;
-			padding-right: 0px;
-        }
-        
         .imgcontent{
         	background: #f2f2f2d9;
         	height: 680px;
