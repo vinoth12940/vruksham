@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/prodOfferStyle.css">
+		
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -31,57 +32,45 @@
 
     </head>
         <style>
-        .imgDetail{
-        	object-fit: cover;
-			width: 100%;
-			height: 680px;
-			padding-right: 0px;
-        }
         
-        .imgcontent{
-        	background: rgb(227, 206, 54);
-        	height: 680px;
-        }
         </style>
     <body>
 		
 		<!-- Top menu -->
-		<jsp:include page="navbar.jsp" />
+		<jsp:include page="navbar2.jsp" />
     	
     	
         <div class="top-content">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
-                        <div class="description">
-                        </div>
                     </div>
                 </div>
             </div>
         </div> 
         
-        <!-- About Us -->
+        <!-- Rice & Pulses -->
         <div class="features-container section-container">
 	        <div class="container">
 	            
 	            <div class="row">
 	                <div class="col-md-12 features section-description wow fadeIn">
-	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px">
+	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
 	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
 		                </div>
 		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
-		                    <h2>Rice & Pulses</h2>
+		                    <h2 style="text-align: left;">Rice & Pulses</h2>
 						    <p style="font-size:22px">From our fields to you plates !</p>
 						    <p>We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
 						    <p>We have the following organic rice and pulses in stock now:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px">Ponni Raw Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Ponni Par Boiled Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Millets</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Whole Green Gram (Pasi Payuru)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Whole Black Gram (Ulutham Paruppu)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Split Gram (Thuvaram Paruppu)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Raw Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Par Boiled Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Millets</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Green Gram (Pasi Payuru)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Black Gram (Ulutham Paruppu)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Split Gram (Thuvaram Paruppu)</li>
 						            </ul>
 						   		 </ul>
 						   	<p>For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	

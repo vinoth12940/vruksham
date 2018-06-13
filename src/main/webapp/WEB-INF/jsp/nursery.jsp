@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/OfferingStyle.css">
+		
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -31,35 +32,13 @@
 
     </head>
         <style>
-        	.carousel-inner>.item>img {
-	
-	object-fit: cover;
-	width: 1350px;
-	height: 650px;
-}
-
-
-.carousel-caption {
-    background: #ccccccdb;
-    font-size: 16px;
-    color: #080808;
-    padding-bottom: -1px;
-    text-align: left;
-    text-align: justify;
-    text-shadow: none;
-    margin-left: 397px;
-    right: 0px;
-    padding-right: 53px;
-    padding-left: 46px;
-    top: 0px;
-    bottom: 0px;
-    left: 453.594;
-    padding-top: 0px;
-}
+        
         </style>
     <body>
-	<!-- Top menu -->
-		<jsp:include page="navbar2.jsp" />    	
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar2.jsp" />
+    	
     	
         <div class="top-content">
             <div class="container">
@@ -70,28 +49,32 @@
                     </div>
                 </div>
             </div>
+        </div> 
+        
+        <!-- About Us -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            
+	            <div class="row">
+	                <div class="col-md-12 features section-description wow fadeIn">
+	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
+		                </div>
+		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
+		                		<h2 style="text-align: left;">Nursery</h2>
+		                		<br>
+							    <p style="font-size:17px">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
+							    <br>
+							    <p style="font-size:17px">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
+							    <br>
+							    <p style="font-size:17px">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
+		              	</div>
+	               </div>
+	            </div>
+	        </div>
         </div>
         
-	<div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="" class="img-responsive">
-           <div class="carousel-caption">
-           		<div class="bs-example">
-					<h2>Nursery</h2>
-					<br>
-				    <p style="font-size:17px">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
-				    <br>
-				    <p style="font-size:17px">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
-				    <br>
-				    <p style="font-size:17px">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
-					</div>
-           		</div>
-        	</div>
-    </div>
-	</div>
-	<br>
-	<!--Footer-->
+        <!--Footer-->
         <jsp:include page="footer.jsp" />
         
         <!-- Javascript -->

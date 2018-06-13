@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/OfferingStyle.css">
+		
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -31,35 +32,13 @@
 
     </head>
         <style>
-        	.carousel-inner>.item>img {
-	
-	object-fit: cover;
-	width: 1350px;
-	height: 650px;
-}
-
-
-.carousel-caption {
-    background: #ccccccdb;
-    font-size: 16px;
-    color: #080808;
-    padding-bottom: -1px;
-    text-align: left;
-    text-align: justify;
-    text-shadow: none;
-    margin-left: 397px;
-    right: 0px;
-    padding-right: 53px;
-    padding-left: 46px;
-    top: 0px;
-    bottom: 0px;
-    left: 453.594;
-    padding-top: 0px;
-}
+        
         </style>
     <body>
-	<!-- Top menu -->
-		<jsp:include page="navbar2.jsp" />    	
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar2.jsp" />
+    	
     	
         <div class="top-content">
             <div class="container">
@@ -70,30 +49,34 @@
                     </div>
                 </div>
             </div>
-        </div>
-	
-	<div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="" class="img-responsive">
-           <div class="carousel-caption">
-           		<div class="bs-example">
-					<h2>Landscaping</h2>
-					
-				    <p style="font-size:17px">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
+        </div> 
+        
+        <!-- About Us -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            
+	            <div class="row">
+	                <div class="col-md-12 features section-description wow fadeIn">
+	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
+		                </div>
+		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
+		                		<h2 style="text-align: left;">Landscaping</h2>
+		                		<br>
+		                		<p style="font-size:17px">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
 				    
 				    <p style="font-size:17px">Create the perfect front yard and backyard landscapes with our gardening tips. We'll tell you about beautiful annual, perennial, bulb, and rose flowers, as well as trees, shrubs, and ground covers that put on a year-round gardening show.</p>
 				    
 				    <p style="font-size:17px">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
 				    
 				    <p style="font-size:17px">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
-					</div>
-           		</div>
-        	</div>
-    </div>
-	</div>
-	<br>
-	<!--Footer-->
+		              	</div>
+	               </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!--Footer-->
         <jsp:include page="footer.jsp" />
         
         <!-- Javascript -->

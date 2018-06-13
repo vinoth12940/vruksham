@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/OfferingStyle.css">
+		
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -31,35 +32,13 @@
 
     </head>
         <style>
-        	.carousel-inner>.item>img {
-	
-	object-fit: cover;
-	width: 1350px;
-	height: 650px;
-}
-
-
-.carousel-caption {
-    background: #ccccccdb;
-    font-size: 16px;
-    color: #080808;
-    padding-bottom: -1px;
-    text-align: left;
-    text-align: justify;
-    text-shadow: none;
-    margin-left: 397px;
-    right: 0px;
-    padding-right: 53px;
-    padding-left: 46px;
-    top: 0px;
-    bottom: 0px;
-    left: 453.594;
-    padding-top: 0px;
-}
+        
         </style>
     <body>
-	<!-- Top menu -->
-		<jsp:include page="navbar2.jsp" />    	
+		
+		<!-- Top menu -->
+		<jsp:include page="navbar2.jsp" />
+    	
     	
         <div class="top-content">
             <div class="container">
@@ -72,27 +51,29 @@
             </div>
         </div> 
         
-	<div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="" class="img-responsive">
-           <div class="carousel-caption">
-           		<div class="bs-example">
-					<h2>Organic Farming</h2>
-					<br>
-				    <p style="font-size:17px">Organic farming is not new in India and is being followed from ancient times. It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (bio-fertilizers) to release nutrients to crops for increased sustainable production in an eco friendly pollution free environment.</p>
-				    <br>
-				    <p style="font-size:17px">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
-				    <br>
-				    <p style="font-size:17px">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
-					</div>
-           		</div>
-        	</div>
-    </div>
-	</div>
-	<br>
-	
-
+        <!-- About Us -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            
+	            <div class="row">
+	                <div class="col-md-12 features section-description wow fadeIn">
+	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
+		                </div>
+		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
+		                		<h2 style="text-align: left;">Organic Farming</h2>
+		                		<br>
+				    			<p style="font-size:17px">Organic farming is not new in India and is being followed from ancient times. It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (bio-fertilizers) to release nutrients to crops for increased sustainable production in an eco friendly pollution free environment.</p>
+							    <br>
+							    <p style="font-size:17px">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
+							    <br>
+							    <p style="font-size:17px">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
+		              	</div>
+	               </div>
+	            </div>
+	        </div>
+        </div>
+        
         <!--Footer-->
         <jsp:include page="footer.jsp" />
         
