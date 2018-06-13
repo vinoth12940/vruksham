@@ -65,11 +65,11 @@
 		                		<br>
 		                		<p style="font-size:17px">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
 				    
-				    <p style="font-size:17px">Create the perfect front yard and backyard landscapes with our gardening tips. We'll tell you about beautiful annual, perennial, bulb, and rose flowers, as well as trees, shrubs, and ground covers that put on a year-round gardening show.</p>
-				    
-				    <p style="font-size:17px">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
-				    
-				    <p style="font-size:17px">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
+							    <p style="font-size:17px">Create the perfect front yard and backyard landscapes with our gardening tips. We'll tell you about beautiful annual, perennial, bulb, and rose flowers, as well as trees, shrubs, and ground covers that put on a year-round gardening show.</p>
+							    
+							    <p style="font-size:17px">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
+							    
+							    <p style="font-size:17px">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
 		              	</div>
 	               </div>
 	            </div>
