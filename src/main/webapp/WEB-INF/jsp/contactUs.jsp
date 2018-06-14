@@ -146,8 +146,8 @@
 		<script>
 			function myMap() {
 				var mapProp= {
-				    center:new google.maps.LatLng(12.643213, 80.102161),
-				    zoom:15,
+				    center:new google.maps.LatLng(12.649503, 80.102414),
+				    zoom:18,
 				};
 				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 				}
