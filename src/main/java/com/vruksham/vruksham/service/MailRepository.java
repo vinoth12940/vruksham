@@ -64,31 +64,4 @@ public class MailRepository {
 	      return "";
 	}
 
-	
-	/*private JavaMailSender javaMailSender;
-	
-	@Autowired
-	public void NotificationService(JavaMailSender javaMailSender) {
-		this.javaMailSender = javaMailSender;
-	}
-	
-	public void sendNotification(Mail mail) throws MessagingException {
-		
-		
-		
-		StringBuilder message = new StringBuilder();
-		message.append("Hi Viruksham, ");
-		message.append("Contact Person Name: " + mail.getFirstName());
-		message.append("Contact Person Email: " + mail.getMailFrom() +"<br />");
-		message.append("Message: " + mail.getMailContent() +"<br />");
-		
-		SimpleMailMessage simpleMail = new SimpleMailMessage();
-		simpleMail.setTo("info@vruksham.co.in");
-		simpleMail.setFrom("info@vruksham.co.in");
-		simpleMail.setSubject(mail.getMailSubject());
-		simpleMail.setText(message.toString());
-		simpleMail.setText("Hi Vruksham, "
-					+ "This mail is from "+mail.getFirstName()+". Email Id: "+mail.getMailFrom()+" Content: "+mail.getMailContent()+".");
-		javaMailSender.send(simpleMail);
-	}*/
 }
