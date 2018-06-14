@@ -40,18 +40,7 @@ public class pageNavicationController {
 	    mav.addObject("home", new Mail());
 	    return mav;
 	}
-	
-	/**
-	 * Application test method, with GetMapping
-	 *
-	 */
-	@GetMapping("/home1")
-	public ModelAndView homePageModel(@ModelAttribute("mail") Mail mail, BindingResult result, Model model1) {
-	    ModelAndView mav = new ModelAndView("test4");
-	    mav.addObject("test4", new Mail());
-	    return mav;
-	}
-	
+		
 	/**
 	 * 
 	 *This method will redirect to aboutUs page with getMapping.
@@ -70,16 +59,28 @@ public class pageNavicationController {
 		return "produce";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to ricePulses page with getMapping.
+	 */
 	@GetMapping("/ricePulses")
 	public String showRicePulses() {
 		return "ricePulses";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to vegetables page with getMapping.
+	 */
 	@GetMapping("/vegetables")
 	public String showVegetables() {
 		return "vegetables";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to freshHerbs page with getMapping.
+	 */
 	@GetMapping("/freshHerbs")
 	public String showFreshHerbs() {
 		return "freshHerbs";
@@ -94,16 +95,28 @@ public class pageNavicationController {
 		return "offerings";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to organicFarming page with getMapping.
+	 */
 	@GetMapping("/organicFarming")
 	public String showOrganicFarmings() {
 		return "organicFarming";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to nursery page with getMapping.
+	 */
 	@GetMapping("/nursery")
 	public String showNursery() {
 		return "nursery";
 	}
 	
+	/**
+	 * 
+	 *This method will redirect to landscaping page with getMapping.
+	 */
 	@GetMapping("/landscaping")
 	public String showLandscaping() {
 		return "landscaping";
@@ -138,7 +151,7 @@ public class pageNavicationController {
 	        model.put("mobileNo", mail.getMobileNo());
 	        model.put("mailContent", mail.getMailContent());
 	        model.put("location", "Chennai");
-	        model.put("signature", "www.vrukasham.com");
+	        model.put("signature", "www.vruksham.com");
 	        mail.setModel(model);
 	        
 	        mailRepository.sendEmail(mail);

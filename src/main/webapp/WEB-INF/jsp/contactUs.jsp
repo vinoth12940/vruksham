@@ -12,7 +12,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vruksham Farm House</title>
+        <title>Vruksham Horticulture & Organic Farms</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
