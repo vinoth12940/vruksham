@@ -60,7 +60,7 @@
         
 		<div class="row">
 			<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px; margin-left: 110px; margin-right: 110px; min-height: 420px;">	
+					style="padding-left: 20px; padding-right: 20px; margin-left: 80px; margin-right: 80px; min-height: 420px;">	
 				<div class="col-md-8">
 					
 					<form:form
@@ -100,7 +100,7 @@
 								<div class="form-group">
 									<label for="mailContent"> Message</label>
 									<form:textarea path="mailContent" name="mailContent"
-										id="mailContent" class="form-control" rows="12" cols="25"
+										id="mailContent" class="form-control" rows="15" cols="25"
 										required="required" placeholder="Message"></form:textarea>
 								</div>
 							</div>
