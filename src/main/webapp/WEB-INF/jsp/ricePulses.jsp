@@ -56,7 +56,7 @@
 	            <div class="row">
 	                <div class="col-md-12 features section-description wow fadeIn">
 	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
-	                		<img src="${pageContext.request.contextPath}/resources/img/img1.jpg" alt="..." class="imgDetail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="imgDetail">
 		                </div>
 		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
 		                    <h2 style="text-align: left;">Rice & Pulses</h2>
