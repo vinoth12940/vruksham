@@ -143,17 +143,16 @@
 	<div id="offerings" class="container">
 		<div id="googleMap" style="width:100%;height:400px;"></div>
 	</div>
-	<script>
-	
-	function myMap() {
-		var mapProp= {
-		    center:new google.maps.LatLng(51.5, -0.2),
-		    zoom:10,
-		};
-		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-		}
+		<script>
+			function myMap() {
+				var mapProp= {
+				    center:new google.maps.LatLng(12.643213, 80.102161),
+				    zoom:15,
+				};
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				}
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=**&callback=myMap"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
 		<br>
 		<!--Footer-->
         <jsp:include page="footer.jsp" />
@@ -165,17 +164,7 @@
         <script src="${pageContext.request.contextPath}/resources/js/wow.min.js"></script>
         <script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
         <script src="${pageContext.request.contextPath}/resources/js/scripts.js"></script>
-        <script>
-	
-			function myMap() {
-				var mapProp= {
-				    center:new google.maps.LatLng(51.508742,-0.120850),
-				    zoom:5,
-				};
-				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-				}
-			</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
+        
         
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
