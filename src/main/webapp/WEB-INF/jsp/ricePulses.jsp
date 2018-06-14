@@ -61,8 +61,8 @@
 		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
 		                    <h2 style="text-align: left;">Rice & Pulses</h2>
 						    <p style="font-size:22px">From our fields to you plates !</p>
-						    <p>We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-						    <p>We have the following organic rice and pulses in stock now:</p>
+						    <p style="text-align: justify;">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
+						    <p style="text-align: justify;">We have the following organic rice and pulses in stock now:</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Raw Rice</li>
@@ -73,7 +73,7 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Split Gram (Thuvaram Paruppu)</li>
 						            </ul>
 						   		 </ul>
-						   	<p>For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	
+						   	<p style="text-align: justify;">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	
 	                	</div>
 	               </div>
 	            </div>

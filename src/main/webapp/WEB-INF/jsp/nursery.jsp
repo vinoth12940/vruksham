@@ -63,11 +63,11 @@
 		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
 		                		<h2 style="text-align: left;">Nursery</h2>
 		                		<br>
-							    <p style="font-size:17px;text-align: left">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
+							    <p style="font-size:17px;text-align: left;text-align: justify;">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
+							    
+							    <p style="font-size:17px;text-align: left;text-align: justify;">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
+							    
+							    <p style="font-size:17px;text-align: left;text-align: justify;">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
 		              	</div>
 	               </div>
 	            </div>
