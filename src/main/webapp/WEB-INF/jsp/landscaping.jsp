@@ -32,7 +32,41 @@
 
     </head>
         <style>
-        
+        	body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+}
+
+.section-description p {
+	margin-top: 0px;
+	padding: 0 0px;
+	text-align: justify;
+	text-align: left;
+}
+
+.imgDetail {
+	object-fit: cover;
+	width: 100%;
+	height: 680px;
+	padding-right: 0px;
+}
+
+.imgcontent {
+	background: #f2f2f2d9;
+	height: 680px;
+	padding-left: 45px;
+}
+
+li {
+	text-align: left;
+}
+
+.top-content {
+	padding: 20px 0 0px 0;
+}
         </style>
     <body>
 		
