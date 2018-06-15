@@ -14,8 +14,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/prodOfferStyle.css">
-		
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -32,37 +31,75 @@
 
     </head>
         <style>
-        
+        	body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.section-description p {
+	margin-top: 0px;
+	padding: 0 0px;
+	text-align: justify;
+	text-align: left;
+}
         </style>
     <body>
 		
 		<!-- Top menu -->
-		<jsp:include page="navbar2.jsp" />
+		<jsp:include page="navbar.jsp" />
     	
     	
         <div class="top-content">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        </div>
                     </div>
                 </div>
             </div>
         </div> 
         
-        <!-- Rice & Pulses -->
+        <!-- About Us -->
         <div class="features-container section-container">
 	        <div class="container">
-	            
+	        	<!-- <div class="row">
+	        		<div class="col-sm-12 features section-description wow fadeIn">
+	        			<h2>What do we do?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	        		</div>
+	        	</div> -->
 	            <div class="row">
-	                <div class="col-md-12 features section-description wow fadeIn">
-	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
-	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="imgDetail">
-		                </div>
-		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
-		                    <h2 style="text-align: left;">Rice & Pulses</h2>
-						    <p style="font-size:22px">From our fields to you plates !</p>
-						    <p style="text-align: justify;">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-						    <p style="text-align: justify;">We have the following organic rice and pulses in stock now:</p>
+	            	
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    
+	       				<!-- Organic Farming -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+		                	
+	                    </div><!-- organic farming end -->
+	                    
+	                    <!-- Nursery -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+	                    </div><!-- Nursery -->
+	                   </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <h2 style="text-align: left;">Rice & Pulses</h2>
+						    <p style="font-size:22px;text-align: left">From our fields to you plates !</p>
+						    <p style="text-align: justify">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
+						    <p style="text-align: justify">We have the following organic rice and pulses in stock now:</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Raw Rice</li>
@@ -73,9 +110,8 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Split Gram (Thuvaram Paruppu)</li>
 						            </ul>
 						   		 </ul>
-						   	<p style="text-align: justify;">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	
-	                	</div>
-	               </div>
+						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
+	                </div>
 	            </div>
 	        </div>
         </div>
