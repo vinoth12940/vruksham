@@ -68,10 +68,10 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 	                    </div><!-- organic farming end -->
 	                    
@@ -79,10 +79,10 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>

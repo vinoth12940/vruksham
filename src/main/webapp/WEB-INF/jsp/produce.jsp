@@ -58,7 +58,7 @@
 	            <div class="row">
 	                <div class="col-md-12 features section-description wow fadeIn">
 	                    <div class="col-md-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="">
+	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-md-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Rice & Pulses</h2>
@@ -71,7 +71,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..." class="">
+	                		<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Vegetables</h2>
@@ -84,7 +84,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/herps1.jpg" alt="..." class="">
+	                		<img src="${pageContext.request.contextPath}/resources/img/herps1.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Fresh Herbs</h2>

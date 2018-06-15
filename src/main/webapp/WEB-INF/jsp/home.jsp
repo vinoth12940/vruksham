@@ -118,9 +118,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Organic Farming</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/organicFarming"
 								class="btn btn-success" role="button">Learn More</a>
@@ -131,9 +131,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Nursery</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/nursery"
 								class="btn btn-success" role="button">Learn More</a>
@@ -144,9 +144,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Landscaping</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/landscaping"
 								class="btn btn-success" role="button">Learn More</a>
@@ -162,9 +162,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Rice & Pulses</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/ricePulses"
 								class="btn btn-success" role="button">Learn More</a>
@@ -175,9 +175,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Vegetables</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/vegetables"
 								class="btn btn-success" role="button">Learn More</a>
@@ -188,9 +188,9 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Fresh Herbs</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
 								class="btn btn-success" role="button">Learn More</a>

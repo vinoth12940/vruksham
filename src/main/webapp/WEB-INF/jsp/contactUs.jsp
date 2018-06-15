@@ -60,7 +60,7 @@
         
 		<div class="row">
 			<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px; margin-left: 80px; margin-right: 80px; min-height: 420px;">	
+					style="padding-left: 20px; padding-right: 20px; margin-left: 160px; margin-right: 160px; min-height: 460px;">	
 				<div class="col-md-8">
 					
 					<form:form
@@ -144,13 +144,25 @@
 		<div id="googleMap" style="width:100%;height:400px;"></div>
 	</div>
 		<script>
-			function myMap() {
-				var mapProp= {
-				    center:new google.maps.LatLng(12.649503, 80.102414),
-				    zoom:18,
-				};
-				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-				}
+		function myMap() {
+				
+			var myLatlng = new google.maps.LatLng(12.649503, 80.102414);
+			var mapProp= {
+			    center:myLatlng,
+			    zoom:14,
+			};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			
+			var marker = new google.maps.Marker({
+			    position: myLatlng,
+			    title:"Vruksham Horticulture & Organic Farms"
+			});
+			
+			// To add the marker to the map, call setMap();
+			marker.setMap(map);
+			}
+					
+			
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV2iNk3RzFOHjMJMWgeM1zYlX_qAot1UU&callback=myMap"></script>
 		<br>
