@@ -14,8 +14,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/prodOfferStyle.css">
-		
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -32,7 +31,20 @@
 
     </head>
         <style>
-        
+        	body {
+				font-family: 'Roboto', sans-serif;
+				font-size: 16px;
+				font-weight: 300;
+				color: #888;
+				line-height: 30px;
+				text-align: justify;
+			}
+			
+			.section-description p {
+				margin-top: 0px;
+				padding: 0 0px;
+				text-align: justify;
+			}
         </style>
     <body>
 		
@@ -54,34 +66,55 @@
         <!-- About Us -->
         <div class="features-container section-container">
 	        <div class="container">
-	            
+	        	<!-- <div class="row">
+	        		<div class="col-sm-12 features section-description wow fadeIn">
+	        			<h2>What do we do?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	        		</div>
+	        	</div> -->
 	            <div class="row">
-	                <div class="col-md-12 features section-description wow fadeIn">
-	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
-	                		<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..." class="imgDetail">
-		                </div>
-		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
-		                    <h2 style="text-align: left;text-align: justify;">Fresh Vegetables</h2>
-						    <p style="font-size:22px;text-align: justify;">From our farm to your kitchen !</p>
-						    <p style="text-align: justify;">At Vruksham we produce the freshest of vegetables on a daily basis right from your day to day veggies to seasonal vegetables. We take pride in what we grow as we do it the natural way. Some of the vegetables we produce are as follows:</p>
+	            	
+	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
+	                    
+	       				<!-- Organic Farming -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+		                	
+	                    </div><!-- organic farming end -->
+	                    
+	                    <!-- Nursery -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+	                    </div><!-- Nursery -->
+	                   </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <h2 style="text-align: left;">Fresh Vegetables</h2>
+						    <p style="font-size:22px;text-align: left">From our farm to your kitchen !</p>
+						    <p style="text-align: justify">At Vruksham we produce the freshest of vegetables on a daily basis right from your day to day veggies to seasonal vegetables. We take pride in what we grow as we do it the natural way. Some of the vegetables we produce are as follows:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px">Tomato</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Onion</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Eggplant</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Spinach (All types)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Pumpkin</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Broad Beans (Avarakai)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Cowpea (Karamani)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Green Beans</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Spring Onion</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Green / Red Chillies</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Cabbage</li>
-						                <li style="font-family: Rokkitt;font-size: 17px">Cauliflower and much more..</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Tomato</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Onion</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Eggplant</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Spinach (All types)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pumpkin</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Broad Beans (Avarakai)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Cowpea (Karamani)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Green Beans</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Spring Onion</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Green / Red Chillies</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Cabbage</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Cauliflower and much more..</li>
 						            </ul>
 						   		 </ul>
-	                	</div>
-	               </div>
+	                </div>
 	            </div>
 	        </div>
         </div>

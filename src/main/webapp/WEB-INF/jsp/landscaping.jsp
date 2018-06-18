@@ -14,8 +14,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/OfferingStyle.css">
-		
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -33,40 +32,19 @@
     </head>
         <style>
         	body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	color: #888;
-	line-height: 30px;
-}
-
-.section-description p {
-	margin-top: 0px;
-	padding: 0 0px;
-	text-align: justify;
-	text-align: left;
-}
-
-.imgDetail {
-	object-fit: cover;
-	width: 100%;
-	height: 680px;
-	padding-right: 0px;
-}
-
-.imgcontent {
-	background: #f2f2f2d9;
-	height: 680px;
-	padding-left: 45px;
-}
-
-li {
-	text-align: left;
-}
-
-.top-content {
-	padding: 20px 0 0px 0;
-}
+				font-family: 'Roboto', sans-serif;
+				font-size: 16px;
+				font-weight: 300;
+				color: #888;
+				line-height: 30px;
+				text-align: justify;
+			}
+			
+			.section-description p {
+				margin-top: 0px;
+				padding: 0 0px;
+				text-align: justify;
+			}
         </style>
     <body>
 		
@@ -88,14 +66,36 @@ li {
         <!-- About Us -->
         <div class="features-container section-container">
 	        <div class="container">
-	            
+	        	<!-- <div class="row">
+	        		<div class="col-sm-12 features section-description wow fadeIn">
+	        			<h2>What do we do?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	        		</div>
+	        	</div> -->
 	            <div class="row">
-	                <div class="col-md-12 features section-description wow fadeIn">
-	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
-	                		<img src="${pageContext.request.contextPath}/resources/img/img3.jpg" alt="..." class="imgDetail">
-		                </div>
-		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
-		                		<h2 style="text-align: left;">Landscaping</h2>
+	            	
+	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
+	                    
+	       				<!-- Organic Farming -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+		                	
+	                    </div><!-- organic farming end -->
+	                    
+	                    <!-- Nursery -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+	                    </div><!-- Nursery -->
+	                   </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                			<h2 style="text-align: left;">Landscaping</h2>
 		                		<br>
 		                		<p style="font-size:17px; text-align: left;text-align: justify;">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
 				    
@@ -104,8 +104,8 @@ li {
 							    <p style="font-size:17px; text-align: left;text-align: justify;">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
 							    
 							    <p style="font-size:17px; text-align: left;text-align: justify;">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
-		              	</div>
-	               </div>
+	                	
+	                </div>
 	            </div>
 	        </div>
         </div>

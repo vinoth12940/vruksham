@@ -93,8 +93,8 @@
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">The people who are involved in Vruksham have diverse backgrounds from Agriculture, IT & Sales. We came together in early 2017 when this opportunity came to us and we never looked back since then.</p>
 	       				<h2 style="text-align: left; font-size: 26px; font-weight: bold;">Team Members</h2>
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Rajamani.V - Organic Farmer, Architect - Landscaping Consultant</p>
-	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Srinivasan Rajagopal - Finance & Operations Head</p>
-	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Kishore Sivakumar - Technology Lead</p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Srinivasan Rajagopal</p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Kishore Sivakumar</p>
 	                </div>
 	            </div>
 	        </div>

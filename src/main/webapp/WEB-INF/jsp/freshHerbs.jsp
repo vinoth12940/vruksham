@@ -14,8 +14,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/font-awesome.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/animate.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
-		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/prodOfferStyle.css">
-		
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -32,7 +31,20 @@
 
     </head>
         <style>
-        
+        	body {
+				font-family: 'Roboto', sans-serif;
+				font-size: 16px;
+				font-weight: 300;
+				color: #888;
+				line-height: 30px;
+				text-align: justify;
+			}
+			
+			.section-description p {
+				margin-top: 0px;
+				padding: 0 0px;
+				text-align: justify;
+			}
         </style>
     <body>
 		
@@ -54,32 +66,51 @@
         <!-- About Us -->
         <div class="features-container section-container">
 	        <div class="container">
-	            
+	        	<!-- <div class="row">
+	        		<div class="col-sm-12 features section-description wow fadeIn">
+	        			<h2>What do we do?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	        		</div>
+	        	</div> -->
 	            <div class="row">
-	                <div class="col-md-12 features section-description wow fadeIn">
-	                    <div class="col-md-6 features section-description wow fadeIn" style="padding-right: 0px;padding-left: 0px;">
-	                		<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="imgDetail">
-		                </div>
-		                <div class="col-md-6 imgcontent features section-description wow fadeIn">
-		                    <h2 style="text-align: left;">Fresh Herbs</h2>
-						    <p style="font-size:22px">Add flavor to your dishes !</p>
-						    <p style="text-align: justify;">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
+	            	
+	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
+	                    
+	       				<!-- Organic Farming -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+		                	
+	                    </div><!-- organic farming end -->
+	                    
+	                    <!-- Nursery -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+		                	</div>
+	                    </div><!-- Nursery -->
+	                   </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <h2 style="text-align: left;">Fresh Herbs</h2>
+						    <p style="font-size:22px;text-align: left">Add flavor to your dishes !</p>
+						    <p style="text-align: justify">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-				                <li style="font-family: Rokkitt;font-size: 17px">Rosemary</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Coriander/Parsley</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Curry Leaves</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Mint</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Basil</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Dill</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Chives</li>
-				                <li style="font-family: Rokkitt;font-size: 17px">Thyme and much more...</li>
-				            </ul>
-
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Rosemary</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Coriander/Parsley</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li>
+						            </ul>
 						   		 </ul>
-						   	<p style="text-align: justify;">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	 	 
-	                	</div>
-	               </div>
+	                </div>
 	            </div>
 	        </div>
         </div>

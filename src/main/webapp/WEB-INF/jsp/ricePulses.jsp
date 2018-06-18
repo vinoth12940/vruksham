@@ -32,25 +32,24 @@
     </head>
         <style>
         	body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	color: #888;
-	line-height: 30px;
-	text-align: justify;
-}
-
-.section-description p {
-	margin-top: 0px;
-	padding: 0 0px;
-	text-align: justify;
-	text-align: left;
-}
+				font-family: 'Roboto', sans-serif;
+				font-size: 16px;
+				font-weight: 300;
+				color: #888;
+				line-height: 30px;
+				text-align: justify;
+			}
+			
+			.section-description p {
+				margin-top: 0px;
+				padding: 0 0px;
+				text-align: justify;
+			}
         </style>
     <body>
 		
 		<!-- Top menu -->
-		<jsp:include page="navbar.jsp" />
+		<jsp:include page="navbar2.jsp" />
     	
     	
         <div class="top-content">
@@ -75,7 +74,7 @@
 	        	</div> -->
 	            <div class="row">
 	            	
-	                <div class="col-sm-6 features section-description wow fadeIn">
+	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
 	                    
 	       				<!-- Organic Farming -->
 	       					             
@@ -97,7 +96,7 @@
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Rice & Pulses</h2>
-						    <p style="font-size:22px;text-align: left">From our fields to you plates !</p>
+						    <p style="font-size:22px;text-align: left">From our fields to your plates !</p>
 						    <p style="text-align: justify">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
 						    <p style="text-align: justify">We have the following organic rice and pulses in stock now:</p>
 						    <ul class="list-unstyled">
