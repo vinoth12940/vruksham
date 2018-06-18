@@ -60,7 +60,7 @@
         
 		<div class="row">
 			<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px; margin-left: 160px; margin-right: 160px; min-height: 460px;">	
+					style="padding-left: 20px; padding-right: 20px; margin-left: 70px; margin-right: 70px; min-height: 460px;">	
 				<div class="col-md-8">
 					
 					<form:form
