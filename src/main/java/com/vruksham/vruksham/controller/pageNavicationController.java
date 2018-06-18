@@ -24,7 +24,7 @@ import com.vruksham.vruksham.service.MailRepository;
  *
  */
 @Controller
-@RequestMapping("/welcome")
+@RequestMapping("/")
 public class pageNavicationController {
 	
 	@Autowired
@@ -34,7 +34,7 @@ public class pageNavicationController {
 	 * Application landing page method, with GetMapping
 	 *
 	 */
-	@GetMapping("/home")
+	@GetMapping("/")
 	public ModelAndView showHomePage(@ModelAttribute("mail") Mail mail, BindingResult result, Model model1) {
 	    ModelAndView mav = new ModelAndView("home");
 	    mav.addObject("home", new Mail());
@@ -45,7 +45,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to aboutUs page with getMapping.
 	 */
-	@GetMapping("/aboutUs")
+	@GetMapping("welcome/aboutUs")
 	public String showAboutUs() {
 		return "aboutUs";
 	}
@@ -54,7 +54,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to produce page with getMapping.
 	 */
-	@GetMapping("/produce")
+	@GetMapping("welcome/produce")
 	public String showProduce() {
 		return "produce";
 	}
@@ -63,7 +63,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to ricePulses page with getMapping.
 	 */
-	@GetMapping("/ricePulses")
+	@GetMapping("welcome/ricePulses")
 	public String showRicePulses() {
 		return "ricePulses";
 	}
@@ -72,7 +72,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to vegetables page with getMapping.
 	 */
-	@GetMapping("/vegetables")
+	@GetMapping("welcome/vegetables")
 	public String showVegetables() {
 		return "vegetables";
 	}
@@ -81,7 +81,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to freshHerbs page with getMapping.
 	 */
-	@GetMapping("/freshHerbs")
+	@GetMapping("welcome/freshHerbs")
 	public String showFreshHerbs() {
 		return "freshHerbs";
 	}
@@ -90,7 +90,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to offerings page with getMapping.
 	 */
-	@GetMapping("/offerings")
+	@GetMapping("welcome/offerings")
 	public String showOfferings() {
 		return "offerings";
 	}
@@ -99,7 +99,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to organicFarming page with getMapping.
 	 */
-	@GetMapping("/organicFarming")
+	@GetMapping("welcome/organicFarming")
 	public String showOrganicFarmings() {
 		return "organicFarming";
 	}
@@ -108,7 +108,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to nursery page with getMapping.
 	 */
-	@GetMapping("/nursery")
+	@GetMapping("welcome/nursery")
 	public String showNursery() {
 		return "nursery";
 	}
@@ -117,7 +117,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to landscaping page with getMapping.
 	 */
-	@GetMapping("/landscaping")
+	@GetMapping("welcome/landscaping")
 	public String showLandscaping() {
 		return "landscaping";
 	}
@@ -126,7 +126,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to contactUs page with getMapping, and model and view will be return 
 	 */
-	@GetMapping("/contactUs")
+	@GetMapping("welcome/contactUs")
 	public ModelAndView contactUs(@ModelAttribute("mail") Mail mail, BindingResult result, Model model1) {
 	    ModelAndView mav = new ModelAndView("contactUs");
 	    mav.addObject("contactUs", new Mail());
@@ -137,7 +137,7 @@ public class pageNavicationController {
 	 * 
 	 *This method will redirect to home page if mail send successfully. 
 	 */
-	@PostMapping("/mailSuccess")
+	@PostMapping("welcome/mailSuccess")
 	public ModelAndView mailSuccess(@ModelAttribute("mail") Mail mail, BindingResult result) {
 		
 		 
