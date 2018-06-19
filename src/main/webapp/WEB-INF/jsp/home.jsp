@@ -162,7 +162,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/_MG_0117.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Rice & Pulses</h3>
