@@ -59,8 +59,10 @@
         </div> 
         
 		<div class="row">
+		<div class="container">
+			
 			<div class="well well-sm"
-					style="padding-left: 20px; padding-right: 20px; margin-left: 70px; margin-right: 70px; min-height: 460px;">	
+					style="padding-left:15px; padding-right:15px;min-height: 440px;">	
 				<div class="col-md-8">
 					
 					<form:form
@@ -136,7 +138,7 @@
 				
 			</div>
 					</div>
-	
+	</div>
 	<h2 style="text-align: center;">Locate Us</h2>
 	<hr width="50%">
 	<br>

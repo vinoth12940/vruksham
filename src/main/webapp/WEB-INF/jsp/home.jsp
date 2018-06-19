@@ -118,7 +118,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/organic_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Organic Farming</h3>
@@ -131,7 +131,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/nursery_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Nursery</h3>
@@ -144,7 +144,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Landscaping</h3>
@@ -162,7 +162,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/_MG_0117.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Rice & Pulses</h3>
@@ -175,7 +175,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Vegetables</h3>
@@ -188,7 +188,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Fresh Herbs</h3>

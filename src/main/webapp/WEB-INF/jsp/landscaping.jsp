@@ -40,6 +40,9 @@
 				text-align: justify;
 			}
 			
+			.section-description {
+    			margin-top: 0px;
+			}
 			.section-description p {
 				margin-top: 0px;
 				padding: 0 0px;
