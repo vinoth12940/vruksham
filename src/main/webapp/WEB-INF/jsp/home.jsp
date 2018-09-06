@@ -146,7 +146,7 @@
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Millet</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/nursery"
+		                    	<a href="${pageContext.request.contextPath}/welcome/millet"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Millet -->
@@ -159,7 +159,7 @@
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Oil</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/landscaping"
+		                    	<a href="${pageContext.request.contextPath}/welcome/oil"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Oil -->
@@ -177,7 +177,7 @@
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Rice</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/ricePulses"
+		                    	<a href="${pageContext.request.contextPath}/welcome/rice"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Rice -->
@@ -203,7 +203,7 @@
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
 		                		<h3>Pulses</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
+		                    	<a href="${pageContext.request.contextPath}/welcome/pulses"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Pulses -->
