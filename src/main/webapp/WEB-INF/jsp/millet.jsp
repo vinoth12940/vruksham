@@ -109,7 +109,7 @@
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                   <h2 style="text-align: left;">Nursery</h2>
+	                   <h2 style="text-align: left;">Millet</h2>
 		                		<br>
 							    <p style="font-size:17px;text-align: left;text-align: justify;">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
 							    <br>

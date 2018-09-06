@@ -61,11 +61,11 @@ public class pageNavicationController {
 	
 	/**
 	 * 
-	 *This method will redirect to ricePulses page with getMapping.
+	 *This method will redirect to rice page with getMapping.
 	 */
-	@GetMapping("welcome/ricePulses")
+	@GetMapping("welcome/rice")
 	public String showRicePulses() {
-		return "ricePulses";
+		return "rice";
 	}
 	
 	/**
@@ -79,11 +79,11 @@ public class pageNavicationController {
 	
 	/**
 	 * 
-	 *This method will redirect to freshHerbs page with getMapping.
+	 *This method will redirect to Pulses page with getMapping.
 	 */
-	@GetMapping("welcome/freshHerbs")
+	@GetMapping("welcome/pulses")
 	public String showFreshHerbs() {
-		return "freshHerbs";
+		return "pulses";
 	}
 	
 	/**
@@ -106,20 +106,20 @@ public class pageNavicationController {
 	
 	/**
 	 * 
-	 *This method will redirect to nursery page with getMapping.
+	 *This method will redirect to millet page with getMapping.
 	 */
-	@GetMapping("welcome/nursery")
+	@GetMapping("welcome/millet")
 	public String showNursery() {
-		return "nursery";
+		return "millet";
 	}
 	
 	/**
 	 * 
-	 *This method will redirect to landscaping page with getMapping.
+	 *This method will redirect to Oil page with getMapping.
 	 */
-	@GetMapping("welcome/landscaping")
+	@GetMapping("welcome/oil")
 	public String showLandscaping() {
-		return "landscaping";
+		return "oil";
 	}
 		
 	/**

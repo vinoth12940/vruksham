@@ -53,7 +53,6 @@
 			.section-description {
     			margin-top: 0px;
 			}
-			
 			.section-description p {
 				margin-top: 0px;
 				padding: 0 0px;
@@ -109,21 +108,21 @@
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                    <h2 style="text-align: left;">Rice & Pulses</h2>
-						    <p style="font-size:22px;text-align: left">From our fields to your plates !</p>
-						    <p style="text-align: justify">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-						    <p style="text-align: justify">We have the following organic rice and pulses in stock now:</p>
+	                    <h2 style="text-align: left;">Pulses</h2>
+						    <p style="font-size:22px;text-align: left">Add flavor to your dishes !</p>
+						    <p style="text-align: justify">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Raw Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Par Boiled Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Millets</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Green Gram (Pasi Payuru)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Black Gram (Ulutham Paruppu)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Split Gram (Thuvaram Paruppu)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Rosemary</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Coriander/Parsley</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li>
 						            </ul>
 						   		 </ul>
-						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
 	                </div>
 	            </div>
 	        </div>

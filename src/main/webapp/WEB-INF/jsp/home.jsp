@@ -138,49 +138,49 @@
 		                	</div>
 	                    </div><!-- organic farming end -->
 	                    
-	                    <!-- Nursery -->
+	                    <!-- Millet -->
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/nursery_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Nursery</h3>
+		                		<h3>Millet</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/nursery"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
-	                    </div><!-- Nursery -->
+	                    </div><!-- Millet -->
 	                    
-	                    <!-- Landscaping -->
+	                    <!-- Oil -->
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Landscaping</h3>
+		                		<h3>Oil</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/landscaping"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
-	                    </div><!-- Landscaping -->
+	                    </div><!-- Oil -->
 	                </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2>What we Produce?</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	       				
-	       				<!-- Rice & Pulses -->
+	       				<!-- Rice -->
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Rice & Pulses</h3>
+		                		<h3>Rice</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/ricePulses"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
-	                    </div><!-- Rice & Pulses -->
+	                    </div><!-- Rice -->
 	                    
 	                    <!-- Vegetables -->
 	       					             
@@ -195,18 +195,18 @@
 		                	</div>
 	                    </div><!-- Vegetables -->
 	                    
-	                    <!-- Fresh Herbs -->
+	                    <!-- Pulses -->
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Fresh Herbs</h3>
+		                		<h3>Pulses</h3>
 		                    	<a href="${pageContext.request.contextPath}/welcome/freshHerbs"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
-	                    </div><!-- Fresh Herbs -->
+	                    </div><!-- Pulses -->
 	                </div>
 	            </div>
 	        </div>
