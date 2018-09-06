@@ -115,12 +115,10 @@
 						    <p style="text-align: justify">We have the following organic rice and pulses in stock now:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Raw Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Par Boiled Rice</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Millets</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Green Gram (Pasi Payuru)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Whole Black Gram (Ulutham Paruppu)</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Split Gram (Thuvaram Paruppu)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  raw rice - Broken</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme Boiled rice - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  Boiled rice -Broken</li>
 						            </ul>
 						   		 </ul>
 						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>

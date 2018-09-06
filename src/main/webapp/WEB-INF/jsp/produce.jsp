@@ -71,9 +71,9 @@
 	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-md-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Rice & Pulses</h2>
+		                    <h2 style="text-align: center; font-size: 33px">Rice</h2>
 		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We started our farming journey with rice and pulses and we never looked back since then. The rices and pulses are organically grown with at most care and we provide the nourishment from the age old practices on a periodic basis which gives us more yield per hectare. We cultivate lot of varieties of local rice and all types of pulses. Contact us for more information.</p>
-		       				<a href="${pageContext.request.contextPath}/welcome/ricePulses" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+		       				<a href="${pageContext.request.contextPath}/welcome/rice" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
 	            </div>
@@ -97,9 +97,9 @@
 	                		<img src="${pageContext.request.contextPath}/resources/img/herps1.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Fresh Herbs</h2>
+		                    <h2 style="text-align: center; font-size: 33px">Pulses</h2>
 		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We are proud to offer our customers wholesome and seasonal Fresh Herbs. Take home a readymade basket or customize your own. There are lots to choose from, and our offerings change depending on the time of year so you will always be surprised when you visit us. You should know that everything we sell at our farm is grown responsibly and picked in season, so you can fully enjoy nature's gifts.</p>
-		       				<a href="${pageContext.request.contextPath}/welcome/freshHerbs" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+		       				<a href="${pageContext.request.contextPath}/welcome/pulses" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
 	            </div>

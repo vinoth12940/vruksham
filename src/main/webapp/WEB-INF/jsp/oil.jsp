@@ -108,16 +108,22 @@
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                			<h2 style="text-align: left;">Oil</h2>
-		                		<br>
-		                		<p style="font-size:17px; text-align: left;text-align: justify;">Landscaping can bring practical elements, enhancing spaces and solving problems once you have your plants picked out. We have strategies and ideas for garden landscaping to tackle nearly every size and shape of yard or space. We also have landscape solutions to some of the most common troubling backyard dilemmas.</p>
-				    
-							    <p style="font-size:17px; text-align: left;text-align: justify;">Create the perfect front yard and backyard landscapes with our gardening tips. We'll tell you about beautiful annual, perennial, bulb, and rose flowers, as well as trees, shrubs, and ground covers that put on a year-round gardening show.</p>
-							    
-							    <p style="font-size:17px; text-align: left;text-align: justify;">We do have the support in terms of the plants from our nursery which makes us a complete service provider from the source to the final product. We have the experience in catering to our various clients from manufacturing companies to educational institutions where we have delivered international standard landscapes.</p>
-							    
-							    <p style="font-size:17px; text-align: left;text-align: justify;">Please get in <a href="${pageContext.request.contextPath}/welcome/contactUs">touch</a> with us for a quote.</p>
-	                	
+	                    <h2 style="text-align: left;">Oil</h2>
+						    <p style="font-size:22px;text-align: left">Add flavor to your dishes !</p>
+						    <p style="text-align: justify">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
+						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li> -->
+						            </ul>
+						   		 </ul>
 	                </div>
 	            </div>
 	        </div>

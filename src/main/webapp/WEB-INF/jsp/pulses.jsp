@@ -113,14 +113,14 @@
 						    <p style="text-align: justify">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Rosemary</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Coriander/Parsley</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ulutham parupu Black ( urad dal) - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai parupu ( Green gram )- Whole</li>
+						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li> -->
 						            </ul>
 						   		 </ul>
 	                </div>

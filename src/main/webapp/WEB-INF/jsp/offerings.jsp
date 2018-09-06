@@ -85,9 +85,9 @@
 	                		<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Nursery</h2>
+		                    <h2 style="text-align: center; font-size: 33px">Millet</h2>
 		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">At Vruksham we provide a wide variety of plants which you need for your home, office etc.,. We grow more than 2,000 different varieties of herbs, flowers, tree saplings organically. We cater to many businesses by providing the necessary saplings for their specific need and also help them in the growing process. For more details please drop a message in the contact us section of this website or come and visit the farm for yourself.</p>
-		       				<a href="${pageContext.request.contextPath}/welcome/nursery" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+		       				<a href="${pageContext.request.contextPath}/welcome/millet" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
 	            </div>
@@ -98,9 +98,9 @@
 	                		<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Landscaping</h2>
+		                    <h2 style="text-align: center; font-size: 33px">Oil</h2>
 		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Landscaping has become one of the hot topics these days from terrace gardening to indoor plantations. We have been doing consulting for many clients across a diverse background from IT companies to government departments for more than 15 years. To know more about the process of landscaping please call us or leave a message in the contact us section. We will call you as soon as we see your message.</p>
-		       				<a href="${pageContext.request.contextPath}/welcome/landscaping" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
+		       				<a href="${pageContext.request.contextPath}/welcome/oil" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
 	            </div>

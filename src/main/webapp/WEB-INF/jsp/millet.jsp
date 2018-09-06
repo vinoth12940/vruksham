@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vruksham Horticulture & Organic Farms</title>
-
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124481318-1"></script>
 		<script>
@@ -53,7 +53,6 @@
 			.section-description {
     			margin-top: 0px;
 			}
-			
 			.section-description p {
 				margin-top: 0px;
 				padding: 0 0px;
@@ -109,13 +108,23 @@
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                   <h2 style="text-align: left;">Millet</h2>
-		                		<br>
-							    <p style="font-size:17px;text-align: left;text-align: justify;">Vruksham gives a holistic approach for a nursery. We have many types of plants which are native, exotic and from other countries as well. It includes plants which can be kept indoors and outdoors and we are also well equipped with all kinds of horticulture requirements which include all sorts of plant seeds, soil mix, bio-fertilizers, manure, garden tools and equipments. We provide any type of saplings for an individual to IT parks to educational institutions. We are located just outside the city near Chengelpattu and can deliver the plants to your doorsteps.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left;text-align: justify;">Vruksham also offers consulting on how to grow your plants in your homes or premises and can provide the necessary tools for nurturing for a long term benefit.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left;text-align: justify;">Please <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> for further enquiries for any plant requirements which you need.</p>
+	                    <h2 style="text-align: left;">Millets</h2>
+						    <p style="font-size:22px;text-align: left">Add flavor to your dishes !</p>
+						    <p style="text-align: justify">Herbs has the power of magically transform your one dimensional dish to a multi dimensional one. Adding these herbs not only gets you a restaurant look dish but can give you a great health benefits too. By adding a pinch of rosemary or coriander/parsley to your dish will elevate to a whole new level and we have those readily available for you. Some of the herbs that we grow in our nursery are as follows:</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kuthiravali (Barnyard )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenai ( Fox tail )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Samai (Little )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Varagu ( Kodo)</li>
+						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li> -->
+						            </ul>
+						   		 </ul>
 	                </div>
 	            </div>
 	        </div>
