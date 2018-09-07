@@ -112,7 +112,7 @@
 	                    <h2 style="text-align: left;">Fresh Vegetables</h2>
 						    <p style="font-size:22px;text-align: left">From our farm to your kitchen !</p>
 						    <p style="text-align: justify">At Vruksham we produce the freshest of vegetables on a daily basis right from your day to day veggies to seasonal vegetables. We take pride in what we grow as we do it the natural way. Some of the vegetables we produce are as follows:</p>
-						    <ul class="list-unstyled">
+						    <!-- <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Tomato</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Onion</li>
@@ -127,7 +127,9 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Cabbage</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Cauliflower and much more..</li>
 						            </ul>
-						   		 </ul>
+						   		 </ul> -->
+						   		 
+						   <h2 style="text-align: left;">Coming Soon !!!!!</h2>		 
 	                </div>
 	            </div>
 	        </div>

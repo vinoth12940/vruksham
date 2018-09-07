@@ -120,14 +120,23 @@
         <div class="features-container section-container">
 	        <div class="container">
 	        	
+                <div class="row">
+                    <div class="col-sm-12 text wow fadeInLeft">
+                        <div class="description">
+                        	<h2 style="margin-top: 40px;">What do we produce?</h2>
+                        	<div class="divider-1 wow fadeInUp"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            
 	            <div class="row">
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                    <h2>What we offer?</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <!-- <h2>What we offer?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div> -->
 	       				
 	       				<!-- Organic Farming -->
 	       					             
-	                    <div class="row">
+	                    <%-- <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/organic_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
 		                	</div>
@@ -136,10 +145,23 @@
 		                    	<a href="${pageContext.request.contextPath}/welcome/organicFarming"
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
-	                    </div><!-- organic farming end -->
+	                    </div> --%><!-- organic farming end -->
 	                    
-	                    <!-- Millet -->
+	                    
+	       				<!-- Rice -->
 	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
+		                		<h3>Rice</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/rice"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Rice -->
+	                    
+	                    <!-- Millet -->	             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn">
 	                			<img src="${pageContext.request.contextPath}/resources/img/nursery_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
@@ -150,6 +172,36 @@
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Millet -->
+	                    
+	                    <!-- Vegetables -->
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
+		                		<h3>Vegetables</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/vegetables"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Vegetables -->
+	                </div>
+	                
+	                <div class="col-sm-6 features section-description wow fadeIn">
+	                    <!-- <h2>What we Produce?</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	       				 -->
+	       				<!-- Pulses -->
+	       					             
+	                    <div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
+		                		<h3>Pulses</h3>
+		                    	<a href="${pageContext.request.contextPath}/welcome/pulses"
+								class="btn btn-success" role="button">Learn More</a>
+		                	</div>
+	                    </div><!-- Pulses -->
 	                    
 	                    <!-- Oil -->
 	       					             
@@ -163,52 +215,9 @@
 								class="btn btn-success" role="button">Learn More</a>
 		                	</div>
 	                    </div><!-- Oil -->
-	                </div>
-	                
-	                <div class="col-sm-6 features section-description wow fadeIn">
-	                    <h2>What we Produce?</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	       				
-	       				<!-- Rice -->
-	       					             
-	                    <div class="row">
-	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
-		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Rice</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/rice"
-								class="btn btn-success" role="button">Learn More</a>
-		                	</div>
-	                    </div><!-- Rice -->
 	                    
-	                    <!-- Vegetables -->
-	       					             
-	                    <div class="row">
-	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
-		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Vegetables</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/vegetables"
-								class="btn btn-success" role="button">Learn More</a>
-		                	</div>
-	                    </div><!-- Vegetables -->
-	                    
-	                    <!-- Pulses -->
-	       					             
-	                    <div class="row">
-	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
-		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Pulses</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/pulses"
-								class="btn btn-success" role="button">Learn More</a>
-		                	</div>
-	                    </div><!-- Pulses -->
 	                </div>
-	            </div>
+	            </div>	
 	        </div>
         </div>
         

@@ -101,10 +101,11 @@
 										class="form-control" required="required">
 										<form:option value="na">Select Subject</form:option>
 										<form:option value="Enquire about product">General enquiry</form:option>
-										<form:option value="Enquire about offerings">Irrigation material</form:option>
-										<form:option value="Enquire about offerings">Landscaping</form:option>
-										<form:option value="Enquire about offerings">Nursery</form:option>
-										<form:option value="Enquire about offerings">Service offering</form:option>
+										<form:option value="Enquire about offerings">Rice</form:option>
+										<form:option value="Enquire about offerings">Pulses</form:option>
+										<form:option value="Enquire about offerings">Millets</form:option>
+										<form:option value="Enquire about offerings">Oil</form:option>
+										<form:option value="Enquire about offerings">Vegetables</form:option>
 									</form:select>
 								</div>
 							</div>
