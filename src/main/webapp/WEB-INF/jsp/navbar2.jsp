@@ -14,10 +14,10 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn" style="padding-top: 50px">
-						<li><a href="${pageContext.request.contextPath}/">Home</a></li>
-						<li><a href="${pageContext.request.contextPath}/welcome/aboutUs">About Us</a></li>
+						<li><a href="${pageContext.request.contextPath}/">HOME</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/aboutUs">ABOUT US</a></li>
 						<li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown" style="padding-bottom: 0px">Produce <b class="caret"></b></a>
+					data-toggle="dropdown" style="padding-bottom: 0px">PRODUCE<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="${pageContext.request.contextPath}/welcome/rice">Rice</a></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/pulses">Pulses</a></li>
@@ -25,6 +25,12 @@
 						<li><a href="${pageContext.request.contextPath}/welcome/millet">Millet</a></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/vegetables">Vegetables</a></li>
 					</ul></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"data-toggle="dropdown" style="padding-bottom: 0px">WHY ORGANIC<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="${pageContext.request.contextPath}/welcome/organicFarming">What is organic</a></li>
+							<li><a href="${pageContext.request.contextPath}/welcome/millet">Our farmers</a></li>
+							<li><a href="${pageContext.request.contextPath}/welcome/oil">Our Standards</a></li>
+						</ul></li>
 					
 				<%-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown" style="padding-bottom: 0px">Offerings <b class="caret"></b></a>
@@ -33,7 +39,7 @@
 						<li><a href="${pageContext.request.contextPath}/welcome/millet">Millet</a></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/oil">Oil</a></li>
 					</ul></li> --%>	
-						<li><a href="${pageContext.request.contextPath}/welcome/contactUs">Contact Us</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/contactUs">CONTACT US</a></li>
 					</ul>
                 </div>
 			</div>

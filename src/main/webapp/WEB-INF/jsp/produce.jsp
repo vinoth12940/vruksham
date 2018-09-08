@@ -81,7 +81,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/herps1.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Pulses</h2>
@@ -94,7 +94,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/img4.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/millet.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Millet</h2>
@@ -107,7 +107,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/img8.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/oil1.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Oil</h2>
@@ -120,7 +120,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/vegitables1.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: center; font-size: 33px">Vegetables</h2>

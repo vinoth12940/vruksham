@@ -2,22 +2,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     color: #888;
     line-height: 30px;
     text-align: center;
+    background-color: #c1c1c133;
 }
 
 strong { font-weight: 500; }
 
 
 a, a:hover, a:focus {
-	color: #ca8bdc; text-decoration: none;
+	color: #008000; text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 100; color: #555; line-height: 50px; }
-h3 { font-size: 22px; font-weight: 300; color: #555; line-height: 30px; }
+h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 400; color: #555; line-height: 50px; }
+h3 { font-size: 22px; font-weight: 400; color: #555;  line-height: 30px; }
 
 img { max-width: 100%; }
 
@@ -25,15 +26,15 @@ img { max-width: 100%; }
 
 .colored-text { color: #ca8bdc; }
 
-::-moz-selection { background: #ca8bdc; color: #fff; text-shadow: none; }
-::selection { background: #ca8bdc; color: #fff; text-shadow: none; }
+::-moz-selection { background: #400040; color: #fff; text-shadow: #ffffff; }
+::selection { background: #400040; color: #fff; text-shadow: #ffffff; }
 
 
 /***** General style, all sections *****/
 
 .section-container { margin: 0 auto; padding-bottom: 80px; }
 .section-description { margin-top: 29px; padding-bottom: 10px; }
-.section-description p { margin-top: 0px; padding: 0 120px; }
+.section-description p { margin-top: 0px; padding: 0 120px; font-weight: 400}
 
 
 /***** Divider *****/
@@ -49,15 +50,15 @@ img { max-width: 100%; }
 	border: 0;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
-.navbar.navbar-no-bg { padding: 15px 0; background: white; background: rgba(241, 232, 232, 0); }
+.navbar.navbar-no-bg { padding: 15px 0; background: white; background: rgba(255, 255, 255, 1); }
 
 .navbar-right { margin-right: 0; }
 
 ul.navbar-nav { font-size: 16px; color: #fff; }
 
-.navbar-inverse ul.navbar-nav li a { color: #fff; color: rgba(6, 6, 6, 0.9);padding-bottom: 15px;padding-left: 15px;padding-right: 15px;padding-top: 15px; }
-.navbar-inverse ul.navbar-nav li a:hover { color: black; }
-.navbar-inverse ul.navbar-nav li a:focus { color: black; outline: 0; }
+.navbar-inverse ul.navbar-nav li a { color: #fff; color: rgba(6, 6, 6, 0.9);padding-bottom: 15px;padding-left: 15px;padding-right: 15px;padding-top: 15px; font-weight: 400; }
+.navbar-inverse ul.navbar-nav li a:hover { color: black; font-weight: 400;}
+.navbar-inverse ul.navbar-nav li a:focus { color: black; outline: 0; font-weight: 400;}
 
 .navbar-brand {
 	width: 80px;

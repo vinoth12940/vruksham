@@ -78,10 +78,10 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/landing1.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img5.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/landing2.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 	                    </div><!-- organic farming end -->
 	                    
@@ -89,10 +89,10 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px;margin-top: 0px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/landing3.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px;margin-top: 0px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img9.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/landing4.jpg" alt="..." class="img-thumbnail">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
