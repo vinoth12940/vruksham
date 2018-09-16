@@ -131,27 +131,27 @@
 			</div> --%>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing7.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing12.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing8.jpg"
+					src="${pageContext.request.contextPath}/resources/img/veg3.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing9.jpg"
+					src="${pageContext.request.contextPath}/resources/img/veg2.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing10.jpg"
+					src="${pageContext.request.contextPath}/resources/img/pulses.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing11.jpg"
+					src="${pageContext.request.contextPath}/resources/img/pulses2.jpg"
 					alt="First slide">
 			</div>
 		</div>
