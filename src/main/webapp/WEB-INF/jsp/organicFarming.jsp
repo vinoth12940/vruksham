@@ -77,7 +77,7 @@
             </div>
         </div> 
         
-        <!-- About Us -->
+        <!-- WHAT IS ORGANIC -->
         <div class="features-container section-container">
 	        <div class="container">
 	        	<!-- <div class="row">
@@ -109,13 +109,27 @@
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
-	                    <h2 style="text-align: left;">Organic Farming</h2>
-		                		<br>
-				    			<p style="font-size:17px;text-align: left;text-align: justify;">Organic farming is not new in India and is being followed from ancient times. It is a method of farming system which primarily aimed at cultivating the land and raising crops in such a way, as to keep the soil alive and in good health by use of organic wastes (crop, animal and farm wastes, aquatic wastes) and other biological materials along with beneficial microbes (bio-fertilizers) to release nutrients to crops for increased sustainable production in an eco friendly pollution free environment.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left;text-align: justify;">At Vruksham we follow these age old practices and also incorporate the latest technologies in irrigation and sustainable ways to cultivate our crops without compromising the soil and the produce.</p>
-							    <br>
-							    <p style="font-size:17px;text-align: left;text-align: justify;">Please connect with us for any enquiries <a href="${pageContext.request.contextPath}/welcome/contactUs">here</a></p>
+						    
+						    <h2 style="text-align: left;">WHAT IS ORGANIC</h2>
+						    <p style="text-align: justify">Organic is a method, habit of producing crops the natural way. It is about adopting the age-old traditional methods of faming without harming the environment and giving healthy food. Organic mainly focuses on farmers avoiding the usage of toxic pesticides, fertilizers and food color which will contaminate the soil, water, food, natural habitat and the environment.</p>
+						    <p style="text-align: justify">Farmers adopting organic farming work closely with nature to develop solutions to pests and disease that affects their crops without harming and destroying the environment. Organic farming primarily focuses on crop rotation, adding composite manure, usage of plant waste to soil thus enriching the soil to produce healthy grains, pulses, fruits, vegetables etc.</p>
+						    
+						    <p style="font-size:22px;text-align: left">WHY GO ORGANIC</p>
+						    <p style="text-align: justify">Better quality food, a healthy lifestyle, healthy planet in-turn the future generation lead a healthy life.</p>
+						    	
+						    <p style="font-size:22px;text-align: left">Some key benefits of organic consumption:</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Zero chemical, pesticides, added colours</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Enjoy the actual nutrient of the crop</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Reduce health risk by protecting yourself from harmful chemicals causing cancer.</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Better digestion</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Zero water contamination</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Doing our part to save the environment</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Help small farmers</li>
+						            </ul>
+						   		 </ul>
+						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
 	                </div>
 	            </div>
 	        </div>

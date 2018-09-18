@@ -94,7 +94,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/rice4.jpg" alt="..." class="img-thumbnail" style="height: 300px; max-width: 80%;">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -103,7 +103,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/rice3.jpg" alt="..." class="img-thumbnail" style="height: 300px;max-width: 80%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
@@ -111,8 +111,10 @@
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Rice</h2>
 						    <p style="font-size:22px;text-align: left">From our fields to your plates !</p>
-						    <p style="text-align: justify">We cultivate varieties of rices and pulses in our farm and it is a continuous process throughout the year. We do not use any pesticides or fertilizers. We use the organic farming methods to cultivate and use Panchakavya, Jeevamirutham etc., as the natural nutrients for the crop</p>
-						    <p style="text-align: justify">We have the following organic rice and pulses in stock now:</p>
+						    <p style="text-align: justify">Rice as a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia.</p>
+						    <p style="text-align: justify">Rice is the most important grain with regard to human nutrition and caloric intake, providing more than one-fifth of the calories consumed worldwide by humans.</p>
+						    <p style="text-align: justify">We are Vruksham use the traditional method of producing rice by which we deliver the best of the quality ensuring good health to your family.</p>
+						    <p style="text-align: justify">We have the following organic rice in stock now:</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
