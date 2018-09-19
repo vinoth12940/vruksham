@@ -68,11 +68,18 @@
 	            <div class="row">
 	                <div class="col-md-12 features section-description wow fadeIn">
 	                    <div class="col-md-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail" style="max-width: 75%;">
 		                </div>
 		                <div class="col-md-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Rice</h2>
-		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We started our farming journey with rice and pulses and we never looked back since then. The rices and pulses are organically grown with at most care and we provide the nourishment from the age old practices on a periodic basis which gives us more yield per hectare. We cultivate lot of varieties of local rice and all types of pulses. Contact us for more information.</p>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Rice</h2>
+		       				<ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme raw rice - Broken</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme Boiled rice - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme Boiled rice -Broken</li>
+						            </ul>
+						   		 </ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/rice" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
@@ -81,11 +88,16 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Pulses</h2>
-		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">We are proud to offer our customers wholesome and seasonal Fresh Herbs. Take home a readymade basket or customize your own. There are lots to choose from, and our offerings change depending on the time of year so you will always be surprised when you visit us. You should know that everything we sell at our farm is grown responsibly and picked in season, so you can fully enjoy nature's gifts.</p>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Pulses</h2>
+		       				<ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ulutham parupu Black ( urad dal) - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai parupu ( Green gram )- Whole</li>
+						            </ul>
+						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/pulses" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
@@ -94,11 +106,18 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/millet.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/millet.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Millet</h2>
-		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">At Vruksham we provide a wide variety of plants which you need for your home, office etc.,. We grow more than 2,000 different varieties of herbs, flowers, tree saplings organically. We cater to many businesses by providing the necessary saplings for their specific need and also help them in the growing process. For more details please drop a message in the contact us section of this website or come and visit the farm for yourself.</p>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Millets</h2>
+		       				<ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kuthiravali (Barnyard )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenai ( Fox tail )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Samai (Little )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Varagu ( Kodo)</li>
+						            </ul>
+						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/millet" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
@@ -107,11 +126,17 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/oil1.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/oil1.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Oil</h2>
-		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Landscaping has become one of the hot topics these days from terrace gardening to indoor plantations. We have been doing consulting for many clients across a diverse background from IT companies to government departments for more than 15 years. To know more about the process of landscaping please call us or leave a message in the contact us section. We will call you as soon as we see your message.</p>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Oil</h2>
+		       				<ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
+						            </ul>
+						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/oil" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
@@ -120,11 +145,20 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail">
+	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: center; font-size: 33px">Vegetables</h2>
-		       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Buy our organic vegetables to truly enjoy what nature has to offer! We have started on a small scale to cater the need of few and slowly growing to make it big and reach a wider base. We make huge efforts so that we can guarantee that everything we sell at Vruksham is 100% organic. Due to our efforts, we are able to assure you that all of our produce contains the healthy nutrients that normally get lost when foods are grown using pesticides.</p>
+		                    <h2 style="text-align: left; font-size: 33px">Vegetables</h2>
+		       				<ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Brinjal</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ladies finger (okra)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Bottle gourd (sorekai)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Bitter gourd ( Pavakkai)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ridge gourd (Pirkkankai)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Snake gourd (podalankai)</li>
+						            </ul>
+						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/vegetables" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>

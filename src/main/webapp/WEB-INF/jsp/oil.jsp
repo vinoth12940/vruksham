@@ -93,7 +93,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img2.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/oilNew.jpg" alt="..." class="img-thumbnail" style="height: 300px">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -111,29 +111,17 @@
 	                    <h2 style="text-align: left;">OIL</h2>
 						    
 						    <p style="font-size:22px;text-align: left">GROUNDNUT OIL</p>
-						    <p style="text-align: justify">Groundnuts, more commonly known as peanuts, are a legume that can be processed into an oil. Groundnut oil is made by pressing harvested groundnuts. Like other plant-based oils, groundnut oil contains no cholesterol.</p>
 						    <p style="text-align: justify">Groundnut oil is a natural source of phytochemicals, antioxidants that protect your body from damage from toxins and free radicals</p>
 						    <p style="text-align: justify">The benefits can be summed up such that it is used for body massage, helps in strengthening body, used as an antispasmodic, helps in improving heart health, helps in improving blood flow, helps in improving hair health, provides skin care, helps to prevent stomach problems, used in aromatherapy, helps to get rid of acne and black heads, helps in lowering high blood pressure, helps in maintaining cholesterol level, helps in improving blood flow.</p>
 						    
 						    <p style="font-size:22px;text-align: left">COCONUT OIL</p>
 						    <p style="text-align: justify">To date, there are over 1,500 studies proving coconut oil to be one of the healthiest foods on the planet. Coconut oil benefits and uses go beyond what most people realize, as coconut oil made copra or dried coconut flesh is a true superfood.</p>
-						    <p style="text-align: justify">Research has finally uncovered the secrets to this amazing superfood: namely healthy fats called medium-chain fatty acids (MCFAs). These unique fats include:</p>
-						    	<ul class="list-unstyled">
-						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Caprylic acid</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Lauric acid</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Capric acid</li>
-						                
-						            </ul>
-						   		 </ul>
-						    <p style="text-align: justify">Around 62 percent of the oils in coconut are made up of these three healthy fatty acids, and 91 percent of the fat in coconut oil is healthy saturated fat.</p>
 						    <p style="text-align: justify">Coconut oil , Prevents heart disease and high blood pressure, Treats Kidney infection and protects liver, Reduces inflammation and arthritis, cancer prevention treatment, Boost immunity , Improve memory</p>
 						    
 						    <p style="font-size:22px;text-align: left">GINGELLY OIL</p>
-						    <p style="text-align: justify">Gingelly oil also known as Sesame oil. It is highly nourishing, healing and lubricating. Other than being used as a flavor enhancing cooking oil, it has many beauty benefits too. Sesame oil is popularly used for hair growthand to maintain scalp health.</p>
 						    <p style="text-align: justify">Practitioners of both Western medicine and the Indian system of Ayurveda recognize significant health benefits in gingelly oil.</p>
 						    <p style="text-align: justify">Gingelly oil is rich in zinc, which is one of the most important minerals for your skin.It can increase skin elasticity and smoothness and reduce oxidative stress, thereby helping reduce the appearance of age spots and eliminating skin conditions, including premature aging.</p>
-						    <p style="text-align: justify">Gingelly oil lowers blood pressure, aids in weight loss, lowers cholesterol, removes toxins when used as oil pulling</p>
+						    
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>

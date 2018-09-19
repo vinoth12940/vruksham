@@ -90,11 +90,6 @@
 			<li data-target="#myCarousel" data-slide-to="3"></li>
 			<li data-target="#myCarousel" data-slide-to="5"></li>
 			<li data-target="#myCarousel" data-slide-to="6"></li>
-			<li data-target="#myCarousel" data-slide-to="7"></li>
-			<li data-target="#myCarousel" data-slide-to="8"></li>
-			<li data-target="#myCarousel" data-slide-to="9"></li>
-			<li data-target="#myCarousel" data-slide-to="10"></li>
-			<li data-target="#myCarousel" data-slide-to="11"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
@@ -104,54 +99,29 @@
 					src="${pageContext.request.contextPath}/resources/img/landing1.jpg"
 					alt="First slide">
 			</div>
-			<%-- <div class="item">
+			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing2.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing11.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing3.jpg"
-					alt="First slide">
-			</div>
-			<div class="item">
-				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing4.jpg"
-					alt="First slide">
-			</div>
-			<div class="item">
-				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing5.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing7.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/landing6.jpg"
 					alt="First slide">
-			</div> --%>
+			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing12.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing8.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/veg3.jpg"
-					alt="First slide">
-			</div>
-			<div class="item">
-				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/veg2.jpg"
-					alt="First slide">
-			</div>
-			<div class="item">
-				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/pulses.jpg"
-					alt="First slide">
-			</div>
-			<div class="item">
-				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/pulses2.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing9.jpg"
 					alt="First slide">
 			</div>
 		</div>
@@ -174,7 +144,7 @@
 			<div class="row">
 				<div class="col-sm-12 text wow fadeInLeft">
 					<div class="description">
-						<h2 style="margin-top: 40px;">What do we produce?</h2>
+						<h2 style="margin-top: 40px;">From our form</h2>
 						<div class="divider-1 wow fadeInUp">
 							<span></span>
 						</div>
@@ -184,24 +154,6 @@
 
 			<div class="row">
 				<div class="col-sm-6 features section-description wow fadeIn">
-					<!-- <h2>What we offer?</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div> -->
-
-					<!-- Organic Farming -->
-
-					<%-- <div class="row">
-	                		<div class="col-sm-6 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/organic_org.jpg" alt="..." class="img-thumbnail" style="height: 178.33px;width: 262.5px">
-		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 55px;padding-left: 0px;padding-right: 130px">
-		                		<h3>Organic Farming</h3>
-		                    	<a href="${pageContext.request.contextPath}/welcome/organicFarming"
-								class="btn btn-success" role="button">Learn More</a>
-		                	</div>
-	                    </div> --%>
-					<!-- organic farming end -->
-
-
 					<!-- Rice -->
 
 					<div class="row">
@@ -282,7 +234,7 @@
 					<div class="row">
 						<div class="col-sm-9 features section-description wow fadeIn">
 							<img
-								src="${pageContext.request.contextPath}/resources/img/oil1.jpg"
+								src="${pageContext.request.contextPath}/resources/img/oilNew.jpg"
 								alt="..." class="img-thumbnail"
 								style="height: 240.33px; width: 350.5px">
 						</div>

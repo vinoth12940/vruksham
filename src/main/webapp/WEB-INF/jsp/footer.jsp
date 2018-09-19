@@ -8,10 +8,10 @@
                     <li><a href="#">Youtube</a></li>
                 </ul>
                    <p>
-                   		<span>E-mail:<a
+                   		<span>For order please contact:<a
+					href="${pageContext.request.contextPath}/welcome/contactUs""> +91-9840733122 & +91-9884707547 </a>  E-mail:<a
 					href="${pageContext.request.contextPath}/welcome/contactUs"">
-						 info@vruksham.co.in</a>  For order please contact:<a
-					href="${pageContext.request.contextPath}/welcome/contactUs""> +91-9840733122</a></span>
+						 info@vruksham.co.in</a></span>
                    </p>
                 </div><!--End of container-->
             </div>    

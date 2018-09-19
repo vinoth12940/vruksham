@@ -110,8 +110,8 @@
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 						    
-						    <h2 style="text-align: left;">WHAT IS ORGANIC</h2>
-						    <p style="text-align: justify">Organic is a method, habit of producing crops the natural way. It is about adopting the age-old traditional methods of faming without harming the environment and giving healthy food. Organic mainly focuses on farmers avoiding the usage of toxic pesticides, fertilizers and food color which will contaminate the soil, water, food, natural habitat and the environment.</p>
+						    <h2 style="text-align: left;">WHAT IS ORGANIC FARMING</h2>
+						    <p style="text-align: justify">Organic is a method, habit of producing crops the natural way. It is about adopting the age-old traditional methods of farming without harming the environment and giving healthy food. Organic mainly focuses on farmers avoiding the usage of toxic pesticides, fertilizers and food color which will contaminate the soil, water, food, natural habitat, environment and us.</p>
 						    <p style="text-align: justify">Farmers adopting organic farming work closely with nature to develop solutions to pests and disease that affects their crops without harming and destroying the environment. Organic farming primarily focuses on crop rotation, adding composite manure, usage of plant waste to soil thus enriching the soil to produce healthy grains, pulses, fruits, vegetables etc.</p>
 						    
 						    <p style="font-size:22px;text-align: left">WHY GO ORGANIC</p>
