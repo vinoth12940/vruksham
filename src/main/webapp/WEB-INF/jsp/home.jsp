@@ -144,7 +144,7 @@
 			<div class="row">
 				<div class="col-sm-12 text wow fadeInLeft">
 					<div class="description">
-						<h2 style="margin-top: 40px;">From our form</h2>
+						<h2 style="margin-top: 40px;">From our farm</h2>
 						<div class="divider-1 wow fadeInUp">
 							<span></span>
 						</div>
