@@ -130,7 +130,7 @@
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing6.jpg"
+					src="${pageContext.request.contextPath}/resources/img/Landing6.jpg"
 					alt="First slide">
 			</div>
 		</div>
