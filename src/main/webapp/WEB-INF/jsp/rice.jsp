@@ -94,7 +94,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/rice4.jpg" alt="..." class="img-thumbnail" style="height: 300px; max-width: 80%;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/rice6.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -103,7 +103,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/rice3.jpg" alt="..." class="img-thumbnail" style="height: 300px;max-width: 80%;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/rice4.jpeg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
@@ -123,7 +123,8 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  Boiled rice -Broken</li>
 						            </ul>
 						   		 </ul>
-						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
+						   	<br>	 
+						   	<p style="text-align: justify;text-align: left">For order please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
 	                </div>
 	            </div>
 	        </div>

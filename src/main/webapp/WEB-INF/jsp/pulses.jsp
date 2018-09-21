@@ -93,7 +93,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -102,14 +102,21 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/pulses2.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Pulses</h2>
-						    
+						    <p style="text-align: justify">Available from our farm.</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai paruppu ( Green gram )- Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ulutham paruppu Black ( urad dhal) - Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thuvaram paruppu ( Toor dhal )</li>
+						            </ul>
+						   	</ul>
 						    <p style="font-size:22px;text-align: left">GREEN GRAM</p>
 						    <p style="text-align: justify">The green bean , alternatively known as mung bean, is a plant species in the legume family. Mung beans are easy to digest, and, in Ayurveda, they are considered to be Sattvic food, meaning, wholesome food.</p>
 						    
@@ -118,18 +125,8 @@
 						    
 						    <p style="font-size:22px;text-align: left">TOOR DHAL</p>
 						    <p style="text-align: justify">Toor dal such as toor dal are an excellent source of nutrients and plant protein, and they also contain dietary fiber. They are nutritionally similar to poultry, meat and fish, though they represent a low-fat and low-cholesterol alternative.</p>
-						    <ul class="list-unstyled">
-						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ulutham parupu Black ( urad dal) - Whole</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai parupu ( Green gram )- Whole</li>
-						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li> -->
-						            </ul>
-						   		 </ul>
+						    <br>
+						   	<p style="text-align: justify;text-align: left">For order please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	 
 	                </div>
 	            </div>
 	        </div>

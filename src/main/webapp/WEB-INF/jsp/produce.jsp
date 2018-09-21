@@ -68,7 +68,7 @@
 	            <div class="row">
 	                <div class="col-md-12 features section-description wow fadeIn">
 	                    <div class="col-md-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail" style="max-width: 75%;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-md-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Rice</h2>
@@ -88,7 +88,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/riceandpulses_hm.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Pulses</h2>
@@ -96,6 +96,7 @@
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ulutham parupu Black ( urad dal) - Whole</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai parupu ( Green gram )- Whole</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thuvaram paruppu ( Toor dhal )</li>
 						            </ul>
 						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/pulses" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
@@ -106,10 +107,10 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/millet.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/millet.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Millets</h2>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Millet</h2>
 		       				<ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kuthiravali (Barnyard )</li>
@@ -126,7 +127,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/oil1.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/oil1.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Oil</h2>
@@ -145,7 +146,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
-	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="max-width: 75%;">
+	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-sm-6 features section-description wow fadeIn">
 		                    <h2 style="text-align: left; font-size: 33px">Vegetables</h2>

@@ -64,14 +64,23 @@
 			<div class="row">
 				<div class="col-sm-12 text wow fadeInLeft">
 					<div class="description">
-						<p class="medium-paragraph" style="text-align: justify;">
+						
+						<h1 style="text-align: center;">Vruksham Horticulture & Organic farms</h1>
+						<div class="divider-1 wow fadeInUp">
+							<span></span>
+						</div>
+						<!-- <p class="medium-paragraph" style="text-align: justify;">
 							Vruksham Horticulture & Organic farms
-						</p>
+						</p> -->
+						<br>
 						<p class="medium-paragraph" style="text-align: justify;">
 							Observing the enormous use of chemical and pesticides we felt what we consume is not healthy but harmful and not natural. This thought pushed us into the world of pest free, chemical free farming which we say producing the organic way and so Vruksham was born.
 						</p>
 						<p class="medium-paragraph" style="text-align: justify;">
 							Our aim is to give people a healthy living and so we adopted the age-old best practices of natural farming which is the organic way without harming the environment.  We believe producing organic food is not a choice but a way of life.
+						</p>
+						<p class="medium-paragraph" style="text-align: justify;">
+							We deliver our produce from our own farm directly to our consumers without any middle men thus ensuring our commitment towards delivering fresh products.
 						</p>
 					</div>
 				</div>
@@ -88,8 +97,8 @@
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
 			<li data-target="#myCarousel" data-slide-to="5"></li>
-			<li data-target="#myCarousel" data-slide-to="6"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
@@ -101,7 +110,7 @@
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing11.jpg"
+					src="${pageContext.request.contextPath}/resources/img/test11.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
@@ -111,7 +120,7 @@
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing6.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing10.jpg"
 					alt="First slide">
 			</div>
 			<div class="item">
@@ -121,7 +130,7 @@
 			</div>
 			<div class="item">
 				<img class="d-block w-100"
-					src="${pageContext.request.contextPath}/resources/img/landing9.jpg"
+					src="${pageContext.request.contextPath}/resources/img/landing6.jpg"
 					alt="First slide">
 			</div>
 		</div>
@@ -234,7 +243,7 @@
 					<div class="row">
 						<div class="col-sm-9 features section-description wow fadeIn">
 							<img
-								src="${pageContext.request.contextPath}/resources/img/oilNew.jpg"
+								src="${pageContext.request.contextPath}/resources/img/FrontOil.jpg"
 								alt="..." class="img-thumbnail"
 								style="height: 240.33px; width: 350.5px">
 						</div>

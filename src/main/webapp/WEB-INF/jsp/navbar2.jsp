@@ -26,13 +26,6 @@
 						<li><a href="${pageContext.request.contextPath}/welcome/vegetables">Vegetables</a></li>
 					</ul></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/organicFarming">WHY ORGANIC</a></li>								
-				<%-- <li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown" style="padding-bottom: 0px">Offerings <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="${pageContext.request.contextPath}/welcome/organicFarming">Organic Farming</a></li>
-						<li><a href="${pageContext.request.contextPath}/welcome/millet">Millet</a></li>
-						<li><a href="${pageContext.request.contextPath}/welcome/oil">Oil</a></li>
-					</ul></li> --%>	
 						<li><a href="${pageContext.request.contextPath}/welcome/contactUs">CONTACT US</a></li>
 					</ul>
                 </div>

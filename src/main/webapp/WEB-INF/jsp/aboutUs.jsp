@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
                         <div class="description">
-                        	<h2>What do we do ?</h2>
+                        	<h2>ABOUT US</h2>
 	                    	<div class="divider-1 wow fadeInUp"><span></span></div>
                         </div>
                     </div>
@@ -78,10 +78,10 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/landing12.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/aboutus1.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
-		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/millet1.jpg" alt="..." class="img-thumbnail">
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/aboutus2.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- organic farming end -->
 	                    
@@ -89,18 +89,22 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px;margin-top: 0px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/landing3.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/aboutus3.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px;margin-top: 0px">
-	                			<img src="${pageContext.request.contextPath}/resources/img/veg3.jpg" alt="..." class="img-thumbnail">
+	                			<img src="${pageContext.request.contextPath}/resources/img/aboutus4.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
 	                
 	                <div class="col-sm-4 features section-description wow fadeIn">
-	                    <h2 style="text-align: left; font-size: 33px">Organic Farming, Nursery & Landscaping</h2>
-	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">An initiative which was started in 2017 we have been doing everything in our power to bring the freshest organic produce to the people of Chennai. At Vruksham we offer an authentic organic vegetables, paddy, pulses and a nursery.</p>
-	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">The people who are involved in Vruksham have diverse backgrounds from Agriculture, IT & Sales. We came together in early 2017 when this opportunity came to us and we never looked back since then.</p>
+	                    <h2 style="text-align: left; font-size: 33px">Organic Farming</h2>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Vruksham an initiative by like-minded people into the world of organic farming with an objective to give the best of Organic produce. </p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Our team consists of people from different walks of life with one single mission to preserve the nutritional values, taste, flavour and ensuring our produced are 100% the natural way.</p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Growing organic demands lot of diligence and patience. We view Organic as an effort and endeavour to create a sustainable lifestyle for consumers and a sustainable earth, which is constantly reinvigorated and enriched with organic farming. </p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Our aim is to give good food by adopting green practices towards mother nature. We use ancient Indian techniques to ensure people get the essential nutrients hidden inside each of our produce.</p>
+	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Organic as an attribute and quintessential quality is a challenging goal to achieve we have perfected this philosophy and way. </p>
+	       				
 	       				<h2 style="text-align: left; font-size: 26px; font-weight: bold;">Team Members</h2>
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Rajamani.V - Organic Farmer, Architect - Landscaping Consultant</p>
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Srinivas Rajagopalan</p>

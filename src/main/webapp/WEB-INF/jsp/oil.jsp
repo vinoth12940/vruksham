@@ -93,7 +93,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/oilNew.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/groundnutoil.jpg" alt="..." class="img-thumbnail" style="height: 300px; object-fit: cover;width: 100%;">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -102,39 +102,42 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/gingellyoil.jpg" alt="..." class="img-thumbnail" style="height: 300px; object-fit: cover;width: 100%;">
+		                	</div>
+	                    </div><!-- Nursery -->
+	                    
+	                    <div class="row">
+	                		<div class="col-sm-12 features section-description wow fadeIn">
+	                			<img src="${pageContext.request.contextPath}/resources/img/coconnutoil.jpg" alt="..." class="img-thumbnail" style="height: 300px; object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">OIL</h2>
+						    <p style="text-align: justify">From the cheku.</p>
+						    <ul class="list-unstyled">
+						            <ul>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
+						            </ul>
+						   	</ul>
 						    
 						    <p style="font-size:22px;text-align: left">GROUNDNUT OIL</p>
 						    <p style="text-align: justify">Groundnut oil is a natural source of phytochemicals, antioxidants that protect your body from damage from toxins and free radicals</p>
 						    <p style="text-align: justify">The benefits can be summed up such that it is used for body massage, helps in strengthening body, used as an antispasmodic, helps in improving heart health, helps in improving blood flow, helps in improving hair health, provides skin care, helps to prevent stomach problems, used in aromatherapy, helps to get rid of acne and black heads, helps in lowering high blood pressure, helps in maintaining cholesterol level, helps in improving blood flow.</p>
 						    
-						    <p style="font-size:22px;text-align: left">COCONUT OIL</p>
-						    <p style="text-align: justify">To date, there are over 1,500 studies proving coconut oil to be one of the healthiest foods on the planet. Coconut oil benefits and uses go beyond what most people realize, as coconut oil made copra or dried coconut flesh is a true superfood.</p>
-						    <p style="text-align: justify">Coconut oil , Prevents heart disease and high blood pressure, Treats Kidney infection and protects liver, Reduces inflammation and arthritis, cancer prevention treatment, Boost immunity , Improve memory</p>
-						    
 						    <p style="font-size:22px;text-align: left">GINGELLY OIL</p>
 						    <p style="text-align: justify">Practitioners of both Western medicine and the Indian system of Ayurveda recognize significant health benefits in gingelly oil.</p>
 						    <p style="text-align: justify">Gingelly oil is rich in zinc, which is one of the most important minerals for your skin.It can increase skin elasticity and smoothness and reduce oxidative stress, thereby helping reduce the appearance of age spots and eliminating skin conditions, including premature aging.</p>
 						    
-						    <ul class="list-unstyled">
-						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
-						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Curry Leaves</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mint</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Basil</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Dill</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Chives</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thyme and much more...</li> -->
-						            </ul>
-						   		 </ul>
+						    
+						    <p style="font-size:22px;text-align: left">COCONUT OIL</p>
+						    <p style="text-align: justify">To date, there are over 1,500 studies proving coconut oil to be one of the healthiest foods on the planet. Coconut oil benefits and uses go beyond what most people realize, as coconut oil made copra or dried coconut flesh is a true superfood.</p>
+						    <p style="text-align: justify">Coconut oil , Prevents heart disease and high blood pressure, Treats Kidney infection and protects liver, Reduces inflammation and arthritis, cancer prevention treatment, Boost immunity , Improve memory</p>
+						    <br>
+						   <p style="text-align: justify;text-align: left">For order please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>		 
 	                </div>
 	            </div>
 	        </div>
