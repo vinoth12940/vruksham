@@ -93,7 +93,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/millets.jpg" alt="..." class="img-thumbnail" style="height: 300px; max-width: 80%;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/millets.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 		                	
 	                    </div><!-- organic farming end -->
@@ -102,7 +102,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/millet1.jpg" alt="..." class="img-thumbnail" style="height: 300px; max-width: 80%;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/millet1.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
