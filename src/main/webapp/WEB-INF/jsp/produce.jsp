@@ -52,7 +52,7 @@
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
                         <div class="description">
-                        	<h2>What do we produce?</h2>
+                        	<h2>Our Produce</h2>
                         	<div class="divider-1 wow fadeInUp"><span></span></div>
                         	<p>Straight from the Farm</p>
                         </div>
@@ -135,7 +135,7 @@
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nalla ennai ( Gingely)</li>
 						            </ul>
 						   	</ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/oil" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>

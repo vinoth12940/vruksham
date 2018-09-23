@@ -136,7 +136,7 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Help small farmers</li>
 						            </ul>
 						   		 </ul>
-						   	<p style="text-align: justify;text-align: left">For enquiry please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
+						   	<p style="text-align: justify;text-align: left">For order please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>
 	                </div>
 	            </div>
 	        </div>

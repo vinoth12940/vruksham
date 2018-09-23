@@ -7,12 +7,17 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.Email;
+
 /**
  * @author rvinoth
  *Domain model for Mail service
  */
 public class Mail {
-
+	
+	@Email
     private String mailFrom;
 	 
     private String mailTo;
@@ -23,8 +28,10 @@ public class Mail {
  
     private String mailSubject;
     
+    @Size(min = 1, max = 255, message = "Please enter your name")
     private String firstName;
     
+    @Size(min = 10, max = 10, message = "Please enter valid mobile number")
     private String mobileNo;
     
 	private String mailContent;

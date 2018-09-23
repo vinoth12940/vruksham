@@ -6,6 +6,8 @@ package com.vruksham.vruksham.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -138,9 +140,14 @@ public class pageNavicationController {
 	 *This method will redirect to home page if mail send successfully. 
 	 */
 	@PostMapping("welcome/mailSuccess")
-	public ModelAndView mailSuccess(@ModelAttribute("mail") Mail mail, BindingResult result) {
+	public ModelAndView mailSuccess(@Valid @ModelAttribute("mail") Mail mail, BindingResult result) {
 		
-		 
+		if (result.hasErrors()) {
+			ModelAndView mav = new ModelAndView("contactUs");
+			mav.addObject("contactUs", new Mail());
+			return mav;
+		}
+			
 	        mail.setMailFrom("info@vruksham.co.in");
 	        mail.setMailTo("info@vruksham.co.in");
 	        mail.setMailSubject(mail.getMailSubject());

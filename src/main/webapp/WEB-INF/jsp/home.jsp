@@ -66,6 +66,7 @@
 					<div class="description">
 						
 						<h1 style="text-align: center;">Vruksham Horticulture & Organic farms</h1>
+						<h3 style="text-align: center; font-style: italic;margin-top: 0px">A Way Of Life</h3>
 						<div class="divider-1 wow fadeInUp">
 							<span></span>
 						</div>
@@ -74,7 +75,7 @@
 						</p> -->
 						<br>
 						<p class="medium-paragraph" style="text-align: justify;">
-							Observing the enormous use of chemical and pesticides we felt what we consume is not healthy but harmful and not natural. This thought pushed us into the world of pest free, chemical free farming which we say producing the organic way and so Vruksham was born.
+							Observing the enormous use of chemical and pesticides we felt what we consume is not healthy but harmful and not natural. This thought pushed us into the world of pest free, chemical free farming and hence Vruksham was born.
 						</p>
 						<p class="medium-paragraph" style="text-align: justify;">
 							Our aim is to give people a healthy living and so we adopted the age-old best practices of natural farming which is the organic way without harming the environment.  We believe producing organic food is not a choice but a way of life.

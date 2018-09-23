@@ -115,11 +115,11 @@
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">OIL</h2>
-						    <p style="text-align: justify">From the cheku.</p>
+						    <p style="text-align: justify">We do chemical free extraction of the oil using Mara cheku (Wood)</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groudnut )</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nal ennai ( Gingely)</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groundnut )</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nalla ennai ( Gingelly)</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
 						            </ul>
 						   	</ul>

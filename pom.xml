@@ -5,7 +5,7 @@
 
 	<groupId>com.vruksham</groupId>
 	<artifactId>vruksham</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>vruksham</name>
@@ -47,6 +47,10 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 		</dependency>
+		<dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
 		<!-- java Mail -->
 		<dependency>
             <groupId>org.springframework.boot</groupId>

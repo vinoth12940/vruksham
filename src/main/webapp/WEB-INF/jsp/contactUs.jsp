@@ -48,6 +48,9 @@
 
     </head>
         <style>
+        	.error{
+        		color: red;
+        	}
         </style>
     <body>
 		
@@ -84,16 +87,19 @@
 									<label for="firstName"> Name</label>
 									<form:input type="text" class="form-control" path="firstName"
 										id="firstName" placeholder="Enter name" required="required" />
+									<form:errors path="firstName" cssClass="error" />	
 								</div>
 								<div class="form-group">
 									<label for="mailFrom"> Email</label>
 									<form:input type="text" class="form-control" path="mailFrom"
 										id="mailFrom" placeholder="Enter your Email address" required="required" />
+									<form:errors path="mailFrom" cssClass="error" />	
 								</div>
 								<div class="form-group">
 											<label for="mobileNo">
 												Mobile #:</label>
 											<form:input type="text" path="mobileNo" id="mobileNo" class="form-control" placeholder="Mobile #"/>
+											<form:errors path="mobileNo" cssClass="error" />
 								</div>
 								<div class="form-group">
 									<label for="subject"> Subject</label>

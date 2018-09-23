@@ -102,14 +102,14 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/pulses2.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
+	                			<%-- <img src="${pageContext.request.contextPath}/resources/img/pulses2.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;"> --%>
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
 	                
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Pulses</h2>
-						    <p style="text-align: justify">Available from our farm.</p>
+						    <p style="text-align: justify">From our farm.</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Pachai paruppu ( Green gram )- Whole</li>
@@ -124,7 +124,7 @@
 						    <p style="text-align: justify">Black gram is one of the most nutritious beans and is commonly used in India for its wide health benefits. It is both, consumed by cooking and used in Ayurvedic medicine, and is equally beneficial when used either way. It offers a ton of health benefits.</p>
 						    
 						    <p style="font-size:22px;text-align: left">TOOR DHAL</p>
-						    <p style="text-align: justify">Toor dal such as toor dal are an excellent source of nutrients and plant protein, and they also contain dietary fiber. They are nutritionally similar to poultry, meat and fish, though they represent a low-fat and low-cholesterol alternative.</p>
+						    <p style="text-align: justify">Toor dal are an excellent source of nutrients and plant protein, and they also contain dietary fiber. They are nutritionally similar to poultry, meat and fish, though they represent a low-fat and low-cholesterol alternative.</p>
 						    <br>
 						   	<p style="text-align: justify;text-align: left">For order please drop a message in our <a href="${pageContext.request.contextPath}/welcome/contactUs">contact us</a> section or call us for details.</p>	 
 	                </div>

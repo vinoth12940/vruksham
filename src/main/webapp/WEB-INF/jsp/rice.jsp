@@ -111,10 +111,10 @@
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Rice</h2>
 						    <p style="font-size:22px;text-align: left">From our fields to your plates !</p>
-						    <p style="text-align: justify">Rice as a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia.</p>
+						    <p style="text-align: justify">Rice as a cereal grain, is the most widely consumed staple food for a large part of the world's human population, especially in Asia.</p>
 						    <p style="text-align: justify">Rice is the most important grain with regard to human nutrition and caloric intake, providing more than one-fifth of the calories consumed worldwide by humans.</p>
-						    <p style="text-align: justify">We are Vruksham use the traditional method of producing rice by which we deliver the best of the quality ensuring good health to your family.</p>
-						    <p style="text-align: justify">We have the following organic rice in stock now:</p>
+						    <p style="text-align: justify">We at Vruksham use the traditional method of producing rice by which we deliver the best of the quality ensuring good health to your family.</p>
+						    <p style="text-align: justify">We grow the following organic rice varieties:</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>

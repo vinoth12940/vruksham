@@ -103,7 +103,7 @@
 	       					             
 	                    <div class="row">
 	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/img6.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/veg4.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
@@ -112,7 +112,8 @@
 	                    <h2 style="text-align: left;">Fresh Vegetables</h2>
 						    <p style="font-size:22px;text-align: left">From our farm to your kitchen !</p>
 						    <p style="text-align: justify">At Vruksham we produce the freshest of vegetables on a daily basis right from your day to day veggies to seasonal vegetables. We take pride in what we grow as we do it the natural way. Some of the vegetables we produce are as follows:</p>
-						    <h2 style="text-align: left;">Coming soon farm fresh Vegetables & Greens</h2>
+						    <p style="text-align: left;font-size:22px;">Farm fresh Vegetables & Greens</p>
+						    <p style="text-align: left;font-size:16px;">Coming soon !!!</p>
 						    <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Brinjal</li>

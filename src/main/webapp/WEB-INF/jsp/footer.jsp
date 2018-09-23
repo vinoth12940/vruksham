@@ -1,6 +1,6 @@
  <!--Footer-->
         <footer>
-            <div class="well">
+            <div class="well" style="background: rgba(91, 202, 84, 1);">
                <div class="container text-center">
                 <ul class="list-inline text-center">
                     <!-- <li><a href="#">Linkedin</a></li> -->

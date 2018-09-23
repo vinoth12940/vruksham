@@ -98,7 +98,7 @@
 	                   </div>
 	                
 	                <div class="col-sm-4 features section-description wow fadeIn">
-	                    <h2 style="text-align: left; font-size: 33px">Organic Farming</h2>
+	                    <!-- <h2 style="text-align: left; font-size: 33px">Organic Farming</h2> -->
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Vruksham an initiative by like-minded people into the world of organic farming with an objective to give the best of Organic produce. </p>
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Our team consists of people from different walks of life with one single mission to preserve the nutritional values, taste, flavour and ensuring our produced are 100% the natural way.</p>
 	       				<p style="text-align: justify;padding-left: 0px;padding-right: 0px">Growing organic demands lot of diligence and patience. We view Organic as an effort and endeavour to create a sustainable lifestyle for consumers and a sustainable earth, which is constantly reinvigorated and enriched with organic farming. </p>

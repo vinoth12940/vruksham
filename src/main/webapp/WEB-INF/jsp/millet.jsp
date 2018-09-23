@@ -118,7 +118,7 @@
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Varagu ( Kodo)</li>
 						            </ul>
 						   		 </ul>
-						    <p style="text-align: justify">Millet is one of the oldest crops known to mankind. Both the ancestor and the location of domestication of millet are unknown.</p>
+						    <p style="text-align: justify">Millet is one of the oldest crops known to mankind. Both the ancestry and the location of domestication of millet are unknown.</p>
 						    <p style="text-align: justify">According to the National Bank of Agriculture and rural development there are about 6000 varieties of millets throughout the world.It also says that the grain has been a part of the human food system from time immemorial. Many types of millet have been found in Harappan &Mohenjodaro archaeological sites.</p>
 						    
 						    <p style="font-size:22px;text-align: left">Some key health benefits of millets are such that it:</p>
