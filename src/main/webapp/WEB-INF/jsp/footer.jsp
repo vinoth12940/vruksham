@@ -9,8 +9,8 @@
                 </ul>
                    <p>
                    		<span>For order please contact:<a
-					href="${pageContext.request.contextPath}/welcome/contactUs""> +91-9840733122 & +91-9884707547 </a>  E-mail:<a
-					href="${pageContext.request.contextPath}/welcome/contactUs"">
+					<%-- href="${pageContext.request.contextPath}/welcome/contactUs" --%>> +91-9840733122 & +91-9884707547 </a>  E-mail:<a
+					<%-- href="${pageContext.request.contextPath}/welcome/contactUs" --%>>
 						 info@vruksham.co.in</a></span>
                    </p>
                 </div><!--End of container-->

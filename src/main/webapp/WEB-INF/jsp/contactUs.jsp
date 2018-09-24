@@ -145,10 +145,10 @@
 					</address>
 
 					<address>
-						<strong>Email</strong><br> <a href="mailto:#">info@vruksham.co.in</a>
+						<strong>Email</strong><br> <a href="mailto:info@vruksham.co.in">info@vruksham.co.in</a>
 					</address>
 					<address>
-						<strong>Web</strong><br> <a href="mailto:#">www.vruksham.co.in</a>
+						<strong>Web</strong><br> <a>www.vruksham.co.in</a>
 					</address>
 				</form>
 			</div>
