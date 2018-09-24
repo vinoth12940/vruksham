@@ -153,6 +153,7 @@ footer { padding: 0px 0 0px 0; background: rgba(91, 202, 84, 1); }
 
 }
 
+
 @media (max-width: 767px) {
 	
 	.navbar.navbar-no-bg { padding: 0; background: rgba(91, 202, 84, 1); }
@@ -161,7 +162,7 @@ footer { padding: 0px 0 0px 0; background: rgba(91, 202, 84, 1); }
 	.navbar-collapse { border: 0; }
 	.navbar-inverse ul.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; }
 	.navbar-inverse .navbar-toggle { border-color: #000000; }
-	
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color: #0e0c0c;}	
 	.top-content { padding: 80px 0; }
 	.top-content .text { padding-top: 50px; }
 	
