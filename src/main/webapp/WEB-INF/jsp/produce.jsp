@@ -52,9 +52,9 @@
                 <div class="row">
                     <div class="col-sm-12 text wow fadeInLeft">
                         <div class="description">
-                        	<h2>Our Produce</h2>
+                        	<h2>Our Products</h2>
                         	<div class="divider-1 wow fadeInUp"><span></span></div>
-                        	<p>Straight from the Farm</p>
+                        	<p>From our farm</p>
                         </div>
                     </div>
                 </div>
@@ -71,13 +71,15 @@
 	                		<img src="${pageContext.request.contextPath}/resources/img/rice1.jpeg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                </div>
 		                <div class="col-md-6 features section-description wow fadeIn">
-		                    <h2 style="text-align: left; font-size: 33px; margin-top: 30px">Rice</h2>
+		                    <h2 style="text-align: left; font-size: 33px; margin-top: 7px">Rice</h2>
 		       				<ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme raw rice - Broken</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme Boiled rice - Whole</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme Boiled rice -Broken</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme Raw & Boiled Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Broken rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Idly rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kullakkar Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mapillai samba</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Seeraga samba</li>
 						            </ul>
 						   		 </ul>
 		       				<a href="${pageContext.request.contextPath}/welcome/rice" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
@@ -143,7 +145,7 @@
 	               </div>
 	            </div>
 	            
-	            <div class="row">
+	            <%-- <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <div class="col-sm-6 features section-description wow fadeIn">
 	                		<img src="${pageContext.request.contextPath}/resources/img/veg_org.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
@@ -163,7 +165,7 @@
 		       				<a href="${pageContext.request.contextPath}/welcome/vegetables" class="btn btn-success" role="button" style="margin-left: 0px;">Learn More</a>
 	                	</div>
 	               </div>
-	            </div>
+	            </div> --%>
 	        </div>
         </div>
         

@@ -16,7 +16,7 @@
 					<ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn" style="padding-top: 50px">
 						<li><a href="${pageContext.request.contextPath}/">HOME</a></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/aboutUs">ABOUT US</a></li>
-						<li><a href="${pageContext.request.contextPath}/welcome/produce">PRODUCE</a></li>
+						<li><a href="${pageContext.request.contextPath}/welcome/produce">OUR PRODUCTS</a></li>
 						<li><a href="${pageContext.request.contextPath}/welcome/organicFarming">WHY ORGANIC</a></li>
 						<%-- <li class="dropdown"><a href="#" class="dropdown-toggle"data-toggle="dropdown" style="padding-bottom: 0px">WHY ORGANIC<b class="caret"></b></a>
 						<ul class="dropdown-menu">

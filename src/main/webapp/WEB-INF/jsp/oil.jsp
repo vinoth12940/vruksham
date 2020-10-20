@@ -14,7 +14,6 @@
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
-		
 		  gtag('config', 'UA-124481318-1');
 		</script>
 		
@@ -116,13 +115,13 @@
 	                <div class="col-sm-6 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">OIL</h2>
 						    <p style="text-align: justify">We do chemical free extraction of the oil using Mara cheku (Wood)</p>
-						    <ul class="list-unstyled">
+						    <!-- <ul class="list-unstyled">
 						            <ul>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kadalai ennai ( Groundnut )</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Nalla ennai ( Gingelly)</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Thenga ennai ( Coconut )</li>
 						            </ul>
-						   	</ul>
+						   	</ul> -->
 						    
 						    <p style="font-size:22px;text-align: left">GROUNDNUT OIL</p>
 						    <p style="text-align: justify">Groundnut oil is a natural source of phytochemicals, antioxidants that protect your body from damage from toxins and free radicals</p>

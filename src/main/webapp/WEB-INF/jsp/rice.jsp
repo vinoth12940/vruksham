@@ -88,27 +88,32 @@
 	        	</div> -->
 	            <div class="row">
 	            	
-	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
+	                <div class="col-sm-8 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
 	                    
 	       				<!-- Organic Farming -->
 	       					             
-	                    <div class="row">
-	                		<div class="col-sm-12 features section-description wow fadeIn">
+						<div class="row">
+	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px">
 	                			<img src="${pageContext.request.contextPath}/resources/img/rice6.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
-		                	
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px;">
+	                			<img src="${pageContext.request.contextPath}/resources/img/kullakkar.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
+		                	</div>
 	                    </div><!-- organic farming end -->
 	                    
 	                    <!-- Nursery -->
 	       					             
 	                    <div class="row">
-	                		<div class="col-sm-12 features section-description wow fadeIn">
-	                			<img src="${pageContext.request.contextPath}/resources/img/rice4.jpeg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
+	                		<div class="col-sm-6 features section-description wow fadeIn" style="padding-right: 7px;margin-top: 0px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/mapillai-samba-rice-500x500.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
+		                	</div>
+		                	<div class="col-sm-6 features section-description wow fadeIn" style="padding-left: 7px;margin-top: 0px">
+	                			<img src="${pageContext.request.contextPath}/resources/img/seeraga-samba-500x500.jpg" alt="..." class="img-thumbnail" style="height: 300px;object-fit: cover;width: 100%;">
 		                	</div>
 	                    </div><!-- Nursery -->
 	                   </div>
 	                
-	                <div class="col-sm-6 features section-description wow fadeIn">
+	                <div class="col-sm-4 features section-description wow fadeIn">
 	                    <h2 style="text-align: left;">Rice</h2>
 						    <p style="font-size:22px;text-align: left">From our fields to your plates !</p>
 						    <p style="text-align: justify">Rice as a cereal grain, is the most widely consumed staple food for a large part of the world's human population, especially in Asia.</p>
@@ -117,10 +122,16 @@
 						    <p style="text-align: justify">We grow the following organic rice varieties:</p>
 						    <ul class="list-unstyled">
 						            <ul>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
+						                <!-- <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme raw rice - Whole</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  raw rice - Broken</li>
 						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Supreme Boiled rice - Whole</li>
-						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  Boiled rice -Broken</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme  Boiled rice -Broken</li> -->
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni supreme Raw & Boiled Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Ponni Broken rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Idly rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Kullakkar Rice</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Mapillai samba</li>
+						                <li style="font-family: Rokkitt;font-size: 17px;text-align: left;">Seeraga samba</li>
 						            </ul>
 						   		 </ul>
 						   	<br>	 

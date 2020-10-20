@@ -12,12 +12,14 @@
 <script async
 	src="https://www.googletagmanager.com/gtag/js?id=UA-124481318-1"></script>
 <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'UA-124481318-1');
-		</script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-124481318-1');
+</script>
 
 
 <!-- CSS -->
@@ -64,29 +66,57 @@
 			<div class="row">
 				<div class="col-sm-12 text wow fadeInLeft">
 					<div class="description">
-						
-						<h1 style="text-align: center;">Vruksham Horticulture & Organic farms</h1>
-						<h3 style="text-align: center; font-style: italic;margin-top: 0px">A Way Of Life</h3>
-						<div class="divider-1 wow fadeInUp">
-							<span></span>
+						<!-- Features -->
+						<div class="features-container section-container">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text wow fadeInLeft">
+										<div class="col-sm-2 features section-description wow fadeIn">
+											<img
+												src="${pageContext.request.contextPath}/resources/img/India-Organic-Logo-500x462.jpg"
+												alt="..." class="img-thumbnail"
+												style="height: 123px; max-width: 150%">
+										</div>
+										<div class="col-sm-8 features section-description wow fadeIn">
+											<div class="description">
+												<h1 style="text-align: center;">Vruksham Integrated
+													Organic farm</h1>
+												<h3
+													style="text-align: center; font-style: italic; margin-top: 0px">A
+													Way Of Life</h3>
+												<div class="divider-1 wow fadeInUp">
+													<span></span>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-2 features section-description wow fadeIn">
+											<img
+												src="${pageContext.request.contextPath}/resources/img/TNDEPT LOGO.jpg"
+												alt="..." class="img-thumbnail"
+												style="height: 123px; max-width: 150%">
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<!-- <p class="medium-paragraph" style="text-align: justify;">
-							Vruksham Horticulture & Organic farms
-						</p> -->
-						<br>
+
 						<p class="medium-paragraph" style="text-align: justify;">
-							Observing the enormous use of chemical and pesticides we felt what we consume is not healthy but harmful and not natural. This thought pushed us into the world of pest free, chemical free farming and hence Vruksham was born.
-						</p>
-						<p class="medium-paragraph" style="text-align: justify;">
-							Our aim is to give people a healthy living and so we adopted the age-old best practices of natural farming which is the organic way without harming the environment.  We believe producing organic food is not a choice but a way of life.
-						</p>
-						<p class="medium-paragraph" style="text-align: justify;">
-							We deliver our produce from our own farm directly to our consumers without any middle men thus ensuring our commitment towards delivering fresh products.
-						</p>
+							Observing the enormous use of chemical and pesticides we felt
+							what we consume is not healthy but harmful and not natural. This
+							thought pushed us into the world of pest free, chemical free
+							farming and hence Vruksham was born.</p>
+						<p class="medium-paragraph" style="text-align: justify;">Our
+							aim is to give people a healthy living and so we adopted the
+							age-old best practices of natural farming which is the organic
+							way without harming the environment. We believe producing organic
+							food is not a choice but a way of life.</p>
+						<p class="medium-paragraph" style="text-align: justify;">We
+							deliver our produce from our own farm directly to our consumers
+							without any middle men thus ensuring our commitment towards
+							delivering fresh products.</p>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 	<br>
@@ -100,6 +130,7 @@
 			<li data-target="#myCarousel" data-slide-to="3"></li>
 			<li data-target="#myCarousel" data-slide-to="4"></li>
 			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
@@ -132,6 +163,11 @@
 			<div class="item">
 				<img class="d-block w-100"
 					src="${pageContext.request.contextPath}/resources/img/Landing6.jpg"
+					alt="First slide">
+			</div>
+			<div class="item">
+				<img class="d-block w-100"
+					src="${pageContext.request.contextPath}/resources/img/IMG-20190613-WA0021.jpg"
 					alt="First slide">
 			</div>
 		</div>
@@ -200,7 +236,7 @@
 					<!-- Millet -->
 
 					<!-- Vegetables -->
-					<div class="row">
+					<%-- <div class="row">
 						<div class="col-sm-9 features section-description wow fadeIn">
 							<img
 								src="${pageContext.request.contextPath}/resources/img/veg_org.jpg"
@@ -213,7 +249,7 @@
 							<a href="${pageContext.request.contextPath}/welcome/vegetables"
 								class="btn btn-success" role="button">Learn More</a>
 						</div>
-					</div>
+					</div> --%>
 					<!-- Vegetables -->
 				</div>
 
