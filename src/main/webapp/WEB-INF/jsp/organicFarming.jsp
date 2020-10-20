@@ -88,7 +88,7 @@
 	        	</div> -->
 	            <div class="row">
 	            	
-	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 20px; text-align: center;">
+	                <div class="col-sm-6 features section-description wow fadeIn" style="margin-top: 22px; text-align: center;">
 	                    
 	       				<!-- Organic Farming -->
 	       					             
